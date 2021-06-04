@@ -1,0 +1,1506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2020-07-23" />
+    <title>IRC log for #dataverse, 2020-07-23</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2020-07-23</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2020-07-22" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2020-07-24" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2020-07-23">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2020-07-23;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2020-07-23;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_126771"><a href="/dataverse/2020-07-23#i_126771">07:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126771"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_126772"><a href="/dataverse/2020-07-23#i_126772">07:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126772"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="cont special dark">
+
+<td class="time" id="i_126773"><a href="/dataverse/2020-07-23#i_126773">09:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126773"  /></td>
+<td class="nick"></td>
+<td class="msg ">juancorr joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont special dark">
+
+<td class="time" id="i_126774"><a href="/dataverse/2020-07-23#i_126774">11:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126774"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126775"><a href="/dataverse/2020-07-23#i_126775">11:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126775"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pameyer I briefly ran KDE on Solaris... then I discovered WindowMaker.</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_126776"><a href="/dataverse/2020-07-23#i_126776">12:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126776"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@poikilotherm tacking on to pete's question, where does your production PG server live? (or really, what's your preferred <abbr title="Database">DB</abbr> backup strategy, I don't find one at <a href="https://dataverse-k8s.readthedocs.io" title="https://dataverse-k8s.readthedocs.io">https://dataverse-k8s.readthedocs.io</a> )</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_126777"><a href="/dataverse/2020-07-23#i_126777">12:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126777"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Our PG is running next to the other pods</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126778"><a href="/dataverse/2020-07-23#i_126778">12:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126778"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">We have two K8s namespaces, having their own postgres servers</td>
+</tr>
+
+        
+<tr id="id_l10" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126779"><a href="/dataverse/2020-07-23#i_126779">12:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126779"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">They are dumped every hour, which is then backed up to outside of the cluster</td>
+</tr>
+
+        
+<tr id="id_l11" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126780"><a href="/dataverse/2020-07-23#i_126780">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126780"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">excellent</td>
+</tr>
+
+        
+<tr id="id_l12" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_126781"><a href="/dataverse/2020-07-23#i_126781">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126781"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Obviously this is completely up to you.</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126782"><a href="/dataverse/2020-07-23#i_126782">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126782"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">You could as well choose to run a shared postgres</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126783"><a href="/dataverse/2020-07-23#i_126783">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126783"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Or even a HA cluster of em</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126784"><a href="/dataverse/2020-07-23#i_126784">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126784"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I shall not declare what you need :-D</td>
+</tr>
+
+        
+<tr id="id_l16" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126785"><a href="/dataverse/2020-07-23#i_126785">12:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126785"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">There are lots of places out there, where DBAs are really picky about who runs a database ;-)</td>
+</tr>
+
+        
+<tr id="id_l17" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126786"><a href="/dataverse/2020-07-23#i_126786">12:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126786"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">pick yer poisson</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_126787"><a href="/dataverse/2020-07-23#i_126787">12:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126787"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">(speaking of stinky fish)</td>
+</tr>
+
+        
+<tr id="id_l19" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_126788"><a href="/dataverse/2020-07-23#i_126788">12:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126788"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l20" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126789"><a href="/dataverse/2020-07-23#i_126789">12:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126789"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">there might be completely different opinions about running a postgres db in production and better not interfere with those religions</td>
+</tr>
+
+        
+<tr id="id_l21" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126790"><a href="/dataverse/2020-07-23#i_126790">12:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126790"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">i'm about to do some branch cleaning on Odum's fork but you've frightened me</td>
+</tr>
+
+        
+<tr id="id_l22" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_126791"><a href="/dataverse/2020-07-23#i_126791">12:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126791"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Oh?</td>
+</tr>
+
+        
+<tr id="id_l23" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126792"><a href="/dataverse/2020-07-23#i_126792">12:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126792"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">though i declined write access to IQSS so i'm just being paranoid</td>
+</tr>
+
+        
+<tr id="id_l24" class="new special dark">
+
+<td class="time" id="i_126793"><a href="/dataverse/2020-07-23#i_126793">13:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126793"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126794"><a href="/dataverse/2020-07-23#i_126794">14:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126794"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Whoops, 40+ unread message. Good morning!</td>
+</tr>
+
+        
+<tr id="id_l26" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_126795"><a href="/dataverse/2020-07-23#i_126795">14:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126795"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: I'm glad you got a kick out of my &quot;DataCite is Down&quot; dataset.</td>
+</tr>
+
+        
+<tr id="id_l27" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_126796"><a href="/dataverse/2020-07-23#i_126796">14:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126796"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">just to be sure @pameyer sees: I briefly ran KDE on Solaris... then I discovered WindowMaker.</td>
+</tr>
+
+        
+<tr id="id_l28" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_126797"><a href="/dataverse/2020-07-23#i_126797">14:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126797"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">anything based on the old NeXT interface is inherently wonderful</td>
+</tr>
+
+        
+<tr id="id_l29" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_126798"><a href="/dataverse/2020-07-23#i_126798">14:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126798"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin DataCite is a common source of noise for us. user merely sees &quot;403 Forbidden&quot; but server.log sez &quot;DataCite is down&quot;</td>
+</tr>
+
+        
+<tr id="id_l30" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126799"><a href="/dataverse/2020-07-23#i_126799">14:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126799"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: this happens when the user clicks Publish?</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_126800"><a href="/dataverse/2020-07-23#i_126800">14:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126800"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">yes</td>
+</tr>
+
+        
+<tr id="id_l32" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_126801"><a href="/dataverse/2020-07-23#i_126801">14:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126801"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">keep in mind we're still on 4.16</td>
+</tr>
+
+        
+<tr id="id_l33" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126802"><a href="/dataverse/2020-07-23#i_126802">14:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126802"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">well, the code hasn't changed in a while, I don't think</td>
+</tr>
+
+        
+<tr id="id_l34" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_126803"><a href="/dataverse/2020-07-23#i_126803">14:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126803"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">hopefully the user experience will be better with 5.0 but I'm not sure what will happen on Publish when DataCite is down</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_126804"><a href="/dataverse/2020-07-23#i_126804">14:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126804"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">weeping and gnashing of teeth</td>
+</tr>
+
+        
+<tr id="id_l36" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126805"><a href="/dataverse/2020-07-23#i_126805">14:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126805"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l37" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_126806"><a href="/dataverse/2020-07-23#i_126806">14:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126806"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">we have a single point of failure baked in, I guess</td>
+</tr>
+
+        
+<tr id="id_l38" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_126807"><a href="/dataverse/2020-07-23#i_126807">14:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126807"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Morning pdurbin :-)</td>
+</tr>
+
+        
+<tr id="id_l39" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126808"><a href="/dataverse/2020-07-23#i_126808">14:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126808"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I'm already at construction site, but you might feel tempted to take a look at <a href="https://github.com/IQSS/dataverse/pull/7120" title="https://github.com/IQSS/dataverse/pull/7120">https://github.com/IQSS/dataverse/pull/7120</a></td>
+</tr>
+
+        
+<tr id="id_l40" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_126809"><a href="/dataverse/2020-07-23#i_126809">14:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126809"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I'd be glad for feedback if you folks feel this should be included, like I wrote in #7117</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126810"><a href="/dataverse/2020-07-23#i_126810">14:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126810"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">non-opaque?</td>
+</tr>
+
+        
+<tr id="id_l42" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_126811"><a href="/dataverse/2020-07-23#i_126811">14:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126811"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">I should check out the &quot;DataCite is Down&quot; dataset...</td>
+</tr>
+
+        
+<tr id="id_l43" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_126812"><a href="/dataverse/2020-07-23#i_126812">14:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126812"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">@donsizemore the only solaris / solaris-based systems I've used didn't have x11 ... wasn't adventerous enough to think of installing kde or windowmaker on a file server</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126813"><a href="/dataverse/2020-07-23#i_126813">14:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126813"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">I had a Sparc 4, Sparc 5 and Ultra 1 as desktop workstations at varying times</td>
+</tr>
+
+        
+<tr id="id_l45" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126814"><a href="/dataverse/2020-07-23#i_126814">14:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126814"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Does anybody have any ideas on this &quot;400: Bad Request when uploading file&quot; thread? <a href="https://groups.google.com/g/dataverse-community/c/ZEZ5tgEoQrk/m/Tbl8029qDAAJ" title="https://groups.google.com/g/dataverse-community/c/ZEZ5tgEoQrk/m/Tbl8029qDAAJ">https://groups.google.com/g/dataverse-community/c/ZEZ5tgEoQrk/m/Tbl8029qDAAJ</a></td>
+</tr>
+
+        
+<tr id="id_l46" class="new special">
+
+<td class="time" id="i_126815"><a href="/dataverse/2020-07-23#i_126815">15:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126815"  /></td>
+<td class="nick"></td>
+<td class="msg ">bjonnh_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l47" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_126816"><a href="/dataverse/2020-07-23#i_126816">15:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126816"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">on general principles, my first suspision would be nfs file locking with the temporary files</td>
+</tr>
+
+        
+<tr id="id_l48" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_126817"><a href="/dataverse/2020-07-23#i_126817">15:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126817"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">but that likely isn't an issue if it's size dependent</td>
+</tr>
+
+        
+<tr id="id_l49" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126818"><a href="/dataverse/2020-07-23#i_126818">15:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126818"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Hmm. But the whole issue seems to be size-dependent, right? Smaller files work fine? He seems to be hitting a limit somehow.</td>
+</tr>
+
+        
+<tr id="id_l50" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_126819"><a href="/dataverse/2020-07-23#i_126819">15:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126819"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l51" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126820"><a href="/dataverse/2020-07-23#i_126820">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126820"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">poikilotherm: instead of uri_no (for non-opaque) can we just call it uri?</td>
+</tr>
+
+        
+<tr id="id_l52" class="new special dark">
+
+<td class="time" id="i_126821"><a href="/dataverse/2020-07-23#i_126821">16:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126821"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l53" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126822"><a href="/dataverse/2020-07-23#i_126822">16:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126822"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Well I could create another field type for <abbr title="Uniform Resource Identifier">URI</abbr>.</td>
+</tr>
+
+        
+<tr id="id_l54" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126823"><a href="/dataverse/2020-07-23#i_126823">16:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126823"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg "><abbr title="Uniform Resource Identifier">URI</abbr> is a lot more than just absolute non opaque URIs alias <abbr title="Uniform Resource Locator">URL</abbr></td>
+</tr>
+
+        
+<tr id="id_l55" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126824"><a href="/dataverse/2020-07-23#i_126824">16:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126824"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">And there is no option to create further constraints for a field</td>
+</tr>
+
+        
+<tr id="id_l56" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126825"><a href="/dataverse/2020-07-23#i_126825">16:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126825"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Our use case was specifically about URLs, so we can create clickable links from them.</td>
+</tr>
+
+        
+<tr id="id_l57" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126826"><a href="/dataverse/2020-07-23#i_126826">16:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126826"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">One could argue that this is also true for URIs, but we thought it would be a better suit for automated processing and more familiar for people</td>
+</tr>
+
+        
+<tr id="id_l58" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126827"><a href="/dataverse/2020-07-23#i_126827">16:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126827"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">But if you folks really would go for true URIs, I can discuss with my colleagues</td>
+</tr>
+
+        
+<tr id="id_l59" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126828"><a href="/dataverse/2020-07-23#i_126828">16:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126828"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Maybe we can relax our requirements</td>
+</tr>
+
+        
+<tr id="id_l60" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126829"><a href="/dataverse/2020-07-23#i_126829">16:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126829"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Instead of having to go with a fork...</td>
+</tr>
+
+        
+<tr id="id_l61" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126830"><a href="/dataverse/2020-07-23#i_126830">16:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126830"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I would change <abbr title="Uniform Resource Locator">URL</abbr>, too, but this is a huge one. There are a lot of places where rendering logic and more is all about having a http like URL only</td>
+</tr>
+
+        
+<tr id="id_l62" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126831"><a href="/dataverse/2020-07-23#i_126831">16:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126831"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Looking at the metadata schemas, there is often a help text about providing &quot;a full url, starting with http&quot;</td>
+</tr>
+
+        
+<tr id="id_l63" class="new special dark">
+
+<td class="time" id="i_126832"><a href="/dataverse/2020-07-23#i_126832">16:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126832"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l64" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126833"><a href="/dataverse/2020-07-23#i_126833">17:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126833"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">This is a pretty deep topic that I don't know much about. You might have to educate some of us along the way, maybe in an update to the issue description.</td>
+</tr>
+
+        
+<tr id="id_l65" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_126834"><a href="/dataverse/2020-07-23#i_126834">17:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126834"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">there's a large population of folks who assume that a url means http/https, and that no other protocols exist</td>
+</tr>
+
+        
+<tr id="id_l66" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126835"><a href="/dataverse/2020-07-23#i_126835">17:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126835"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pameyer there is also a population who assume that a <abbr title="Uniform Resource Locator">URL</abbr> includes no protocol</td>
+</tr>
+
+        
+<tr id="id_l67" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126836"><a href="/dataverse/2020-07-23#i_126836">17:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126836"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">widespread confusion, mass hysteria</td>
+</tr>
+
+        
+<tr id="id_l68" class="new nick nick_pameyer">
+
+<td class="time" id="i_126837"><a href="/dataverse/2020-07-23#i_126837">17:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126837"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">cats and dogs living together in peace an harmony, frogs raining from the sky...</td>
+</tr>
+
+        
+<tr id="id_l69" class="cont nick nick_pameyer">
+
+<td class="time" id="i_126838"><a href="/dataverse/2020-07-23#i_126838">17:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126838"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">I don't know the full history of what poikilotherm's digging into; but it may be traveling upstream</td>
+</tr>
+
+        
+<tr id="id_l70" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126839"><a href="/dataverse/2020-07-23#i_126839">17:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126839"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yeah, not sure</td>
+</tr>
+
+        
+<tr id="id_l71" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126840"><a href="/dataverse/2020-07-23#i_126840">17:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126840"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I'm supportive of the idea of representing rsync URLs or whatever. rsync URIs.</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_pameyer">
+
+<td class="time" id="i_126841"><a href="/dataverse/2020-07-23#i_126841">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126841"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">pdurbin: now we just need to get the rest of the world onboard ;)</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont nick nick_pameyer">
+
+<td class="time" id="i_126842"><a href="/dataverse/2020-07-23#i_126842">18:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126842"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">I assume most browsers would fall over on anything other than http/https - heard that ftp urls are getting depreciated</td>
+</tr>
+
+        
+<tr id="id_l74" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126843"><a href="/dataverse/2020-07-23#i_126843">18:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126843"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">!</td>
+</tr>
+
+        
+<tr id="id_l75" class="new nick nick_pameyer">
+
+<td class="time" id="i_126844"><a href="/dataverse/2020-07-23#i_126844">18:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126844"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">browsers depreciating them, I mean. I wouldn't expect ftp to actually go away</td>
+</tr>
+
+        
+<tr id="id_l76" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126845"><a href="/dataverse/2020-07-23#i_126845">18:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126845"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">expect an angry letter from cyberduck</td>
+</tr>
+
+        
+<tr id="id_l77" class="new nick nick_donsizemore">
+
+<td class="time" id="i_126846"><a href="/dataverse/2020-07-23#i_126846">18:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126846"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin don't look now, but those same three tests that failed on payara-5.2020.3 just failed in develop on 5.2020.2</td>
+</tr>
+
+        
+<tr id="id_l78" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_126847"><a href="/dataverse/2020-07-23#i_126847">18:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126847"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">DatasetsIT.testAddRoles:1146 expected:&lt;10&gt; but was:&lt;7&gt;&quot;, &quot;[ERROR]   DatasetsIT.testCreateDataset:139 expected:&lt;10&gt; but was:&lt;2&gt;&quot;, &quot;[ERROR]   DatasetsIT.testSequentialNumberA​sIdentifierGenerationStyle:758&quot;, &quot;[INFO] &quot;, &quot;[ERROR] Tests run: 130, Failures: 3, Errors: 0, Skipped: 4&quot;</td>
+</tr>
+
+        
+<tr id="id_l79" class="new special dark">
+
+<td class="time" id="i_126848"><a href="/dataverse/2020-07-23#i_126848">18:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126848"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l80" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126849"><a href="/dataverse/2020-07-23#i_126849">18:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126849"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">heaven help us if we try to add 10 roles but can only add 7</td>
+</tr>
+
+        
+<tr id="id_l81" class="new special dark">
+
+<td class="time" id="i_126850"><a href="/dataverse/2020-07-23#i_126850">18:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126850"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l82" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126851"><a href="/dataverse/2020-07-23#i_126851">19:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126851"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">pdurbin should I ping someone about this stuff?</td>
+</tr>
+
+        
+<tr id="id_l83" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126852"><a href="/dataverse/2020-07-23#i_126852">19:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126852"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Like jgautier, ...?</td>
+</tr>
+
+        
+<tr id="id_l84" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126853"><a href="/dataverse/2020-07-23#i_126853">19:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126853"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I don't think Tania needs to take a look as this is not directly UI related, but happy to do it if you think that would be a good idea</td>
+</tr>
+
+        
+<tr id="id_l85" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126854"><a href="/dataverse/2020-07-23#i_126854">19:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126854"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">poikilotherm: I would suggest editing the description of the issue and adding a bulleted list of terms your are using.</td>
+</tr>
+
+        
+<tr id="id_l86" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126855"><a href="/dataverse/2020-07-23#i_126855">19:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126855"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Terms = URLs we will most likely see?</td>
+</tr>
+
+        
+<tr id="id_l87" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126856"><a href="/dataverse/2020-07-23#i_126856">19:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126856"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">like this:</td>
+</tr>
+
+        
+<tr id="id_l88" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126857"><a href="/dataverse/2020-07-23#i_126857">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126857"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">- url: your definition of a url</td>
+</tr>
+
+        
+<tr id="id_l89" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126858"><a href="/dataverse/2020-07-23#i_126858">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126858"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">- uri: your definition of a uri</td>
+</tr>
+
+        
+<tr id="id_l90" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126859"><a href="/dataverse/2020-07-23#i_126859">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126859"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">- etc.</td>
+</tr>
+
+        
+<tr id="id_l91" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126860"><a href="/dataverse/2020-07-23#i_126860">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126860"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Ah so you want me to paraphraze wikipedia :-D</td>
+</tr>
+
+        
+<tr id="id_l92" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126861"><a href="/dataverse/2020-07-23#i_126861">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126861"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yes please</td>
+</tr>
+
+        
+<tr id="id_l93" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126862"><a href="/dataverse/2020-07-23#i_126862">19:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126862"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I think it will help us all understand.</td>
+</tr>
+
+        
+<tr id="id_l94" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126863"><a href="/dataverse/2020-07-23#i_126863">19:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126863"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">examples of each term would be excellent as well</td>
+</tr>
+
+        
+<tr id="id_l95" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126864"><a href="/dataverse/2020-07-23#i_126864">19:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126864"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Hmm ok</td>
+</tr>
+
+        
+<tr id="id_l96" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126865"><a href="/dataverse/2020-07-23#i_126865">19:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126865"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Will write sth and pester you again</td>
+</tr>
+
+        
+<tr id="id_l97" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126866"><a href="/dataverse/2020-07-23#i_126866">19:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126866"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">sounds good</td>
+</tr>
+
+        
+<tr id="id_l98" class="new special">
+
+<td class="time" id="i_126867"><a href="/dataverse/2020-07-23#i_126867">19:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126867"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l99" class="cont special">
+
+<td class="time" id="i_126868"><a href="/dataverse/2020-07-23#i_126868">19:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126868"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l100" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_126869"><a href="/dataverse/2020-07-23#i_126869">19:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126869"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin on #7089 I know you want concrete numbers, but it occurs to me that Ansible could simply install prometheus/grafana before calling integration tests</td>
+</tr>
+
+        
+<tr id="id_l101" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126870"><a href="/dataverse/2020-07-23#i_126870">19:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126870"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: good idea. A good excuse to get my hands dirty with those tools.</td>
+</tr>
+
+        
+<tr id="id_l102" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_126871"><a href="/dataverse/2020-07-23#i_126871">19:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126871"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Oh, while you're thinking about that issue, how trivial is it to spin up Dataverse 4.20 on Glassfish 4?</td>
+</tr>
+
+        
+<tr id="id_l103" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_126872"><a href="/dataverse/2020-07-23#i_126872">19:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126872"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Using dataverse-ansible, I mean.</td>
+</tr>
+
+        
+<tr id="id_l104" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_126873"><a href="/dataverse/2020-07-23#i_126873">19:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126873"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Because (from Slack) the idea for that issue is to compare 4.20 to 5.0.</td>
+</tr>
+
+        
+<tr id="id_l105" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_126874"><a href="/dataverse/2020-07-23#i_126874">19:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126874"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin you just want a separate group_vars. set dataverse_branch to release and zipurl back to glassfish-4.1</td>
+</tr>
+
+        
+<tr id="id_l106" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_126875"><a href="/dataverse/2020-07-23#i_126875">19:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126875"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin I did that several times in testing for #6961</td>
+</tr>
+
+        
+<tr id="id_l107" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_126876"><a href="/dataverse/2020-07-23#i_126876">19:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126876"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">zipurl: <a href="http://dlc-cdn.sun.com/glassfish/4.1/release/glassfish-4.1.zip" title="http://dlc-cdn.sun.com/glassfish/4.1/release/glassfish-4.1.zip">http://dlc-cdn.sun.com/glassfish/4.1/release/glassfish-4.1.zip</a>     zipchecksum: sha256:3edc5fc72b8be241a53eae83c22f2​74479d70e15bdfba7ba2302da5260f23e9d</td>
+</tr>
+
+        
+<tr id="id_l108" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126877"><a href="/dataverse/2020-07-23#i_126877">19:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126877"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">pdurbin there you go again :-D <a href="https://github.com/IQSS/dataverse/issues/7117" title="https://github.com/IQSS/dataverse/issues/7117">https://github.com/IQSS/dataverse/issues/7117</a></td>
+</tr>
+
+        
+<tr id="id_l109" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126878"><a href="/dataverse/2020-07-23#i_126878">19:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126878"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: thanks, I was hoping it would be easy like this.</td>
+</tr>
+
+        
+<tr id="id_l110" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126879"><a href="/dataverse/2020-07-23#i_126879">19:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126879"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">poikilotherm: typo: vesry</td>
+</tr>
+
+        
+<tr id="id_l111" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126880"><a href="/dataverse/2020-07-23#i_126880">19:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126880"  /></td>
+<td class="nick nick2">* poikilotherm</td>
+<td class="msg act ">smashed the typo bug</td>
+</tr>
+
+        
+<tr id="id_l112" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126881"><a href="/dataverse/2020-07-23#i_126881">19:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126881"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I can imagine s3:// being a real use case for many.</td>
+</tr>
+
+        
+<tr id="id_l113" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126882"><a href="/dataverse/2020-07-23#i_126882">19:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126882"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I like the mailto:john.doe<img src="/at.png" alt="@" />foo.bar example</td>
+</tr>
+
+        
+<tr id="id_l114" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126883"><a href="/dataverse/2020-07-23#i_126883">19:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126883"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">It's weird that jar is supported.</td>
+</tr>
+
+        
+<tr id="id_l115" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126884"><a href="/dataverse/2020-07-23#i_126884">19:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126884"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Is there a word for an <abbr title="Hypertext Transfer Protocol">HTTP</abbr> <abbr title="Uniform Resource Locator">URL</abbr>?</td>
+</tr>
+
+        
+<tr id="id_l116" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126885"><a href="/dataverse/2020-07-23#i_126885">19:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126885"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Because you're right, I'm sure all over the code we assume that URLs are <abbr title="Hypertext Transfer Protocol">HTTP</abbr>-only.</td>
+</tr>
+
+        
+<tr id="id_l117" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126886"><a href="/dataverse/2020-07-23#i_126886">19:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126886"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I feel like you're saying (and have coded up) that there should be two places for non-opaque URLs: url and uri_no. Is that right?</td>
+</tr>
+
+        
+<tr id="id_l118" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126887"><a href="/dataverse/2020-07-23#i_126887">19:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126887"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Yes</td>
+</tr>
+
+        
+<tr id="id_l119" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126888"><a href="/dataverse/2020-07-23#i_126888">19:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126888"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I didn't want to refactor the whole thing and keep the scope narrow...</td>
+</tr>
+
+        
+<tr id="id_l120" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126889"><a href="/dataverse/2020-07-23#i_126889">19:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126889"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">So for me having two implementations felt naturally</td>
+</tr>
+
+        
+<tr id="id_l121" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126890"><a href="/dataverse/2020-07-23#i_126890">19:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126890"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">And what goes in one is <abbr title="Hypertext Transfer Protocol">HTTP</abbr> URLs. What goes in the other is non-HTTP URLs. Right?</td>
+</tr>
+
+        
+<tr id="id_l122" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126891"><a href="/dataverse/2020-07-23#i_126891">19:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126891"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Maybe taking a look at <a href="https://github.com/IQSS/dataverse/pull/7120/files#diff-d3e306b5540e6ef7d8c2c7f2480fe42a" title="https://github.com/IQSS/dataverse/pull/7120/files#diff-d3e306b5540e6ef7d8c2c7f2480fe42a">https://github.com/IQSS/dataverse/pull/7120/files#diff-d3e306b5540e6ef7d8c2c7f2480fe42a</a> helps</td>
+</tr>
+
+        
+<tr id="id_l123" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126892"><a href="/dataverse/2020-07-23#i_126892">19:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126892"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Those testcases should be easy to understand :-D</td>
+</tr>
+
+        
+<tr id="id_l124" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126893"><a href="/dataverse/2020-07-23#i_126893">19:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126893"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">you can put any <abbr title="Uniform Resource Locator">URL</abbr> in ther other.</td>
+</tr>
+
+        
+<tr id="id_l125" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126894"><a href="/dataverse/2020-07-23#i_126894">19:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126894"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">We want to be able to allow ANY storage location. That might be a <abbr title="Hypertext Transfer Protocol">HTTP</abbr>/S based as well</td>
+</tr>
+
+        
+<tr id="id_l126" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126895"><a href="/dataverse/2020-07-23#i_126895">20:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126895"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Even if you don't want to add ma code, you still could cherry-pick 1e0adac74028aebcac784352f94ffd67c4b7a19c, containing the test refactoring :-D</td>
+</tr>
+
+        
+<tr id="id_l127" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126896"><a href="/dataverse/2020-07-23#i_126896">20:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126896"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Parameterized test are so much more readable</td>
+</tr>
+
+        
+<tr id="id_l128" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126897"><a href="/dataverse/2020-07-23#i_126897">20:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126897"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Plenty of <abbr title="Hypertext Transfer Protocol">HTTP</abbr> URLs in uri_no in those tests. I think conceptually it's easier to tell people, &quot;The url field type now supports non-HTTP urls like rsync, smb, etc.&quot; Easier than, &quot;We've introduced a new field type (with a weird name) for non HTTP URLs but don't worry you can put regular HTTP URLs in it too.&quot;</td>
+</tr>
+
+        
+<tr id="id_l129" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126898"><a href="/dataverse/2020-07-23#i_126898">20:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126898"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Please think of the poor marketing department. :)</td>
+</tr>
+
+        
+<tr id="id_l130" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126899"><a href="/dataverse/2020-07-23#i_126899">20:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126899"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">OK OK I'll switch LOL</td>
+</tr>
+
+        
+<tr id="id_l131" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126900"><a href="/dataverse/2020-07-23#i_126900">20:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126900"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I mean, get some other opinions.</td>
+</tr>
+
+        
+<tr id="id_l132" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126901"><a href="/dataverse/2020-07-23#i_126901">20:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126901"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That's just my take from a quick look.</td>
+</tr>
+
+        
+<tr id="id_l133" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126902"><a href="/dataverse/2020-07-23#i_126902">20:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126902"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I did some marketing :-D</td>
+</tr>
+
+        
+<tr id="id_l134" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126903"><a href="/dataverse/2020-07-23#i_126903">20:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126903"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">You were in the marketing department? No wonder your Dataverse-on-Kubernetes website looks so good.</td>
+</tr>
+
+        
+<tr id="id_l135" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126904"><a href="/dataverse/2020-07-23#i_126904">20:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126904"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Just some polishing. Hiding trash under shiny bling bling</td>
+</tr>
+
+        
+<tr id="id_l136" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126905"><a href="/dataverse/2020-07-23#i_126905">20:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126905"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Getting more contributions in... #17 here I come :-P</td>
+</tr>
+
+        
+<tr id="id_l137" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126906"><a href="/dataverse/2020-07-23#i_126906">20:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126906"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Here's another example for you: x-github-client://openRepo/<a href="https://github.com/IQSS/dataverse" title="https://github.com/IQSS/dataverse">https://github.com/IQSS/dataverse</a></td>
+</tr>
+
+        
+<tr id="id_l138" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126907"><a href="/dataverse/2020-07-23#i_126907">20:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126907"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">from the &quot;Open with GitHub Desktop&quot; button</td>
+</tr>
+
+        
+<tr id="id_l139" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126908"><a href="/dataverse/2020-07-23#i_126908">20:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126908"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Oh git:// would be a good thing to add</td>
+</tr>
+
+        
+<tr id="id_l140" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126909"><a href="/dataverse/2020-07-23#i_126909">20:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126909"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l141" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_126910"><a href="/dataverse/2020-07-23#i_126910">20:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126910"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Can you add a screenshot to the issue of the pain you feel currently when you try to put a rsync (or whatever) <abbr title="Uniform Resource Locator">URL</abbr> in Dataverse? The pain is that it isn't a hyperlink?</td>
+</tr>
+
+        
+<tr id="id_l142" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126911"><a href="/dataverse/2020-07-23#i_126911">20:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126911"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I can create one with the alternative <abbr title="Uniform Resource Locator">URL</abbr> metadata field</td>
+</tr>
+
+        
+<tr id="id_l143" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_126912"><a href="/dataverse/2020-07-23#i_126912">20:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126912"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">that ok?</td>
+</tr>
+
+        
+<tr id="id_l144" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126913"><a href="/dataverse/2020-07-23#i_126913">20:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126913"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Seems fine. I assume it uses the url field type.</td>
+</tr>
+
+        
+<tr id="id_l145" class="new nick nick_pameyer">
+
+<td class="time" id="i_126914"><a href="/dataverse/2020-07-23#i_126914">20:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126914"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">I think git is a better example than rsync - especially since git itself support multiple protocols</td>
+</tr>
+
+        
+<tr id="id_l146" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_126915"><a href="/dataverse/2020-07-23#i_126915">20:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126915"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l147" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_126916"><a href="/dataverse/2020-07-23#i_126916">20:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126916"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Done</td>
+</tr>
+
+        
+<tr id="id_l148" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_126917"><a href="/dataverse/2020-07-23#i_126917">20:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126917"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin you're off tomorrow, and i want to rewrite the grafana/prometheus stuff</td>
+</tr>
+
+        
+<tr id="id_l149" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126918"><a href="/dataverse/2020-07-23#i_126918">20:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126918"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yeah, beach day with the (new) dog is the plan</td>
+</tr>
+
+        
+<tr id="id_l150" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_126919"><a href="/dataverse/2020-07-23#i_126919">20:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126919"  /></td>
+<td class="nick nick4">pameyer</td>
+<td class="msg ">good plan</td>
+</tr>
+
+        
+<tr id="id_l151" class="new nick nick_pdurbin">
+
+<td class="time" id="i_126920"><a href="/dataverse/2020-07-23#i_126920">20:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126920"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">See you all on Monday.</td>
+</tr>
+
+        
+<tr id="id_l152" class="new special dark">
+
+<td class="time" id="i_126921"><a href="/dataverse/2020-07-23#i_126921">20:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126921"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin left #dataverse</td>
+</tr>
+
+        
+<tr id="id_l153" class="cont special dark">
+
+<td class="time" id="i_126922"><a href="/dataverse/2020-07-23#i_126922">22:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126922"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l154" class="cont special dark">
+
+<td class="time" id="i_126923"><a href="/dataverse/2020-07-23#i_126923">22:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126923"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l155" class="cont special dark">
+
+<td class="time" id="i_126924"><a href="/dataverse/2020-07-23#i_126924">22:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126924"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l156" class="cont special dark">
+
+<td class="time" id="i_126925"><a href="/dataverse/2020-07-23#i_126925">22:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126925"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l157" class="cont special dark">
+
+<td class="time" id="i_126926"><a href="/dataverse/2020-07-23#i_126926">23:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_126926"  /></td>
+<td class="nick"></td>
+<td class="msg ">dataverse-user joined #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2020-07-22" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2020-07-24" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2020-07-23">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2020-07-23;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2020-07-23;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

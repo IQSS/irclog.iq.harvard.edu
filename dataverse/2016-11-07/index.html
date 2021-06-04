@@ -1,0 +1,1497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2016-11-07" />
+    <title>IRC log for #dataverse, 2016-11-07</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2016-11-07</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2016-11-06" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2016-11-08" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2016-11-07">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2016-11-07;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2016-11-07;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44648"><a href="/dataverse/2016-11-07#i_44648">00:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44648"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">that's under &quot;Store container images securely with Amazon ECR&quot;</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44649"><a href="/dataverse/2016-11-07#i_44649">00:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44649"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">&quot;EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images&quot; -- <a href="https://aws.amazon.com/ecr/" title="https://aws.amazon.com/ecr/">https://aws.amazon.com/ecr/</a></td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_bjonnh">
+
+<td class="time" id="i_44650"><a href="/dataverse/2016-11-07#i_44650">00:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44650"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">the image that should be on ECR should be the preimage and eventually the current master</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44651"><a href="/dataverse/2016-11-07#i_44651">00:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44651"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">but there probably is no need to have images of each tag</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44652"><a href="/dataverse/2016-11-07#i_44652">00:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44652"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh, the idea being that the preimage is huge and the other image is relatively small, I guess</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44653"><a href="/dataverse/2016-11-07#i_44653">00:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44653"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">the thing I'm uploading now, the 2.2 <abbr title="Gigabyte">GB</abbr> file, is bjo/dataverse</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_bjonnh">
+
+<td class="time" id="i_44654"><a href="/dataverse/2016-11-07#i_44654">00:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44654"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">yeah well both are big</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44655"><a href="/dataverse/2016-11-07#i_44655">00:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44655"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">because bjo/dataverse uses predataverse</td>
+</tr>
+
+        
+<tr id="id_l10" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44656"><a href="/dataverse/2016-11-07#i_44656">00:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44656"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">there are probably ways to use overlays to reduce that size</td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44657"><a href="/dataverse/2016-11-07#i_44657">00:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44657"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">never played with that</td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44658"><a href="/dataverse/2016-11-07#i_44658">00:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44658"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">but the instances of bjo/dataverse would be single-use most of the time</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44659"><a href="/dataverse/2016-11-07#i_44659">00:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44659"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">so I would really not use an image for that and just build them as needed</td>
+</tr>
+
+        
+<tr id="id_l14" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44660"><a href="/dataverse/2016-11-07#i_44660">00:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44660"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">bjonnh: did you create these two images for me and my use case of testing an arbitrary branch on github prior to merging a pull request? Or do you have your own use case?</td>
+</tr>
+
+        
+<tr id="id_l15" class="new nick nick_bjonnh">
+
+<td class="time" id="i_44661"><a href="/dataverse/2016-11-07#i_44661">00:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44661"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">I didn't create any image :p</td>
+</tr>
+
+        
+<tr id="id_l16" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44662"><a href="/dataverse/2016-11-07#i_44662">00:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44662"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">you built them yourself</td>
+</tr>
+
+        
+<tr id="id_l17" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44663"><a href="/dataverse/2016-11-07#i_44663">00:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44663"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">heh</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44664"><a href="/dataverse/2016-11-07#i_44664">00:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44664"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">well, the scripts and the Dockerfiles</td>
+</tr>
+
+        
+<tr id="id_l19" class="new nick nick_bjonnh">
+
+<td class="time" id="i_44665"><a href="/dataverse/2016-11-07#i_44665">00:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44665"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">my use case initially was &quot;I want to develop and spin up instances so I can play/test/…&quot;</td>
+</tr>
+
+        
+<tr id="id_l20" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44666"><a href="/dataverse/2016-11-07#i_44666">00:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44666"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">then I was thinking, ok lets make that universal so users can use it</td>
+</tr>
+
+        
+<tr id="id_l21" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44667"><a href="/dataverse/2016-11-07#i_44667">00:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44667"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l22" class="new nick nick_bjonnh">
+
+<td class="time" id="i_44668"><a href="/dataverse/2016-11-07#i_44668">00:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44668"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">as your use case was &quot;I want to tast specific commits/tags/branches&quot;… That's my new goal</td>
+</tr>
+
+        
+<tr id="id_l23" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44669"><a href="/dataverse/2016-11-07#i_44669">00:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44669"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">because it fits mine too</td>
+</tr>
+
+        
+<tr id="id_l24" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44670"><a href="/dataverse/2016-11-07#i_44670">00:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44670"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh good</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_bjonnh">
+
+<td class="time" id="i_44671"><a href="/dataverse/2016-11-07#i_44671">00:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44671"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">also it can allow to use git dissect</td>
+</tr>
+
+        
+<tr id="id_l26" class="cont nick nick_bjonnh">
+
+<td class="time" id="i_44672"><a href="/dataverse/2016-11-07#i_44672">00:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44672"  /></td>
+<td class="nick nick3">bjonnh</td>
+<td class="msg ">so that's good too</td>
+</tr>
+
+        
+<tr id="id_l27" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44673"><a href="/dataverse/2016-11-07#i_44673">00:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44673"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l28" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44674"><a href="/dataverse/2016-11-07#i_44674">02:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44674"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">upload of filename.img done. it's in <a href="http://dvn-vm1.hmdc.harvard.edu/tmp/docker/f7a82c9/" title="http://dvn-vm1.hmdc.harvard.edu/tmp/docker/f7a82c9/">http://dvn-vm1.hmdc.harvard.edu/tmp/docker/f7a82c9/</a></td>
+</tr>
+
+        
+<tr id="id_l29" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44675"><a href="/dataverse/2016-11-07#i_44675">02:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44675"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">maybe I'll try to get it on ECR next</td>
+</tr>
+
+        
+<tr id="id_l30" class="new special">
+
+<td class="time" id="i_44676"><a href="/dataverse/2016-11-07#i_44676">04:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44676"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l31" class="cont special">
+
+<td class="time" id="i_44677"><a href="/dataverse/2016-11-07#i_44677">04:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44677"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l32" class="cont special">
+
+<td class="time" id="i_44678"><a href="/dataverse/2016-11-07#i_44678">05:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44678"  /></td>
+<td class="nick"></td>
+<td class="msg ">cads joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l33" class="cont special">
+
+<td class="time" id="i_44679"><a href="/dataverse/2016-11-07#i_44679">05:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44679"  /></td>
+<td class="nick"></td>
+<td class="msg ">M_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l34" class="cont special">
+
+<td class="time" id="i_44680"><a href="/dataverse/2016-11-07#i_44680">06:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44680"  /></td>
+<td class="nick"></td>
+<td class="msg ">cads joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l35" class="cont special">
+
+<td class="time" id="i_44681"><a href="/dataverse/2016-11-07#i_44681">09:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44681"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l36" class="cont special">
+
+<td class="time" id="i_44682"><a href="/dataverse/2016-11-07#i_44682">11:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44682"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l37" class="cont special">
+
+<td class="time" id="i_44683"><a href="/dataverse/2016-11-07#i_44683">13:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44683"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l38" class="cont special">
+
+<td class="time" id="i_44684"><a href="/dataverse/2016-11-07#i_44684">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44684"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44685"><a href="/dataverse/2016-11-07#i_44685">14:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44685"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: mornin'. Question for you about <a href="https://dataverse.unc.edu" title="https://dataverse.unc.edu">https://dataverse.unc.edu</a></td>
+</tr>
+
+        
+<tr id="id_l40" class="new nick nick_donsizemore">
+
+<td class="time" id="i_44686"><a href="/dataverse/2016-11-07#i_44686">14:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44686"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin yes, sir</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44687"><a href="/dataverse/2016-11-07#i_44687">14:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44687"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Have you ever clicked the About button at the top?</td>
+</tr>
+
+        
+<tr id="id_l42" class="new nick nick_donsizemore">
+
+<td class="time" id="i_44688"><a href="/dataverse/2016-11-07#i_44688">14:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44688"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">yes</td>
+</tr>
+
+        
+<tr id="id_l43" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_44689"><a href="/dataverse/2016-11-07#i_44689">14:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44689"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">(which I just did, to make sure it works)</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44690"><a href="/dataverse/2016-11-07#i_44690">14:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44690"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Are you satisfied with where the About button takes you?</td>
+</tr>
+
+        
+<tr id="id_l45" class="new nick nick_donsizemore">
+
+<td class="time" id="i_44691"><a href="/dataverse/2016-11-07#i_44691">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44691"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">I personally am. If someone wants to have a page describing their particular instance/service, you could make it a drop-down à la Guides and disambiguate</td>
+</tr>
+
+        
+<tr id="id_l46" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44692"><a href="/dataverse/2016-11-07#i_44692">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44692"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">interesting</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44693"><a href="/dataverse/2016-11-07#i_44693">14:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44693"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: I expected you to say that you'd like the About button to link to this page: The Odum Institute: University of North Carolina Dataverse - <a href="http://www.odum.unc.edu/odum/contentSubpage.jsp?nodeid=626" title="http://www.odum.unc.edu/odum/contentSubpage.jsp?nodeid=626">http://www.odum.unc.edu/odum/contentSubpage.jsp?nodeid=626</a></td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_donsizemore">
+
+<td class="time" id="i_44694"><a href="/dataverse/2016-11-07#i_44694">14:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44694"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin optimally I suppose I'd want About Dataverse (software), About The UNC Dataverse (uss'n), and About the Odum Institute.</td>
+</tr>
+
+        
+<tr id="id_l49" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44695"><a href="/dataverse/2016-11-07#i_44695">15:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44695"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: well, at the bottom of <a href="https://dataverse.unc.edu" title="https://dataverse.unc.edu">https://dataverse.unc.edu</a> you already link to the Odum website. And the &quot;powered by&quot; image is a link to the software (dataverse.org).</td>
+</tr>
+
+        
+<tr id="id_l50" class="new nick nick_donsizemore">
+
+<td class="time" id="i_44696"><a href="/dataverse/2016-11-07#i_44696">15:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44696"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin true, but nowadays i'd personally want that in the nav-bar. just me</td>
+</tr>
+
+        
+<tr id="id_l51" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44697"><a href="/dataverse/2016-11-07#i_44697">15:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44697"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: ok. Maybe you could leave a comment at <a href="https://github.com/IQSS/dataverse/issues/2003" title="https://github.com/IQSS/dataverse/issues/2003">https://github.com/IQSS/dataverse/issues/2003</a></td>
+</tr>
+
+        
+<tr id="id_l52" class="new special">
+
+<td class="time" id="i_44698"><a href="/dataverse/2016-11-07#i_44698">15:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44698"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l53" class="cont special">
+
+<td class="time" id="i_44699"><a href="/dataverse/2016-11-07#i_44699">15:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44699"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l54" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44700"><a href="/dataverse/2016-11-07#i_44700">15:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44700"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: I'm thrilled to see this: <a href="https://github.com/sbgrid/data-capture-module/blob/master/Vagrantfile" title="https://github.com/sbgrid/data-capture-module/blob/master/Vagrantfile">https://github.com/sbgrid/data-capture-module/blob/master/Vagrantfile</a></td>
+</tr>
+
+        
+<tr id="id_l55" class="new nick nick_pameyer">
+
+<td class="time" id="i_44701"><a href="/dataverse/2016-11-07#i_44701">15:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44701"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">pdurbin: it *should* work; but I used it more for making sure ansible was happy than code development</td>
+</tr>
+
+        
+<tr id="id_l56" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44702"><a href="/dataverse/2016-11-07#i_44702">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44702"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">sure</td>
+</tr>
+
+        
+<tr id="id_l57" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44703"><a href="/dataverse/2016-11-07#i_44703">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44703"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: it uses VirtualBox, right?</td>
+</tr>
+
+        
+<tr id="id_l58" class="new nick nick_pameyer">
+
+<td class="time" id="i_44704"><a href="/dataverse/2016-11-07#i_44704">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44704"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">it does - but I don't think anything VB specific</td>
+</tr>
+
+        
+<tr id="id_l59" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44705"><a href="/dataverse/2016-11-07#i_44705">15:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44705"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ok, newish laptop. I just need to know what to install :)</td>
+</tr>
+
+        
+<tr id="id_l60" class="new nick nick_pameyer">
+
+<td class="time" id="i_44706"><a href="/dataverse/2016-11-07#i_44706">15:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44706"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I have the bad habit of assuming that everyone has <abbr title="Virtual Machine">VM</abbr> software (and compilers, and vim) on their system...</td>
+</tr>
+
+        
+<tr id="id_l61" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44707"><a href="/dataverse/2016-11-07#i_44707">15:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44707"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">jri: heads up that we merged <a href="https://github.com/IQSS/dataverse/pull/3458" title="https://github.com/IQSS/dataverse/pull/3458">https://github.com/IQSS/dataverse/pull/3458</a></td>
+</tr>
+
+        
+<tr id="id_l62" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44708"><a href="/dataverse/2016-11-07#i_44708">15:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44708"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I don't even have Vagrant installed.</td>
+</tr>
+
+        
+<tr id="id_l63" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44709"><a href="/dataverse/2016-11-07#i_44709">15:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44709"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: the branch I created locally is called &quot;3352-talk-to-dcm&quot; :)</td>
+</tr>
+
+        
+<tr id="id_l64" class="new nick nick_pameyer">
+
+<td class="time" id="i_44710"><a href="/dataverse/2016-11-07#i_44710">15:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44710"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">pdurbin: next, you'll be telling me you don't have a fortran compiler on your new laptop ;)</td>
+</tr>
+
+        
+<tr id="id_l65" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44711"><a href="/dataverse/2016-11-07#i_44711">15:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44711"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uh oh, The box 'geerlingguy/centos6' could not be found</td>
+</tr>
+
+        
+<tr id="id_l66" class="new nick nick_pameyer">
+
+<td class="time" id="i_44712"><a href="/dataverse/2016-11-07#i_44712">15:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44712"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">huh</td>
+</tr>
+
+        
+<tr id="id_l67" class="cont nick nick_pameyer">
+
+<td class="time" id="i_44713"><a href="/dataverse/2016-11-07#i_44713">15:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44713"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">any cent6 one should work</td>
+</tr>
+
+        
+<tr id="id_l68" class="new nick nick_jri dark">
+
+<td class="time" id="i_44714"><a href="/dataverse/2016-11-07#i_44714">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44714"  /></td>
+<td class="nick nick6">jri</td>
+<td class="msg ">pdurbin: cool! Thanks! Do you have a date for the next release ?</td>
+</tr>
+
+        
+<tr id="id_l69" class="new special">
+
+<td class="time" id="i_44715"><a href="/dataverse/2016-11-07#i_44715">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44715"  /></td>
+<td class="nick"></td>
+<td class="msg ">karissa joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l70" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44716"><a href="/dataverse/2016-11-07#i_44716">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44716"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">jri: that is a question for djbrooke</td>
+</tr>
+
+        
+<tr id="id_l71" class="new special">
+
+<td class="time" id="i_44717"><a href="/dataverse/2016-11-07#i_44717">15:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44717"  /></td>
+<td class="nick"></td>
+<td class="msg ">jhand joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l72" class="cont special">
+
+<td class="time" id="i_44718"><a href="/dataverse/2016-11-07#i_44718">15:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44718"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont special">
+
+<td class="time" id="i_44719"><a href="/dataverse/2016-11-07#i_44719">15:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44719"  /></td>
+<td class="nick"></td>
+<td class="msg ">bjonnh joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l74" class="cont special">
+
+<td class="time" id="i_44720"><a href="/dataverse/2016-11-07#i_44720">15:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44720"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l75" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44721"><a href="/dataverse/2016-11-07#i_44721">16:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44721"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">bricas: Vagrant is broken again. Any suggestions? Please see <a href="https://github.com/IQSS/dataverse/issues/3460" title="https://github.com/IQSS/dataverse/issues/3460">https://github.com/IQSS/dataverse/issues/3460</a></td>
+</tr>
+
+        
+<tr id="id_l76" class="new nick nick_donsizemore">
+
+<td class="time" id="i_44722"><a href="/dataverse/2016-11-07#i_44722">16:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44722"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin the boxen have moved to Atlas <a href="https://atlas.hashicorp.com/puppetlabs" title="https://atlas.hashicorp.com/puppetlabs">https://atlas.hashicorp.com/puppetlabs</a></td>
+</tr>
+
+        
+<tr id="id_l77" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_44723"><a href="/dataverse/2016-11-07#i_44723">16:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44723"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin but i don't see one with VirtualBox specified in the filename</td>
+</tr>
+
+        
+<tr id="id_l78" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_44724"><a href="/dataverse/2016-11-07#i_44724">16:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44724"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin ah, now it wants vagrant up --provider virtualbox</td>
+</tr>
+
+        
+<tr id="id_l79" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_44725"><a href="/dataverse/2016-11-07#i_44725">16:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44725"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin dunno whether you'd want the 6.6-puppet or the 6.6-nocm, maybe the latter for your testing?</td>
+</tr>
+
+        
+<tr id="id_l80" class="new special dark">
+
+<td class="time" id="i_44726"><a href="/dataverse/2016-11-07#i_44726">16:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44726"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l81" class="cont special dark">
+
+<td class="time" id="i_44727"><a href="/dataverse/2016-11-07#i_44727">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44727"  /></td>
+<td class="nick"></td>
+<td class="msg ">jhand joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l82" class="new nick nick_pameyer">
+
+<td class="time" id="i_44728"><a href="/dataverse/2016-11-07#i_44728">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44728"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">pdurbin: <a href="https://atlas.hashicorp.com/geerlingguy/boxes/centos6" title="https://atlas.hashicorp.com/geerlingguy/boxes/centos6">https://atlas.hashicorp.com/geerlingguy/boxes/centos6</a> ?</td>
+</tr>
+
+        
+<tr id="id_l83" class="cont nick nick_pameyer">
+
+<td class="time" id="i_44729"><a href="/dataverse/2016-11-07#i_44729">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44729"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">donsizemore: thanks for the info on vagrant boxes wandering to new places</td>
+</tr>
+
+        
+<tr id="id_l84" class="new special dark">
+
+<td class="time" id="i_44730"><a href="/dataverse/2016-11-07#i_44730">16:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44730"  /></td>
+<td class="nick"></td>
+<td class="msg ">jhand joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l85" class="cont special dark">
+
+<td class="time" id="i_44731"><a href="/dataverse/2016-11-07#i_44731">16:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44731"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l86" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44732"><a href="/dataverse/2016-11-07#i_44732">16:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44732"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Is the problem simply that I need to use `vagrant login` these days? That's what the error suggests: <a href="https://github.com/sbgrid/data-capture-module/issues/7" title="https://github.com/sbgrid/data-capture-module/issues/7">https://github.com/sbgrid/data-capture-module/issues/7</a></td>
+</tr>
+
+        
+<tr id="id_l87" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44733"><a href="/dataverse/2016-11-07#i_44733">16:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44733"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">&quot;Logging in is not a requirement to use Vagrant&quot; <a href="https://www.vagrantup.com/docs/cli/login.html" title="https://www.vagrantup.com/docs/cli/login.html">https://www.vagrantup.com/docs/cli/login.html</a></td>
+</tr>
+
+        
+<tr id="id_l88" class="new special dark">
+
+<td class="time" id="i_44734"><a href="/dataverse/2016-11-07#i_44734">16:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44734"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l89" class="cont special dark">
+
+<td class="time" id="i_44735"><a href="/dataverse/2016-11-07#i_44735">16:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44735"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l90" class="new nick nick_pameyer">
+
+<td class="time" id="i_44736"><a href="/dataverse/2016-11-07#i_44736">16:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44736"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I've never used `vagrant login`- `vagrant box add $foo/$bar` and `vagrant up` have been enough</td>
+</tr>
+
+        
+<tr id="id_l91" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44737"><a href="/dataverse/2016-11-07#i_44737">16:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44737"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">even &quot;vagrant init hashicorp/precise64&quot; followed by &quot;vagrant up&quot; under &quot;See how easy it is&quot; at <a href="https://www.vagrantup.com" title="https://www.vagrantup.com">https://www.vagrantup.com</a> isn't working for me. Same error about &quot;The box 'hashicorp/precise64' could not be found...&quot;</td>
+</tr>
+
+        
+<tr id="id_l92" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44738"><a href="/dataverse/2016-11-07#i_44738">16:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44738"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">maybe this is my problem: 1.8.7 fails to download or update boxes · Issue #7969 · mitchellh/vagrant - <a href="https://github.com/mitchellh/vagrant/issues/7969" title="https://github.com/mitchellh/vagrant/issues/7969">https://github.com/mitchellh/vagrant/issues/7969</a></td>
+</tr>
+
+        
+<tr id="id_l93" class="new nick nick_pameyer">
+
+<td class="time" id="i_44739"><a href="/dataverse/2016-11-07#i_44739">16:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44739"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">could be it - I'm not using 1.8.7</td>
+</tr>
+
+        
+<tr id="id_l94" class="new special dark">
+
+<td class="time" id="i_44740"><a href="/dataverse/2016-11-07#i_44740">16:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44740"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l95" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44741"><a href="/dataverse/2016-11-07#i_44741">16:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44741"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">this fixed it: sudo mv /opt/vagrant/embedded/bin/curl /opt/vagrant/embedded/bin/curl.moved</td>
+</tr>
+
+        
+<tr id="id_l96" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44742"><a href="/dataverse/2016-11-07#i_44742">17:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44742"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">cool</td>
+</tr>
+
+        
+<tr id="id_l97" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44743"><a href="/dataverse/2016-11-07#i_44743">17:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44743"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: do you care if I switch the port from 8080? That's where Glassfish runs by default.</td>
+</tr>
+
+        
+<tr id="id_l98" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44744"><a href="/dataverse/2016-11-07#i_44744">17:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44744"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">not particularly - I just used it because it was my default http-alternative port</td>
+</tr>
+
+        
+<tr id="id_l99" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44745"><a href="/dataverse/2016-11-07#i_44745">17:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44745"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">cool</td>
+</tr>
+
+        
+<tr id="id_l100" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44746"><a href="/dataverse/2016-11-07#i_44746">17:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44746"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: next is &quot;The Ansible software could not be found!&quot;</td>
+</tr>
+
+        
+<tr id="id_l101" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44747"><a href="/dataverse/2016-11-07#i_44747">17:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44747"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">*everybody* has ansible installed ;)</td>
+</tr>
+
+        
+<tr id="id_l102" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_44748"><a href="/dataverse/2016-11-07#i_44748">17:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44748"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">or more realisticly, docs are woefully insufficient</td>
+</tr>
+
+        
+<tr id="id_l103" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44749"><a href="/dataverse/2016-11-07#i_44749">17:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44749"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: I need to have it installed on my Mac?</td>
+</tr>
+
+        
+<tr id="id_l104" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44750"><a href="/dataverse/2016-11-07#i_44750">17:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44750"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I generally do it in another virtualenv</td>
+</tr>
+
+        
+<tr id="id_l105" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_44751"><a href="/dataverse/2016-11-07#i_44751">17:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44751"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">do you have virtualenv installed on your Mac?</td>
+</tr>
+
+        
+<tr id="id_l106" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44752"><a href="/dataverse/2016-11-07#i_44752">17:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44752"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yep</td>
+</tr>
+
+        
+<tr id="id_l107" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44753"><a href="/dataverse/2016-11-07#i_44753">17:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44753"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">source ~/virtualenv/ansible/bin/activate ; pip install ansible</td>
+</tr>
+
+        
+<tr id="id_l108" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44754"><a href="/dataverse/2016-11-07#i_44754">17:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44754"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">giving it a shot. thanks</td>
+</tr>
+
+        
+<tr id="id_l109" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44755"><a href="/dataverse/2016-11-07#i_44755">17:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44755"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ERROR! vars file roles/dcm/vars/secrets.yml was not found</td>
+</tr>
+
+        
+<tr id="id_l110" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44756"><a href="/dataverse/2016-11-07#i_44756">17:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44756"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">roles/dcm/vars/secrets.yml.template *should* exist</td>
+</tr>
+
+        
+<tr id="id_l111" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_44757"><a href="/dataverse/2016-11-07#i_44757">17:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44757"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">and thanks - you're uncovering a bunch of implicit assumptions I made in those docs</td>
+</tr>
+
+        
+<tr id="id_l112" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44758"><a href="/dataverse/2016-11-07#i_44758">17:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44758"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh sure</td>
+</tr>
+
+        
+<tr id="id_l113" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44759"><a href="/dataverse/2016-11-07#i_44759">17:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44759"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">seems much happier now</td>
+</tr>
+
+        
+<tr id="id_l114" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44760"><a href="/dataverse/2016-11-07#i_44760">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44760"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">sounds like progress</td>
+</tr>
+
+        
+<tr id="id_l115" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44761"><a href="/dataverse/2016-11-07#i_44761">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44761"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">TASK [dcm : git, webupdate] **** ... fatal: [default]: FAILED! =&gt; {&quot;changed&quot;: false, &quot;failed&quot;: true, &quot;msg&quot;: &quot;Local modifications exist in repository (force=no).&quot;}</td>
+</tr>
+
+        
+<tr id="id_l116" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44762"><a href="/dataverse/2016-11-07#i_44762">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44762"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh, it doesn't like that I changed 8080 to 8888 locally</td>
+</tr>
+
+        
+<tr id="id_l117" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44763"><a href="/dataverse/2016-11-07#i_44763">17:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44763"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">it should be doing the checkout to /usr/local inside the <abbr title="Virtual Machine">VM</abbr></td>
+</tr>
+
+        
+<tr id="id_l118" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_44764"><a href="/dataverse/2016-11-07#i_44764">17:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44764"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I'll take a look</td>
+</tr>
+
+        
+<tr id="id_l119" class="new nick nick_djbrooke">
+
+<td class="time" id="i_44765"><a href="/dataverse/2016-11-07#i_44765">17:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44765"  /></td>
+<td class="nick nick5">djbrooke</td>
+<td class="msg ">Hey jri - we're planning on a release before the end of the quarter/year. <a href="http://dataverse.org/goals-roadmap-and-releases" title="http://dataverse.org/goals-roadmap-and-releases">http://dataverse.org/goals-roadmap-and-releases</a> will have more info about dates (and we'll also use other communication channels) as we move closer.</td>
+</tr>
+
+        
+<tr id="id_l120" class="cont nick nick_djbrooke">
+
+<td class="time" id="i_44766"><a href="/dataverse/2016-11-07#i_44766">17:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44766"  /></td>
+<td class="nick nick5">djbrooke</td>
+<td class="msg ">Thanks pdurbin for the ping, missed this earlier</td>
+</tr>
+
+        
+<tr id="id_l121" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_44767"><a href="/dataverse/2016-11-07#i_44767">17:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44767"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh sure</td>
+</tr>
+
+        
+<tr id="id_l122" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_44768"><a href="/dataverse/2016-11-07#i_44768">17:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44768"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: thanks. The latest is &quot;Could not determine remote revision for HEAD&quot; - <a href="https://github.com/sbgrid/data-capture-module/issues/8#issuecomment-258902476" title="https://github.com/sbgrid/data-capture-module/issues/8#issuecomment-258902476">https://github.com/sbgrid/data-capture-module/issues/8#issuecomment-258902476</a></td>
+</tr>
+
+        
+<tr id="id_l123" class="new special">
+
+<td class="time" id="i_44769"><a href="/dataverse/2016-11-07#i_44769">17:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44769"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l124" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44770"><a href="/dataverse/2016-11-07#i_44770">17:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44770"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">… looking</td>
+</tr>
+
+        
+<tr id="id_l125" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44771"><a href="/dataverse/2016-11-07#i_44771">17:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44771"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: I just made a pull request in case it helps.</td>
+</tr>
+
+        
+<tr id="id_l126" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44772"><a href="/dataverse/2016-11-07#i_44772">17:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44772"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I could swear I used to be able to push to this repo directly in the past.</td>
+</tr>
+
+        
+<tr id="id_l127" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44773"><a href="/dataverse/2016-11-07#i_44773">17:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44773"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">But I'm happy to make pull requests. :)</td>
+</tr>
+
+        
+<tr id="id_l128" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44774"><a href="/dataverse/2016-11-07#i_44774">17:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44774"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">your github-fu is much stronger than mine.  today was the first time I sync'ed pameyer/dataverse to IQSS/dataverse - but it looks like IQSS/dataverse is uneffected :)</td>
+</tr>
+
+        
+<tr id="id_l129" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_44775"><a href="/dataverse/2016-11-07#i_44775">17:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44775"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I'd though you could push there too</td>
+</tr>
+
+        
+<tr id="id_l130" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44776"><a href="/dataverse/2016-11-07#i_44776">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44776"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">interestingly, I can merge pull requests</td>
+</tr>
+
+        
+<tr id="id_l131" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44777"><a href="/dataverse/2016-11-07#i_44777">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44777"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">which I just did :)</td>
+</tr>
+
+        
+<tr id="id_l132" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44778"><a href="/dataverse/2016-11-07#i_44778">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44778"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">yeah - I was just about to ask you why it closed</td>
+</tr>
+
+        
+<tr id="id_l133" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44779"><a href="/dataverse/2016-11-07#i_44779">17:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44779"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: I wonder if master is a protected branch</td>
+</tr>
+
+        
+<tr id="id_l134" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_44780"><a href="/dataverse/2016-11-07#i_44780">17:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44780"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="https://github.com/blog/2051-protected-branches-and-required-status-checks" title="https://github.com/blog/2051-protected-branches-and-required-status-checks">https://github.com/blog/2051-protected-branches-and-required-status-checks</a></td>
+</tr>
+
+        
+<tr id="id_l135" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44781"><a href="/dataverse/2016-11-07#i_44781">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44781"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&quot;no protected branches&quot; - and you've got write access</td>
+</tr>
+
+        
+<tr id="id_l136" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44782"><a href="/dataverse/2016-11-07#i_44782">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44782"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">weird</td>
+</tr>
+
+        
+<tr id="id_l137" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_44783"><a href="/dataverse/2016-11-07#i_44783">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44783"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l138" class="new nick nick_pdurbin">
+
+<td class="time" id="i_44784"><a href="/dataverse/2016-11-07#i_44784">17:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44784"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: play recap says failed=0 now \o/</td>
+</tr>
+
+        
+<tr id="id_l139" class="new special dark">
+
+<td class="time" id="i_44785"><a href="/dataverse/2016-11-07#i_44785">18:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44785"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l140" class="cont special dark">
+
+<td class="time" id="i_44786"><a href="/dataverse/2016-11-07#i_44786">19:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44786"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l141" class="cont special dark">
+
+<td class="time" id="i_44787"><a href="/dataverse/2016-11-07#i_44787">20:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44787"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l142" class="cont special dark">
+
+<td class="time" id="i_44788"><a href="/dataverse/2016-11-07#i_44788">20:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44788"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l143" class="cont special dark">
+
+<td class="time" id="i_44789"><a href="/dataverse/2016-11-07#i_44789">20:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44789"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l144" class="cont special dark">
+
+<td class="time" id="i_44790"><a href="/dataverse/2016-11-07#i_44790">20:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44790"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l145" class="cont special dark">
+
+<td class="time" id="i_44791"><a href="/dataverse/2016-11-07#i_44791">20:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44791"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l146" class="cont special dark">
+
+<td class="time" id="i_44792"><a href="/dataverse/2016-11-07#i_44792">20:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44792"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l147" class="cont special dark">
+
+<td class="time" id="i_44793"><a href="/dataverse/2016-11-07#i_44793">21:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44793"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l148" class="cont special dark">
+
+<td class="time" id="i_44794"><a href="/dataverse/2016-11-07#i_44794">21:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44794"  /></td>
+<td class="nick"></td>
+<td class="msg ">cads joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l149" class="cont special dark">
+
+<td class="time" id="i_44795"><a href="/dataverse/2016-11-07#i_44795">21:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44795"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l150" class="cont special dark">
+
+<td class="time" id="i_44796"><a href="/dataverse/2016-11-07#i_44796">21:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44796"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l151" class="cont special dark">
+
+<td class="time" id="i_44797"><a href="/dataverse/2016-11-07#i_44797">21:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44797"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l152" class="cont special dark">
+
+<td class="time" id="i_44798"><a href="/dataverse/2016-11-07#i_44798">22:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44798"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l153" class="cont special dark">
+
+<td class="time" id="i_44799"><a href="/dataverse/2016-11-07#i_44799">22:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44799"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l154" class="cont special dark">
+
+<td class="time" id="i_44800"><a href="/dataverse/2016-11-07#i_44800">22:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44800"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin left #dataverse</td>
+</tr>
+
+        
+<tr id="id_l155" class="cont special dark">
+
+<td class="time" id="i_44801"><a href="/dataverse/2016-11-07#i_44801">22:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44801"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l156" class="cont special dark">
+
+<td class="time" id="i_44802"><a href="/dataverse/2016-11-07#i_44802">23:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_44802"  /></td>
+<td class="nick"></td>
+<td class="msg ">djbrooke joined #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2016-11-06" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2016-11-08" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2016-11-07">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2016-11-07;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2016-11-07;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

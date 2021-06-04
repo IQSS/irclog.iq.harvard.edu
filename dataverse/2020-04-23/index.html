@@ -1,0 +1,1173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2020-04-23" />
+    <title>IRC log for #dataverse, 2020-04-23</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2020-04-23</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2020-04-22" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2020-04-24" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2020-04-23">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2020-04-23;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2020-04-23;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_122980"><a href="/dataverse/2020-04-23#i_122980">07:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122980"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_122981"><a href="/dataverse/2020-04-23#i_122981">07:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122981"  /></td>
+<td class="nick"></td>
+<td class="msg ">ppeter joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_ppeter">
+
+<td class="time" id="i_122982"><a href="/dataverse/2020-04-23#i_122982">07:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122982"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">We are currently considering to install dataverse at our research institute, however some questions came up for which I could not find the answer to in the documentation.</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_ppeter">
+
+<td class="time" id="i_122983"><a href="/dataverse/2020-04-23#i_122983">07:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122983"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">If I use multiple filestores, what is the placement strategy?</td>
+</tr>
+
+        
+<tr id="id_l6" class="cont nick nick_ppeter">
+
+<td class="time" id="i_122984"><a href="/dataverse/2020-04-23#i_122984">07:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122984"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">Is it possible to move files among filestores, either automatically or manually (through <abbr title="Application Programming Interface">API</abbr>)?</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_ppeter">
+
+<td class="time" id="i_122985"><a href="/dataverse/2020-04-23#i_122985">07:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122985"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">Can a dataset or dataverse place some files on one filestore, and some other files on another?</td>
+</tr>
+
+        
+<tr id="id_l8" class="cont nick nick_ppeter">
+
+<td class="time" id="i_122986"><a href="/dataverse/2020-04-23#i_122986">07:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122986"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">The two main focuses are performance tiering and removing filestores. Moving files is necessary for the former, moving dataverses is sufficient for the latter.</td>
+</tr>
+
+        
+<tr id="id_l9" class="new special dark">
+
+<td class="time" id="i_122987"><a href="/dataverse/2020-04-23#i_122987">07:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122987"  /></td>
+<td class="nick"></td>
+<td class="msg ">ppeter18 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l10" class="cont special dark">
+
+<td class="time" id="i_122988"><a href="/dataverse/2020-04-23#i_122988">07:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122988"  /></td>
+<td class="nick"></td>
+<td class="msg ">ppeter56 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l11" class="cont special dark">
+
+<td class="time" id="i_122989"><a href="/dataverse/2020-04-23#i_122989">07:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122989"  /></td>
+<td class="nick"></td>
+<td class="msg ">ppeter56 left #dataverse</td>
+</tr>
+
+        
+<tr id="id_l12" class="cont special dark">
+
+<td class="time" id="i_122990"><a href="/dataverse/2020-04-23#i_122990">07:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122990"  /></td>
+<td class="nick"></td>
+<td class="msg ">ppeter joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont special dark">
+
+<td class="time" id="i_122991"><a href="/dataverse/2020-04-23#i_122991">09:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122991"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont special dark">
+
+<td class="time" id="i_122992"><a href="/dataverse/2020-04-23#i_122992">09:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122992"  /></td>
+<td class="nick"></td>
+<td class="msg ">Benjamin_Peuch joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont special dark">
+
+<td class="time" id="i_122993"><a href="/dataverse/2020-04-23#i_122993">11:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122993"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l16" class="new nick nick_donsizemore">
+
+<td class="time" id="i_122994"><a href="/dataverse/2020-04-23#i_122994">11:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122994"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter hello! Dataverse support for multiple stores is currently under development. the default is a local filesystem</td>
+</tr>
+
+        
+<tr id="id_l17" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_122995"><a href="/dataverse/2020-04-23#i_122995">11:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122995"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter it is possible to direct where new datasets and files are created via the files.type jvm-option, and I believe legacy file reads (when location isn't updated in the dvobject table) should continue to work for either store</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_122996"><a href="/dataverse/2020-04-23#i_122996">11:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122996"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter but to my understanding at present it's still an &quot;either/or&quot; choice. I know of at least two institutions who are actively working on support for multiple datastores, though.</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_122997"><a href="/dataverse/2020-04-23#i_122997">11:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122997"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter moving files, again to my knowledge, would be handled &quot;under the hood&quot; both with the filesystem itself and the location entry in the dvobject table</td>
+</tr>
+
+        
+<tr id="id_l20" class="new nick nick_ppeter dark">
+
+<td class="time" id="i_122998"><a href="/dataverse/2020-04-23#i_122998">11:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122998"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">In the dolumentation, it says &quot;File Storage: Using a Local Filesystem and/or Swift and/or S3 object stores&quot;, and proceeds to list examples on how to add multiple file storages.</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont nick nick_ppeter dark">
+
+<td class="time" id="i_122999"><a href="/dataverse/2020-04-23#i_122999">11:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_122999"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">Do I understand it right that this is experimental currently?</td>
+</tr>
+
+        
+<tr id="id_l22" class="cont nick nick_ppeter dark">
+
+<td class="time" id="i_123000"><a href="/dataverse/2020-04-23#i_123000">11:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123000"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">And what does under-the-hood mean? Does it mean that the admin has no control over what files are stored where?</td>
+</tr>
+
+        
+<tr id="id_l23" class="new nick nick_donsizemore">
+
+<td class="time" id="i_123001"><a href="/dataverse/2020-04-23#i_123001">12:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123001"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter object storage support is beyond experimental, but there's no baked-in support for choosing a datastore at dataset creation just yet (to my knowledge)</td>
+</tr>
+
+        
+<tr id="id_l24" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_123002"><a href="/dataverse/2020-04-23#i_123002">12:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123002"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter an admin of the server could copy/move the files and update the database storage location, but an admin of the service (say, a lead archivist) wouldn't be able to do that via <abbr title="Application Programming Interface">API</abbr> or web interface</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_ppeter dark">
+
+<td class="time" id="i_123003"><a href="/dataverse/2020-04-23#i_123003">12:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123003"  /></td>
+<td class="nick nick5">ppeter</td>
+<td class="msg ">Thank you for the information!</td>
+</tr>
+
+        
+<tr id="id_l26" class="new special">
+
+<td class="time" id="i_123004"><a href="/dataverse/2020-04-23#i_123004">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123004"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l27" class="cont special">
+
+<td class="time" id="i_123005"><a href="/dataverse/2020-04-23#i_123005">12:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123005"  /></td>
+<td class="nick"></td>
+<td class="msg ">ppeter44 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l28" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123006"><a href="/dataverse/2020-04-23#i_123006">12:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123006"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter44 I'm delighted you're considering Dataverse, but don't quote me on the above. I haven't done a ton of work with S3 configuration so that's all to my understanding. Jim Myers with GDCC/QDR would be the person to ask.</td>
+</tr>
+
+        
+<tr id="id_l29" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123007"><a href="/dataverse/2020-04-23#i_123007">12:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123007"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter44 or Leonid with IQSS</td>
+</tr>
+
+        
+<tr id="id_l30" class="new nick nick_ppeter44">
+
+<td class="time" id="i_123008"><a href="/dataverse/2020-04-23#i_123008">12:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123008"  /></td>
+<td class="nick nick5">ppeter44</td>
+<td class="msg ">Thank you, I may try to contact them later.</td>
+</tr>
+
+        
+<tr id="id_l31" class="cont nick nick_ppeter44">
+
+<td class="time" id="i_123009"><a href="/dataverse/2020-04-23#i_123009">12:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123009"  /></td>
+<td class="nick nick5">ppeter44</td>
+<td class="msg ">There is definitely nothing documented about moving datasets/files among file stores; there seems to be some way to choose a file store at upload time.</td>
+</tr>
+
+        
+<tr id="id_l32" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123010"><a href="/dataverse/2020-04-23#i_123010">12:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123010"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@ppeter44 correct. this PR hasn't made it to the public guide just yet: <a href="https://github.com/IQSS/dataverse/pull/6789/files" title="https://github.com/IQSS/dataverse/pull/6789/files">https://github.com/IQSS/dataverse/pull/6789/files</a></td>
+</tr>
+
+        
+<tr id="id_l33" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_123011"><a href="/dataverse/2020-04-23#i_123011">13:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123011"  /></td>
+<td class="nick nick6">poikilotherm</td>
+<td class="msg ">donsizemore this might be sth valuable to add to dvcli</td>
+</tr>
+
+        
+<tr id="id_l34" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_123012"><a href="/dataverse/2020-04-23#i_123012">13:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123012"  /></td>
+<td class="nick nick6">poikilotherm</td>
+<td class="msg ">Instead of fiddling with manual moving and updating make it usable from cmdline with a simple call</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123013"><a href="/dataverse/2020-04-23#i_123013">13:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123013"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i like this</td>
+</tr>
+
+        
+<tr id="id_l36" class="new special">
+
+<td class="time" id="i_123014"><a href="/dataverse/2020-04-23#i_123014">13:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123014"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l37" class="cont special">
+
+<td class="time" id="i_123015"><a href="/dataverse/2020-04-23#i_123015">13:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123015"  /></td>
+<td class="nick"></td>
+<td class="msg ">dataverse-user joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l38" class="cont special">
+
+<td class="time" id="i_123016"><a href="/dataverse/2020-04-23#i_123016">13:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123016"  /></td>
+<td class="nick"></td>
+<td class="msg ">Jim12 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_123017"><a href="/dataverse/2020-04-23#i_123017">13:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123017"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ppeter44: hi! Did you get answers to all your questions?</td>
+</tr>
+
+        
+<tr id="id_l40" class="new nick nick_Jim12">
+
+<td class="time" id="i_123018"><a href="/dataverse/2020-04-23#i_123018">13:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123018"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">@ppeter - Stores can be chosen per Dataverse by an admin, so you can set up different Dataverses to send files to different places.</td>
+</tr>
+
+        
+<tr id="id_l41" class="cont nick nick_Jim12">
+
+<td class="time" id="i_123019"><a href="/dataverse/2020-04-23#i_123019">13:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123019"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">If you change either the global default store or the store for a Dataverse, new files go to the newly selected place but old ones aren't moved. It would be nice to have an api to move existing files around, but that doesn't yet exist.</td>
+</tr>
+
+        
+<tr id="id_l42" class="cont nick nick_Jim12">
+
+<td class="time" id="i_123020"><a href="/dataverse/2020-04-23#i_123020">13:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123020"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">You can achieve a move by changing the database entry and moving the file physically (right now, all stores use the same path structure, so bulk moving is fairly striaght forward - move the whole file tree, and just change the store id as recorded for that file.</td>
+</tr>
+
+        
+<tr id="id_l43" class="cont nick nick_Jim12">
+
+<td class="time" id="i_123021"><a href="/dataverse/2020-04-23#i_123021">14:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123021"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">The two main uses cases I'm aware of are for people trying to separate large files or to allow independent accounting - one Dataverse with storage resources for different groups separated into different stores that can allocate and/or charge as they wish.</td>
+</tr>
+
+        
+<tr id="id_l44" class="cont nick nick_Jim12">
+
+<td class="time" id="i_123022"><a href="/dataverse/2020-04-23#i_123022">14:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123022"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">Harvard is also looking at another case - two stores that point at the same S3 storage, but one configured for direct uploads (useful for larger files).</td>
+</tr>
+
+        
+<tr id="id_l45" class="cont nick nick_Jim12">
+
+<td class="time" id="i_123023"><a href="/dataverse/2020-04-23#i_123023">14:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123023"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">The choice of managing which store is used by Dataverse was seen as a flexible/powerful first option, but how a store is assigned is fairly independent from the store mechanism itself, so it wouldn't be hard for someone to implement a way to choose a store based on file size for example (slightly tricky if one considers that Dataverse will unzip zip files).</td>
+</tr>
+
+        
+<tr id="id_l46" class="new nick nick_ppeter44 dark">
+
+<td class="time" id="i_123024"><a href="/dataverse/2020-04-23#i_123024">14:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123024"  /></td>
+<td class="nick nick5">ppeter44</td>
+<td class="msg ">@pdurbin I think so, thank you. I think I now see how it works, and what may be available in the future.</td>
+</tr>
+
+        
+<tr id="id_l47" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_123025"><a href="/dataverse/2020-04-23#i_123025">14:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123025"  /></td>
+<td class="nick nick6">poikilotherm</td>
+<td class="msg ">Morning pdurbin :-) Have you seen the latest addition to <a href="https://github.com/poikilotherm/dvcli" title="https://github.com/poikilotherm/dvcli">https://github.com/poikilotherm/dvcli</a> ? ;-)</td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_123026"><a href="/dataverse/2020-04-23#i_123026">14:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123026"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ppeter44: I think multistore is already available. Yeah, in Dataverse 4.20, the latest: <a href="https://github.com/IQSS/dataverse/releases/tag/v4.20" title="https://github.com/IQSS/dataverse/releases/tag/v4.20">https://github.com/IQSS/dataverse/releases/tag/v4.20</a></td>
+</tr>
+
+        
+<tr id="id_l49" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_123027"><a href="/dataverse/2020-04-23#i_123027">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123027"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">poikilotherm: I see k8s stuff. And a logo! Nice!</td>
+</tr>
+
+        
+<tr id="id_l50" class="new special">
+
+<td class="time" id="i_123028"><a href="/dataverse/2020-04-23#i_123028">15:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123028"  /></td>
+<td class="nick"></td>
+<td class="msg ">uclouvain joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l51" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123029"><a href="/dataverse/2020-04-23#i_123029">15:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123029"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">Hi. I have a problem of storage on my dataverse instance</td>
+</tr>
+
+        
+<tr id="id_l52" class="cont nick nick_uclouvain dark">
+
+<td class="time" id="i_123030"><a href="/dataverse/2020-04-23#i_123030">15:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123030"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">It is configured to store file on S3. Ant it does it. Anyway, /usr/local/dvn/data/temp fills my hdd.</td>
+</tr>
+
+        
+<tr id="id_l53" class="cont nick nick_uclouvain dark">
+
+<td class="time" id="i_123031"><a href="/dataverse/2020-04-23#i_123031">15:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123031"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">Why ? What's the solution ?</td>
+</tr>
+
+        
+<tr id="id_l54" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123032"><a href="/dataverse/2020-04-23#i_123032">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123032"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: hi, I believe files are staged locally in some cases. Jim12 might have a better idea.</td>
+</tr>
+
+        
+<tr id="id_l55" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123033"><a href="/dataverse/2020-04-23#i_123033">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123033"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: I'm aware of this issue: Documentation: Document various temp directories used by Dataverse #2848 - <a href="https://github.com/IQSS/dataverse/issues/2848" title="https://github.com/IQSS/dataverse/issues/2848">https://github.com/IQSS/dataverse/issues/2848</a></td>
+</tr>
+
+        
+<tr id="id_l56" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123034"><a href="/dataverse/2020-04-23#i_123034">15:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123034"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: to quote you (from that issue), &quot;Odum has ~7,300 files piled up in $files.dir/temp&quot;</td>
+</tr>
+
+        
+<tr id="id_l57" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123035"><a href="/dataverse/2020-04-23#i_123035">15:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123035"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">it seems that those files are not yet pushed to the S3 storage.</td>
+</tr>
+
+        
+<tr id="id_l58" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_123036"><a href="/dataverse/2020-04-23#i_123036">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123036"  /></td>
+<td class="nick nick6">poikilotherm</td>
+<td class="msg ">uclouvain please see also  <a href="https://github.com/IQSS/dataverse/issues/6656" title="https://github.com/IQSS/dataverse/issues/6656">https://github.com/IQSS/dataverse/issues/6656</a></td>
+</tr>
+
+        
+<tr id="id_l59" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_123037"><a href="/dataverse/2020-04-23#i_123037">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123037"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: that's what I'm hearing in Slack too.</td>
+</tr>
+
+        
+<tr id="id_l60" class="new nick nick_uclouvain">
+
+<td class="time" id="i_123038"><a href="/dataverse/2020-04-23#i_123038">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123038"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">Any solution ?</td>
+</tr>
+
+        
+<tr id="id_l61" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_123039"><a href="/dataverse/2020-04-23#i_123039">15:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123039"  /></td>
+<td class="nick nick6">poikilotherm</td>
+<td class="msg ">I opened that recently and it analyses how things work internally and where things can start to pile up</td>
+</tr>
+
+        
+<tr id="id_l62" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123040"><a href="/dataverse/2020-04-23#i_123040">15:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123040"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">poikilotherm: nice issue. Thorough,</td>
+</tr>
+
+        
+<tr id="id_l63" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123041"><a href="/dataverse/2020-04-23#i_123041">15:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123041"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: I think we have a script that cleans up old file in that &quot;temp&quot; directory.</td>
+</tr>
+
+        
+<tr id="id_l64" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123042"><a href="/dataverse/2020-04-23#i_123042">15:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123042"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">When Dataverse is done processing and stores the file, it deletes the temporary copy.  So any temp files that exist represent current uploads or failures in the past. Recent versions of Dataverse do a better job of cleaning up after cancellations and failures but, if a user uploads files and then leaves the browser without clicking save or cancel, the temp files remain. Deleting temp files on some periodic basics (i.e. ones older than 1 day+) should be f</td>
+</tr>
+
+        
+<tr id="id_l65" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123043"><a href="/dataverse/2020-04-23#i_123043">15:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123043"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Ghosts of failed uploads past.</td>
+</tr>
+
+        
+<tr id="id_l66" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123044"><a href="/dataverse/2020-04-23#i_123044">15:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123044"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">If there are other cases where v4.20 is not removing temp files, it would be good to report them.</td>
+</tr>
+
+        
+<tr id="id_l67" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123045"><a href="/dataverse/2020-04-23#i_123045">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123045"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: is this helping? :)</td>
+</tr>
+
+        
+<tr id="id_l68" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123046"><a href="/dataverse/2020-04-23#i_123046">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123046"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">@poikilotherm's issue points out there's another directory, managed by primefaces where you may also find temp files/may need to assure sufficient space to handle active uploads.</td>
+</tr>
+
+        
+<tr id="id_l69" class="new nick nick_uclouvain">
+
+<td class="time" id="i_123047"><a href="/dataverse/2020-04-23#i_123047">15:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123047"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">There's no risk to delete files older than 1day ?</td>
+</tr>
+
+        
+<tr id="id_l70" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_123048"><a href="/dataverse/2020-04-23#i_123048">15:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123048"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: 1 day old is probably fine. If you want to be even more careful you could delete files that are 3 days old.</td>
+</tr>
+
+        
+<tr id="id_l71" class="new nick nick_Jim12">
+
+<td class="time" id="i_123049"><a href="/dataverse/2020-04-23#i_123049">15:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123049"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">Dataverse only tracks those temp files as part of active uploads, so there's no way Dataverse can do anything with them after the upload session is gone. That said - if a user says 'I started uploading my only copy of a file a week ago and it didn't work - can I get my file back?' then the temp file is your only copy on the server.</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123050"><a href="/dataverse/2020-04-23#i_123050">16:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123050"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">server.log is full of lines like these ones:</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont nick nick_uclouvain dark">
+
+<td class="time" id="i_123051"><a href="/dataverse/2020-04-23#i_123051">16:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123051"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">[#|2020-04-22T13:56:21.472+0000|WARNING|glassfish 4.1|edu.harvard.iq.dataverse.ingest.IngestServ​iceBean|_ThreadID=51;_ThreadName=jk-connector(​5);_TimeMillis=1587563781472;_LevelValue=900;|   Failed to save the file, storage id s3://dataverse:171a21dba64-8634e7583d95 (Unable to calculate MD5 hash: /usr/local/dvn/data/temp/s3:/dat​averse:171a21dba64-8634e7583d95 (No such file or directory))|#]  [#|2020-04-22T13:56:21.474+0000|WARNING|glassfi</td>
+</tr>
+
+        
+<tr id="id_l74" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123052"><a href="/dataverse/2020-04-23#i_123052">16:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123052"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: which version of Dataverse are you running?</td>
+</tr>
+
+        
+<tr id="id_l75" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123053"><a href="/dataverse/2020-04-23#i_123053">16:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123053"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">4.14 (I know... I know...)</td>
+</tr>
+
+        
+<tr id="id_l76" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123054"><a href="/dataverse/2020-04-23#i_123054">16:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123054"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l77" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123055"><a href="/dataverse/2020-04-23#i_123055">16:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123055"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">BTW what's the default maximum number of files per dataset ?  My user has already over 900 files !</td>
+</tr>
+
+        
+<tr id="id_l78" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123056"><a href="/dataverse/2020-04-23#i_123056">16:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123056"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">There are some &quot;Datafile Integrity&quot; checks you could do: <a href="http://guides.dataverse.org/en/4.20/api/native-api.html#id17" title="http://guides.dataverse.org/en/4.20/api/native-api.html#id17">http://guides.dataverse.org/en/4.20/api/native-api.html#id17</a> . But it sounds like uploads might be failing.</td>
+</tr>
+
+        
+<tr id="id_l79" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123057"><a href="/dataverse/2020-04-23#i_123057">16:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123057"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">You can set limits for how many files can be uploaded at a time but I'm not sure if there's a way to set a limit on the total number of files in a dataset.</td>
+</tr>
+
+        
+<tr id="id_l80" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123058"><a href="/dataverse/2020-04-23#i_123058">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123058"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">OK So he will not be blocked</td>
+</tr>
+
+        
+<tr id="id_l81" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123059"><a href="/dataverse/2020-04-23#i_123059">16:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123059"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I don't believe so.</td>
+</tr>
+
+        
+<tr id="id_l82" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123060"><a href="/dataverse/2020-04-23#i_123060">16:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123060"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">If you want to limit the number of files per dataset, please open a GitHub issue.</td>
+</tr>
+
+        
+<tr id="id_l83" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123061"><a href="/dataverse/2020-04-23#i_123061">16:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123061"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">re: number of files - QDR has 1800+, 1000 per single upload is the only limit I know of. Beyond that, things just get slow to display as the number of files goes up.</td>
+</tr>
+
+        
+<tr id="id_l84" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123062"><a href="/dataverse/2020-04-23#i_123062">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123062"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Jim12: is that still true, even after the file listing on the dataset page was switched to Solr? It definitely was true in the past. :)</td>
+</tr>
+
+        
+<tr id="id_l85" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123063"><a href="/dataverse/2020-04-23#i_123063">16:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123063"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">I'm not sure what the error could be, especially back in 4.14. I'd suspect something like S3 failure or a misconfiguration, but I'm not sure. FWIW - one thing we've seen lately in S3 from AWS - the us-east-1 region doesn't guarantee that a call to get a new file or its metadata will succeed immediately after it's creation. We have some evidence that that has gone from &lt;1 second to more than a minute at times lately (eventual consistency).</td>
+</tr>
+
+        
+<tr id="id_l86" class="new nick nick_uclouvain">
+
+<td class="time" id="i_123064"><a href="/dataverse/2020-04-23#i_123064">16:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123064"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">So I deleted files older than one day. The user can go on with uploads. Thanks for your help !</td>
+</tr>
+
+        
+<tr id="id_l87" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123065"><a href="/dataverse/2020-04-23#i_123065">16:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123065"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">Our testing was around the new direct upload feature, but it could affect the normal uploads as well.</td>
+</tr>
+
+        
+<tr id="id_l88" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123066"><a href="/dataverse/2020-04-23#i_123066">16:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123066"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">uclouvain: you're welcome. It's probably getting late for you. :)</td>
+</tr>
+
+        
+<tr id="id_l89" class="new nick nick_uclouvain dark">
+
+<td class="time" id="i_123067"><a href="/dataverse/2020-04-23#i_123067">16:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123067"  /></td>
+<td class="nick nick4">uclouvain</td>
+<td class="msg ">We use S3 with CEPH at UCLouvain.</td>
+</tr>
+
+        
+<tr id="id_l90" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123068"><a href="/dataverse/2020-04-23#i_123068">16:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123068"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">fancy!</td>
+</tr>
+
+        
+<tr id="id_l91" class="new nick nick_Jim12 dark">
+
+<td class="time" id="i_123069"><a href="/dataverse/2020-04-23#i_123069">16:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123069"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">Things getting slower? Yes - I think I started around 4.8.6 when it was already on solr. There have been improvements since, and maybe not so much in display as in making any changes (e.g. change metadata).</td>
+</tr>
+
+        
+<tr id="id_l92" class="cont nick nick_Jim12 dark">
+
+<td class="time" id="i_123070"><a href="/dataverse/2020-04-23#i_123070">16:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123070"  /></td>
+<td class="nick nick3">Jim12</td>
+<td class="msg ">Hopefully eventual consistency isn't your issue then.</td>
+</tr>
+
+        
+<tr id="id_l93" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123071"><a href="/dataverse/2020-04-23#i_123071">16:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123071"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Huh, I thought the switch to Solr was more recent.</td>
+</tr>
+
+        
+<tr id="id_l94" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123072"><a href="/dataverse/2020-04-23#i_123072">16:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123072"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">This is the change I meant, from Dataverse 4.15: <a href="https://github.com/IQSS/dataverse/pull/5820" title="https://github.com/IQSS/dataverse/pull/5820">https://github.com/IQSS/dataverse/pull/5820</a></td>
+</tr>
+
+        
+<tr id="id_l95" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123073"><a href="/dataverse/2020-04-23#i_123073">16:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123073"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Anyway, I have something like 115 files in my dataset and I can page through them fairly quickly.</td>
+</tr>
+
+        
+<tr id="id_l96" class="new special dark">
+
+<td class="time" id="i_123074"><a href="/dataverse/2020-04-23#i_123074">16:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123074"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l97" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123075"><a href="/dataverse/2020-04-23#i_123075">18:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123075"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: <a href="https://github.com/IQSS/dataverse-ansible/pull/167" title="https://github.com/IQSS/dataverse-ansible/pull/167">https://github.com/IQSS/dataverse-ansible/pull/167</a> looks good to me. Thanks!</td>
+</tr>
+
+        
+<tr id="id_l98" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123076"><a href="/dataverse/2020-04-23#i_123076">18:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123076"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin i pestered leonid about whether we should log the output of as-setup.sh — he's not worried about it for now but if he does more work on the installer he may add it</td>
+</tr>
+
+        
+<tr id="id_l99" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123077"><a href="/dataverse/2020-04-23#i_123077">18:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123077"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Sounds good. So are you happy to switch to the installer? I thought you said you'd be able to delete some Ansible code but the pull request is a net gain in code.</td>
+</tr>
+
+        
+<tr id="id_l100" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123078"><a href="/dataverse/2020-04-23#i_123078">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123078"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i already switched it. the nice thing is ansible isn't tracking and wedging in bits that would have been provided by the perl installer</td>
+</tr>
+
+        
+<tr id="id_l101" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123079"><a href="/dataverse/2020-04-23#i_123079">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123079"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">net gain in code... hey, it's python!</td>
+</tr>
+
+        
+<tr id="id_l102" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123080"><a href="/dataverse/2020-04-23#i_123080">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123080"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l103" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_123081"><a href="/dataverse/2020-04-23#i_123081">18:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123081"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Well, it's nice that the new installer will be tested regularly.</td>
+</tr>
+
+        
+<tr id="id_l104" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123082"><a href="/dataverse/2020-04-23#i_123082">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123082"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i'm re-running in ec2 now with the jenkins group_vars</td>
+</tr>
+
+        
+<tr id="id_l105" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123083"><a href="/dataverse/2020-04-23#i_123083">19:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123083"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">hmm. sun must've moved to github? &quot;Request failed: &lt;urlopen error timed out&gt;&quot;, &quot;url&quot;: &quot;<a href="http://dlc-cdn.sun.com/glassfish/4.1/release/glassfish-4.1.zip" title="http://dlc-cdn.sun.com/glassfish/4.1/release/glassfish-4.1.zip">http://dlc-cdn.sun.com/glassfish/4.1/release/glassfish-4.1.zip</a>&quot;</td>
+</tr>
+
+        
+<tr id="id_l106" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123084"><a href="/dataverse/2020-04-23#i_123084">19:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123084"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">maybe we should go ahead and switch that to payara</td>
+</tr>
+
+        
+<tr id="id_l107" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123085"><a href="/dataverse/2020-04-23#i_123085">19:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123085"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That link works for me. I was wondering when we're going to switch Jenkins to Payara. What are we waiting for?</td>
+</tr>
+
+        
+<tr id="id_l108" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123086"><a href="/dataverse/2020-04-23#i_123086">19:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123086"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">gustavo to say so (and, if we get CentOS 8 AMIs any time soon, Glassfish to patch this morning's OpenJDK breakage)</td>
+</tr>
+
+        
+<tr id="id_l109" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123087"><a href="/dataverse/2020-04-23#i_123087">19:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123087"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Yeah that was weird. Thanks for opening <a href="https://github.com/IQSS/dataverse/issues/6853" title="https://github.com/IQSS/dataverse/issues/6853">https://github.com/IQSS/dataverse/issues/6853</a> . I haven't grokked it completely.</td>
+</tr>
+
+        
+<tr id="id_l110" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123088"><a href="/dataverse/2020-04-23#i_123088">19:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123088"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">a change in openjdk-1.8.0.252+ broke payara-5.201's packaged grizzly</td>
+</tr>
+
+        
+<tr id="id_l111" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123089"><a href="/dataverse/2020-04-23#i_123089">19:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123089"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">you tell payara to use a different grizzly jar for openjdk _252 and up, and things are fine</td>
+</tr>
+
+        
+<tr id="id_l112" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123090"><a href="/dataverse/2020-04-23#i_123090">19:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123090"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Gotcha. And you're always getting new JDK releases, I suppose. I don't update my JDK on my laptop very often.</td>
+</tr>
+
+        
+<tr id="id_l113" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123091"><a href="/dataverse/2020-04-23#i_123091">19:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123091"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i like security patches</td>
+</tr>
+
+        
+<tr id="id_l114" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123092"><a href="/dataverse/2020-04-23#i_123092">19:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123092"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I remember having a vague sense of horror and unrest when I had to install Java on my laptop for the first time. I probably should keep it more up to date than I do.</td>
+</tr>
+
+        
+<tr id="id_l115" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123093"><a href="/dataverse/2020-04-23#i_123093">19:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123093"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">if i want to set an ansible group_var to skip only that sitemap test, do i call it testUpdateSiteMap or SiteMapUtilTest.testUpdateSiteMap</td>
+</tr>
+
+        
+<tr id="id_l116" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123094"><a href="/dataverse/2020-04-23#i_123094">19:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123094"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">ooh ooh -Dit.test=\!SiteMapUtilTest.*</td>
+</tr>
+
+        
+<tr id="id_l117" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123095"><a href="/dataverse/2020-04-23#i_123095">19:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123095"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">buh, I'm not sure</td>
+</tr>
+
+        
+<tr id="id_l118" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_123096"><a href="/dataverse/2020-04-23#i_123096">19:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123096"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i'm trying ^^</td>
+</tr>
+
+        
+<tr id="id_l119" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_123097"><a href="/dataverse/2020-04-23#i_123097">19:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123097"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">so Jenkins can carry on</td>
+</tr>
+
+        
+<tr id="id_l120" class="new nick nick_pdurbin">
+
+<td class="time" id="i_123098"><a href="/dataverse/2020-04-23#i_123098">19:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_123098"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">like a wayward son</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2020-04-22" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2020-04-24" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2020-04-23">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2020-04-23;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2020-04-23;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

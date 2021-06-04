@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2020-08-31" />
+    <title>IRC log for #dataverse, 2020-08-31</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2020-08-31</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2020-08-30" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2020-09-01" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2020-08-31">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2020-08-31;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2020-08-31;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_128444"><a href="/dataverse/2020-08-31#i_128444">11:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128444"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_128445"><a href="/dataverse/2020-08-31#i_128445">14:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128445"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin1 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128446"><a href="/dataverse/2020-08-31#i_128446">14:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128446"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: good morning and thanks for jumping in on <a href="https://github.com/IQSS/dataverse-sample-data/issues/21" title="https://github.com/IQSS/dataverse-sample-data/issues/21">https://github.com/IQSS/dataverse-sample-data/issues/21</a></td>
+</tr>
+
+        
+<tr id="id_l5" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_128447"><a href="/dataverse/2020-08-31#i_128447">14:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128447"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">@pdurbin I didn't mean to answer for him but a) I thought he might be asleep, and b) it points out an easy way to test</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128448"><a href="/dataverse/2020-08-31#i_128448">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128448"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">The think I'm wondering is if we test sample data already with Jenkins. I can't remember if it's part of every build.</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_128449"><a href="/dataverse/2020-08-31#i_128449">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128449"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">thing*</td>
+</tr>
+
+        
+<tr id="id_l8" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_128450"><a href="/dataverse/2020-08-31#i_128450">14:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128450"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">It looks like sampledata is not enabled in jenkins.yml. Which is fine. I'm just curious.</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_128451"><a href="/dataverse/2020-08-31#i_128451">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128451"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">As far as I know sampledata works fine for me. It hasn't changed much lately.</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_128452"><a href="/dataverse/2020-08-31#i_128452">15:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128452"  /></td>
+<td class="nick nick3">donsizemore</td>
+<td class="msg ">we turned it off, though i forget why. i remember sampledata breaking in this way but looks like i forgot to open an issue</td>
+</tr>
+
+        
+<tr id="id_l11" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128453"><a href="/dataverse/2020-08-31#i_128453">15:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128453"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">It's kind of slow. Maybe that's why. :)</td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_128454"><a href="/dataverse/2020-08-31#i_128454">15:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128454"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Huh. It looks like when I install Docker on my Mac, I also get Kubernetes (and a bunch of other stuff): <a href="https://docs.docker.com/docker-for-mac/install/" title="https://docs.docker.com/docker-for-mac/install/">https://docs.docker.com/docker-for-mac/install/</a></td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_128455"><a href="/dataverse/2020-08-31#i_128455">17:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128455"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">poikilotherm: during the design meeting, I just brought up <a href="https://github.com/IQSS/dataverse/issues/7227" title="https://github.com/IQSS/dataverse/issues/7227">https://github.com/IQSS/dataverse/issues/7227</a></td>
+</tr>
+
+        
+<tr id="id_l14" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_128456"><a href="/dataverse/2020-08-31#i_128456">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128456"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Thx</td>
+</tr>
+
+        
+<tr id="id_l15" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128457"><a href="/dataverse/2020-08-31#i_128457">17:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128457"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">sure :)</td>
+</tr>
+
+        
+<tr id="id_l16" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_128458"><a href="/dataverse/2020-08-31#i_128458">20:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128458"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I have a working proof of concept to create a dataverse-k8s container image from pom.xml with Docker Maven Plugin, using layers.</td>
+</tr>
+
+        
+<tr id="id_l17" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128459"><a href="/dataverse/2020-08-31#i_128459">20:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128459"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Nice. I installed Docker today, at least. :)</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_128460"><a href="/dataverse/2020-08-31#i_128460">20:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128460"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">To make sure docker-aio still works. And it does. Some of the tests failure but I think the container died in the middle of the run.</td>
+</tr>
+
+        
+<tr id="id_l19" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_128461"><a href="/dataverse/2020-08-31#i_128461">20:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128461"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">OK</td>
+</tr>
+
+        
+<tr id="id_l20" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128462"><a href="/dataverse/2020-08-31#i_128462">20:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128462"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">In case you're curious</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128463"><a href="/dataverse/2020-08-31#i_128463">20:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128463"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg "><a href="https://github.com/poikilotherm/dataverse/commit/3713a6c1ec875cb11e20159c20163f1df2c06971" title="https://github.com/poikilotherm/dataverse/commit/3713a6c1ec875cb11e20159c20163f1df2c06971">https://github.com/poikilotherm/dataverse/commit/3713a6c1ec875cb11e20159c20163f1df2c06971</a></td>
+</tr>
+
+        
+<tr id="id_l22" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128464"><a href="/dataverse/2020-08-31#i_128464">20:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128464"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Simple call: mvn -P container package docker_build</td>
+</tr>
+
+        
+<tr id="id_l23" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128465"><a href="/dataverse/2020-08-31#i_128465">20:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128465"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">docker:build. Typed to quick</td>
+</tr>
+
+        
+<tr id="id_l24" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128466"><a href="/dataverse/2020-08-31#i_128466">20:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128466"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">This isn't working yet as it is still lacking the init scripts. But it has layers :-D</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128467"><a href="/dataverse/2020-08-31#i_128467">20:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128467"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I love seeing &quot;FROM payara&quot;... love that we're able to start with an existing app server docker image. Also, interesting that you're using Ubuntu instead of CentOS. I'm glad it works. :)</td>
+</tr>
+
+        
+<tr id="id_l26" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_128468"><a href="/dataverse/2020-08-31#i_128468">20:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128468"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">Yeah. Most stuff in the Dockerfile is about workarounds for application limitations</td>
+</tr>
+
+        
+<tr id="id_l27" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128469"><a href="/dataverse/2020-08-31#i_128469">20:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128469"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">This will be much shorter :-D</td>
+</tr>
+
+        
+<tr id="id_l28" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128470"><a href="/dataverse/2020-08-31#i_128470">20:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128470"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That's good. I'm drafting the community news for a few more minutes and then I'm out of here.</td>
+</tr>
+
+        
+<tr id="id_l29" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_128471"><a href="/dataverse/2020-08-31#i_128471">20:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128471"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">:-)</td>
+</tr>
+
+        
+<tr id="id_l30" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128472"><a href="/dataverse/2020-08-31#i_128472">20:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128472"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">I'm hacking away on adding the rest of the supplemental stuff to get the container working</td>
+</tr>
+
+        
+<tr id="id_l31" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_128473"><a href="/dataverse/2020-08-31#i_128473">20:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128473"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">If I'm lucky I get this running before noon :-D</td>
+</tr>
+
+        
+<tr id="id_l32" class="new nick nick_pdurbin">
+
+<td class="time" id="i_128474"><a href="/dataverse/2020-08-31#i_128474">20:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128474"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l33" class="new special dark">
+
+<td class="time" id="i_128475"><a href="/dataverse/2020-08-31#i_128475">20:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128475"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin left #dataverse</td>
+</tr>
+
+        
+<tr id="id_l34" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_128476"><a href="/dataverse/2020-08-31#i_128476">22:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_128476"  /></td>
+<td class="nick nick2">poikilotherm</td>
+<td class="msg ">pdurbin I tested with minikube and an adapter Skaffold configuration. Proof of concept is working! Building Dataverse 5.0 badass fish flavored images from Maven.</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2020-08-30" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2020-09-01" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2020-08-31">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2020-08-31;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2020-08-31;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

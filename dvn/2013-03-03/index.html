@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dvn" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dvn/2013-03-03" />
+    <title>IRC log for #dvn, 2013-03-03</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dvn, 2013-03-03</h1>
+
+    <h1><p> We've moved! Please join <a href="http://webchat.freenode.net/?channels=dataverse">#dataverse</a> instead. The new logs are at <a href="http://irclog.iq.harvard.edu/dataverse/today">http://irclog.iq.harvard.edu/dataverse/today</a>
+</p></h1>
+
+        <p><a href="/dvn/2013-03-02" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dvn/">#dvn index</a> |
+<a href="/dvn/today">Today</a> |
+    
+<a href="/dvn/2013-03-04" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dvn">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Advn">Google Search</a>
+| <a href="/text.pl?channel=dvn;date=2013-03-03">Plain-Text</a>
+    | <a href="/text.pl?channel=dvn;date=2013-03-03;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dvn;date=2013-03-03;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_1284"><a href="/dvn/2013-03-03#i_1284">03:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1284"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin_ joined #dvn</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_1285"><a href="/dvn/2013-03-03#i_1285">05:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1285"  /></td>
+<td class="nick"></td>
+<td class="msg ">ruebot joined #dvn</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_pdurbin">
+
+<td class="time" id="i_1286"><a href="/dvn/2013-03-03#i_1286">15:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1286"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">hmm, I'm basically trying to shove &quot;Indexing Categories Illustrated&quot; from <a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/index.html" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/index.html">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/index.html</a> before a call to writer.addDocument(doc) but I'm getting org.apache.lucene.store.LockObtainFailedException: Lock obtain timed out: NativeFSLock@/tmp/taxo-dir/write.lock</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1287"><a href="/dvn/2013-03-03#i_1287">15:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1287"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">(i'm just throwing it in /tmp for now)</td>
+</tr>
+
+        
+<tr id="id_l6" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1288"><a href="/dvn/2013-03-03#i_1288">15:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1288"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">here's the writer.addDocument part of the code: <a href="https://github.com/IQSS/dvn/blob/3.3/src/DVN-EJB/src/java/edu/harvard/iq/dvn/core/index/Indexer.java#L426" title="https://github.com/IQSS/dvn/blob/3.3/src/DVN-EJB/src/java/edu/harvard/iq/dvn/core/index/Indexer.java#L426">https://github.com/IQSS/dvn/blob/3.3/src/DVN-EJB/src/java/edu/harvard/iq/dvn/core/index/Indexer.java#L426</a></td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1289"><a href="/dvn/2013-03-03#i_1289">15:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1289"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="http://stackoverflow.com/questions/5327978/lockobtainfailedexception-updating-lucene-search-index-using-solr/5346643#5346643" title="http://stackoverflow.com/questions/5327978/lockobtainfailedexception-updating-lucene-search-index-using-solr/5346643#5346643">http://stackoverflow.com/questions/5327978/lockobtainfailedexception-updating-lucene-search-index-using-solr/5346643#5346643</a> suggests using another writer but I'm not having much luck...</td>
+</tr>
+
+        
+<tr id="id_l8" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1290"><a href="/dvn/2013-03-03#i_1290">15:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1290"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">it interesting... the faceting index gets stored in a different directory on the file system</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1291"><a href="/dvn/2013-03-03#i_1291">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1291"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">we use &quot;index-dir&quot; for the lucene index today: <a href="https://github.com/IQSS/dvn/blob/3.3/src/DVN-EJB/src/java/edu/harvard/iq/dvn/core/index/Indexer.java#L105" title="https://github.com/IQSS/dvn/blob/3.3/src/DVN-EJB/src/java/edu/harvard/iq/dvn/core/index/Indexer.java#L105">https://github.com/IQSS/dvn/blob/3.3/src/DVN-EJB/src/java/edu/harvard/iq/dvn/core/index/Indexer.java#L105</a></td>
+</tr>
+
+        
+<tr id="id_l10" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1292"><a href="/dvn/2013-03-03#i_1292">15:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1292"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh... whoops... i meant to link to the userguide when i mentioned &quot;Indexing Categories Illustrated&quot; <a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html</a></td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1293"><a href="/dvn/2013-03-03#i_1293">15:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1293"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_indexing" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_indexing">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_indexing</a></td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1294"><a href="/dvn/2013-03-03#i_1294">15:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1294"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="http://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/SimpleIndexer.java" title="http://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/SimpleIndexer.java">http://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/SimpleIndexer.java</a> is where you can see that they use two different directories...</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1295"><a href="/dvn/2013-03-03#i_1295">15:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1295"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">... Directory indexDir, Directory taxoDir</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1296"><a href="/dvn/2013-03-03#i_1296">15:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1296"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">here's a level up to browse to the other files: <a href="https://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/" title="https://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/">https://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/</a></td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1297"><a href="/dvn/2013-03-03#i_1297">16:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1297"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">this is for <a href="https://redmine.hmdc.harvard.edu/issues/2656" title="https://redmine.hmdc.harvard.edu/issues/2656">https://redmine.hmdc.harvard.edu/issues/2656</a> ... i had been focused on getting solr to work... but we had a meeting on friday and i'm seeing if we can stick with lucene, now that lucene has faceting: <a href="http://irclog.iq.harvard.edu/dvn/2013-02-26#i_1226" title="http://irclog.iq.harvard.edu/dvn/2013-02-26#i_1226">http://irclog.iq.harvard.edu/dvn/2013-02-26#i_1226</a></td>
+</tr>
+
+        
+<tr id="id_l16" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1298"><a href="/dvn/2013-03-03#i_1298">16:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1298"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">&quot;Refine Results&quot; in the mockup at <a href="https://redmine.hmdc.harvard.edu/attachments/518/networkhmpg.mockup2c.jpg" title="https://redmine.hmdc.harvard.edu/attachments/518/networkhmpg.mockup2c.jpg">https://redmine.hmdc.harvard.edu/attachments/518/networkhmpg.mockup2c.jpg</a> from <a href="https://redmine.hmdc.harvard.edu/issues/2770" title="https://redmine.hmdc.harvard.edu/issues/2770">https://redmine.hmdc.harvard.edu/issues/2770</a> is the &quot;faceted search&quot; we're going for that we mention at <a href="http://thedata.org/book/upcoming-releases" title="http://thedata.org/book/upcoming-releases">http://thedata.org/book/upcoming-releases</a></td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dvn/2013-03-02" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dvn/">#dvn index</a> |
+<a href="/dvn/today">Today</a> |
+    
+<a href="/dvn/2013-03-04" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dvn">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Advn">Google Search</a>
+| <a href="/text.pl?channel=dvn;date=2013-03-03">Plain-Text</a>
+    | <a href="/text.pl?channel=dvn;date=2013-03-03;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dvn;date=2013-03-03;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <h1><p> We've moved! Please join <a href="http://webchat.freenode.net/?channels=dataverse">#dataverse</a> instead. The new logs are at <a href="http://irclog.iq.harvard.edu/dataverse/today">http://irclog.iq.harvard.edu/dataverse/today</a>
+</p></h1>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

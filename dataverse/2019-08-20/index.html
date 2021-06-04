@@ -1,0 +1,822 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2019-08-20" />
+    <title>IRC log for #dataverse, 2019-08-20</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2019-08-20</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2019-08-19" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2019-08-21" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2019-08-20">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2019-08-20;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2019-08-20;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_102634"><a href="/dataverse/2019-08-20#i_102634">09:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102634"  /></td>
+<td class="nick"></td>
+<td class="msg ">j-n-c joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="new nick nick_j-n-c">
+
+<td class="time" id="i_102635"><a href="/dataverse/2019-08-20#i_102635">10:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102635"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">Hi, I was looking into the Local Vs Remote authentication section of the documentation and got confused about the 'admin' endpoint</td>
+</tr>
+
+        
+<tr id="id_l4" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102636"><a href="/dataverse/2019-08-20#i_102636">10:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102636"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">from my understanding, if the admin endpoint is blocked, then no operation involving this endpoint should be available</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102637"><a href="/dataverse/2019-08-20#i_102637">10:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102637"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">It seems that I have blocked the admin endpoint:</td>
+</tr>
+
+        
+<tr id="id_l6" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102638"><a href="/dataverse/2019-08-20#i_102638">10:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102638"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">curl <a href="http://localhost:8080/api/admin/settings/:BlockedApiEndpoints" title="http://localhost:8080/api/admin/settings/:BlockedApiEndpoints">http://localhost:8080/api/admin/settings/:BlockedApiEndpoints</a> returns {&quot;status&quot;:&quot;OK&quot;,&quot;data&quot;:{&quot;message&quot;:&quot;admin,test&quot;}}</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102639"><a href="/dataverse/2019-08-20#i_102639">10:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102639"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">however, getting the blocked endpoints is using the admin enpoint</td>
+</tr>
+
+        
+<tr id="id_l8" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102640"><a href="/dataverse/2019-08-20#i_102640">10:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102640"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">is this correct?</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102641"><a href="/dataverse/2019-08-20#i_102641">10:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102641"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">does blocking the admin endpoint have the meaning that the :BlockedApiPolicy is set to 'localhos-only'?</td>
+</tr>
+
+        
+<tr id="id_l10" class="new special dark">
+
+<td class="time" id="i_102642"><a href="/dataverse/2019-08-20#i_102642">11:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102642"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l11" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102643"><a href="/dataverse/2019-08-20#i_102643">11:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102643"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@j-n-c hi =) we set our BlockedApiPolicy to localhost-only, which (hopefully still) restricts any <abbr title="Application Programming Interface">API</abbr> call beneath /api/admin to localhost</td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102644"><a href="/dataverse/2019-08-20#i_102644">11:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102644"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@j-n-c now that i re-read the updated documentation, i might add 'builtinusers' to our BlockedApiEndpoints as well</td>
+</tr>
+
+        
+<tr id="id_l13" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102645"><a href="/dataverse/2019-08-20#i_102645">12:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102645"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: do it</td>
+</tr>
+
+        
+<tr id="id_l14" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102646"><a href="/dataverse/2019-08-20#i_102646">12:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102646"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin well, i'm not a superuser, so when i need to mess with anything i use dataverseAdmin's token then immediately regenerate it</td>
+</tr>
+
+        
+<tr id="id_l15" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102647"><a href="/dataverse/2019-08-20#i_102647">12:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102647"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">At <a href="https://dev2.dataverse.org/guides/en/4.15.1/api/intro.html#sysadmins" title="https://dev2.dataverse.org/guides/en/4.15.1/api/intro.html#sysadmins">https://dev2.dataverse.org/guides/en/4.15.1/api/intro.html#sysadmins</a> (temporary <abbr title="Uniform Resource Locator">URL</abbr> for tweaks to the <abbr title="Application Programming Interface">API</abbr> Guide I'm making) I ask sysadmins to start by looking at how to block APIs. :)</td>
+</tr>
+
+        
+<tr id="id_l16" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102648"><a href="/dataverse/2019-08-20#i_102648">12:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102648"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">well, look at your new documentation!</td>
+</tr>
+
+        
+<tr id="id_l17" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102649"><a href="/dataverse/2019-08-20#i_102649">12:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102649"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I only have two problems listed under <a href="https://dev2.dataverse.org/guides/en/4.15.1/admin/troubleshooting.html#using-dataverse-apis-to-troubleshoot-and-fix-problems" title="https://dev2.dataverse.org/guides/en/4.15.1/admin/troubleshooting.html#using-dataverse-apis-to-troubleshoot-and-fix-problems">https://dev2.dataverse.org/guides/en/4.15.1/admin/troubleshooting.html#using-dataverse-apis-to-troubleshoot-and-fix-problems</a> ... Maybe you and j-n-c and others here can help me think of other problems. :)</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102650"><a href="/dataverse/2019-08-20#i_102650">12:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102650"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">These are the two items so far:</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102651"><a href="/dataverse/2019-08-20#i_102651">12:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102651"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">- My Dataset Is Locked And Cannot Be Edited or Published</td>
+</tr>
+
+        
+<tr id="id_l20" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102652"><a href="/dataverse/2019-08-20#i_102652">12:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102652"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">- Someone Created Spam Datasets and I Need to Delete Them</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102653"><a href="/dataverse/2019-08-20#i_102653">12:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102653"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Hmm, maybe that should say &quot;my user's dataset is locked&quot; rather than &quot;my dataset&quot;.</td>
+</tr>
+
+        
+<tr id="id_l22" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102654"><a href="/dataverse/2019-08-20#i_102654">12:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102654"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">Someone Needs a Password Reset and SORBS Blocks Their Crappy ISP</td>
+</tr>
+
+        
+<tr id="id_l23" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102655"><a href="/dataverse/2019-08-20#i_102655">12:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102655"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">(though I don't know there's an endpoint for that)</td>
+</tr>
+
+        
+<tr id="id_l24" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102656"><a href="/dataverse/2019-08-20#i_102656">12:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102656"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Tell 'em to use Shibboleth or OAuth... that way their password isn't your problem. :)</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102657"><a href="/dataverse/2019-08-20#i_102657">12:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102657"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">in this case the lady was no longer affiliated with an institution</td>
+</tr>
+
+        
+<tr id="id_l26" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102658"><a href="/dataverse/2019-08-20#i_102658">12:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102658"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">but OAuth against $Goog or GitHub would be nice</td>
+</tr>
+
+        
+<tr id="id_l27" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102659"><a href="/dataverse/2019-08-20#i_102659">12:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102659"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Oh, you're saying they fill out <a href="https://dataverse.unc.edu/passwordreset.xhtml" title="https://dataverse.unc.edu/passwordreset.xhtml">https://dataverse.unc.edu/passwordreset.xhtml</a> but the email never comes?</td>
+</tr>
+
+        
+<tr id="id_l28" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102660"><a href="/dataverse/2019-08-20#i_102660">12:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102660"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That's a bummer, man. (Guess who just watched a certain movie as his local theater last night: <a href="https://coolidge.org/films/big-lebowski" title="https://coolidge.org/films/big-lebowski">https://coolidge.org/films/big-lebowski</a> )</td>
+</tr>
+
+        
+<tr id="id_l29" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102661"><a href="/dataverse/2019-08-20#i_102661">12:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102661"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">you know, people quote that movie all the time and i've never seen it</td>
+</tr>
+
+        
+<tr id="id_l30" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102662"><a href="/dataverse/2019-08-20#i_102662">12:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102662"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Next year you're coming with me. I won't make you dress up.</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102663"><a href="/dataverse/2019-08-20#i_102663">12:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102663"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">people dress up? i mean, except for rocky horror?</td>
+</tr>
+
+        
+<tr id="id_l32" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102664"><a href="/dataverse/2019-08-20#i_102664">12:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102664"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">And they bowl on stage.</td>
+</tr>
+
+        
+<tr id="id_l33" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102665"><a href="/dataverse/2019-08-20#i_102665">12:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102665"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Speaking of docs, how does the screenshot in this comment look? <a href="https://github.com/IQSS/dataverse/issues/6086#issuecomment-522657409" title="https://github.com/IQSS/dataverse/issues/6086#issuecomment-522657409">https://github.com/IQSS/dataverse/issues/6086#issuecomment-522657409</a></td>
+</tr>
+
+        
+<tr id="id_l34" class="new nick nick_j-n-c">
+
+<td class="time" id="i_102666"><a href="/dataverse/2019-08-20#i_102666">12:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102666"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">@donsizemore and @pdurbin: thks</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_102667"><a href="/dataverse/2019-08-20#i_102667">12:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102667"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin looks great. do you need quotes around the X-Dataverse header?</td>
+</tr>
+
+        
+<tr id="id_l36" class="new nick nick_j-n-c">
+
+<td class="time" id="i_102668"><a href="/dataverse/2019-08-20#i_102668">12:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102668"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">I was looking into the Auth modes section in the  and found that there are some open issues that target this page e.g. <a href="https://github.com/IQSS/dataverse/issues/5665" title="https://github.com/IQSS/dataverse/issues/5665">https://github.com/IQSS/dataverse/issues/5665</a></td>
+</tr>
+
+        
+<tr id="id_l37" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102669"><a href="/dataverse/2019-08-20#i_102669">12:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102669"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">may I have a go trying to update the doc?</td>
+</tr>
+
+        
+<tr id="id_l38" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102670"><a href="/dataverse/2019-08-20#i_102670">12:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102670"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg "><a href="https://github.com/IQSS/dataverse/issues/2974" title="https://github.com/IQSS/dataverse/issues/2974">https://github.com/IQSS/dataverse/issues/2974</a> is closed and the docs state that it is still open</td>
+</tr>
+
+        
+<tr id="id_l39" class="cont nick nick_j-n-c">
+
+<td class="time" id="i_102671"><a href="/dataverse/2019-08-20#i_102671">12:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102671"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">the <abbr title="Application Programming Interface">API</abbr> are not remotely accessible by default as stated, but rather only available from localhost (granted that in dev installations, access rights may be more open)</td>
+</tr>
+
+        
+<tr id="id_l40" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102672"><a href="/dataverse/2019-08-20#i_102672">13:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102672"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: I'll test with and without quotes. Thanks. I'm trying to make the variables show in purple. However, the entire string is blue when it's in quotes. :(</td>
+</tr>
+
+        
+<tr id="id_l41" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102673"><a href="/dataverse/2019-08-20#i_102673">13:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102673"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">j-n-c: it would be absolutely fantastic if you start a branch to improve our docs on auth modes.</td>
+</tr>
+
+        
+<tr id="id_l42" class="new nick nick_j-n-c">
+
+<td class="time" id="i_102674"><a href="/dataverse/2019-08-20#i_102674">13:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102674"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">@pdurbin: sure. by creating a branch, You mean to create one in my local fork, commiting to it and making a pull request, right?</td>
+</tr>
+
+        
+<tr id="id_l43" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102675"><a href="/dataverse/2019-08-20#i_102675">13:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102675"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">j-n-c: yes, exactly. The main thing is to use the lates from &quot;develop&quot; under IQSS as your starting point (to hopefully avoid merge conflicts).</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_j-n-c">
+
+<td class="time" id="i_102676"><a href="/dataverse/2019-08-20#i_102676">13:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102676"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">ok. thks! will use branch 5665-fix-doc-auth-modes</td>
+</tr>
+
+        
+<tr id="id_l45" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102677"><a href="/dataverse/2019-08-20#i_102677">13:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102677"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Cool. I don't see it at <a href="https://github.com/j-n-c/dataverse/branches" title="https://github.com/j-n-c/dataverse/branches">https://github.com/j-n-c/dataverse/branches</a> yet but no rush. :)</td>
+</tr>
+
+        
+<tr id="id_l46" class="new special">
+
+<td class="time" id="i_102678"><a href="/dataverse/2019-08-20#i_102678">14:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102678"  /></td>
+<td class="nick"></td>
+<td class="msg ">stefankasberger joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont special">
+
+<td class="time" id="i_102679"><a href="/dataverse/2019-08-20#i_102679">16:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102679"  /></td>
+<td class="nick"></td>
+<td class="msg ">dataverse-user joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_dataverse-user dark">
+
+<td class="time" id="i_102680"><a href="/dataverse/2019-08-20#i_102680">16:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102680"  /></td>
+<td class="nick nick4">dataverse-user</td>
+<td class="msg ">I have 4 charges through my bank are charges I have not made,</td>
+</tr>
+
+        
+<tr id="id_l49" class="new nick nick_pdurbin">
+
+<td class="time" id="i_102681"><a href="/dataverse/2019-08-20#i_102681">16:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102681"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">dataverse-user: I'm going to guess you're talking about Dataverse Entertainment games. This channel is for Dataverse, the data repository: <a href="https://dataverse.org" title="https://dataverse.org">https://dataverse.org</a></td>
+</tr>
+
+        
+<tr id="id_l50" class="new nick nick_j-n-c dark">
+
+<td class="time" id="i_102682"><a href="/dataverse/2019-08-20#i_102682">16:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102682"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg ">pdurbin: I created the branch and made a pull request</td>
+</tr>
+
+        
+<tr id="id_l51" class="cont nick nick_j-n-c dark">
+
+<td class="time" id="i_102683"><a href="/dataverse/2019-08-20#i_102683">16:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102683"  /></td>
+<td class="nick nick3">j-n-c</td>
+<td class="msg "><a href="https://github.com/IQSS/dataverse/pull/6105" title="https://github.com/IQSS/dataverse/pull/6105">https://github.com/IQSS/dataverse/pull/6105</a></td>
+</tr>
+
+        
+<tr id="id_l52" class="new special">
+
+<td class="time" id="i_102684"><a href="/dataverse/2019-08-20#i_102684">16:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102684"  /></td>
+<td class="nick"></td>
+<td class="msg ">j-n-c left #dataverse</td>
+</tr>
+
+        
+<tr id="id_l53" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102685"><a href="/dataverse/2019-08-20#i_102685">16:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102685"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">awesome, I added it to the right project to move it to code review</td>
+</tr>
+
+        
+<tr id="id_l54" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102686"><a href="/dataverse/2019-08-20#i_102686">18:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102686"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: works fine without the quotes. The <abbr title="Application Programming Interface">API</abbr> token.</td>
+</tr>
+
+        
+<tr id="id_l55" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_102687"><a href="/dataverse/2019-08-20#i_102687">18:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102687"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">(phew)</td>
+</tr>
+
+        
+<tr id="id_l56" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102688"><a href="/dataverse/2019-08-20#i_102688">18:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102688"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">cool. kevin triggered another build (it died, different test, i was hoping to catch it in the act)</td>
+</tr>
+
+        
+<tr id="id_l57" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102689"><a href="/dataverse/2019-08-20#i_102689">18:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102689"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i also need to look at danny's note about externaltools, which makes no sense</td>
+</tr>
+
+        
+<tr id="id_l58" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102690"><a href="/dataverse/2019-08-20#i_102690">18:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102690"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">(the described symptoms, not danny)</td>
+</tr>
+
+        
+<tr id="id_l59" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102691"><a href="/dataverse/2019-08-20#i_102691">18:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102691"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">hmm? which note :)</td>
+</tr>
+
+        
+<tr id="id_l60" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102692"><a href="/dataverse/2019-08-20#i_102692">18:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102692"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg "><a href="https://github.com/IQSS/dataverse-ansible/issues/98" title="https://github.com/IQSS/dataverse-ansible/issues/98">https://github.com/IQSS/dataverse-ansible/issues/98</a></td>
+</tr>
+
+        
+<tr id="id_l61" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102693"><a href="/dataverse/2019-08-20#i_102693">18:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102693"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i personally found that multiple externaltools in 4.11 didn't produce the drop-down but instead only an &quot;explore&quot; button which launched by contenttype</td>
+</tr>
+
+        
+<tr id="id_l62" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102694"><a href="/dataverse/2019-08-20#i_102694">18:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102694"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">He's say if you go to <a href="http://ec2-3-80-234-144.compute-1.amazonaws.com/file.xhtml?fileId=250&amp;datasetVersionId=38" title="http://ec2-3-80-234-144.compute-1.amazonaws.com/file.xhtml?fileId=250&amp;datasetVersionId=38">http://ec2-3-80-234-144.compute-1.amazonaws.com/file.xhtml?fileId=250&amp;datasetVersionId=38</a> and click &quot;Data Explorer&quot; it launches Whole Tale. But where's the bug?</td>
+</tr>
+
+        
+<tr id="id_l63" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102695"><a href="/dataverse/2019-08-20#i_102695">18:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102695"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">yowch SEVERE Exception while visiting META-INF/versions/9/javax/​xml/bind/ModuleUtil.class</td>
+</tr>
+
+        
+<tr id="id_l64" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102696"><a href="/dataverse/2019-08-20#i_102696">18:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102696"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">then a bunch of Exception while visiting META-INF/versions/9/module-info.class</td>
+</tr>
+
+        
+<tr id="id_l65" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102697"><a href="/dataverse/2019-08-20#i_102697">18:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102697"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin i'm spinning up an instance in vagrant to try to reproduce and poke around</td>
+</tr>
+
+        
+<tr id="id_l66" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102698"><a href="/dataverse/2019-08-20#i_102698">18:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102698"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">but the most recent round of tests run in Jenkins from Kevin's merge just got much more interesting</td>
+</tr>
+
+        
+<tr id="id_l67" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102699"><a href="/dataverse/2019-08-20#i_102699">18:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102699"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">interesting is good :)</td>
+</tr>
+
+        
+<tr id="id_l68" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102700"><a href="/dataverse/2019-08-20#i_102700">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102700"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg "><a href="https://jenkins.dataverse.org/job/IQSS-dataverse-develop/ws/conf/docker-aio/server.log" title="https://jenkins.dataverse.org/job/IQSS-dataverse-develop/ws/conf/docker-aio/server.log">https://jenkins.dataverse.org/job/IQSS-dataverse-develop/ws/conf/docker-aio/server.log</a></td>
+</tr>
+
+        
+<tr id="id_l69" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102701"><a href="/dataverse/2019-08-20#i_102701">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102701"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i wanna compare those SEVEREs against whatever comes up in vagrant on my buildbox</td>
+</tr>
+
+        
+<tr id="id_l70" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102702"><a href="/dataverse/2019-08-20#i_102702">18:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102702"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">oh, and our informal meeting tomorrow afternoon? i've got a 2pm-4pm to do a TRSA walk-through</td>
+</tr>
+
+        
+<tr id="id_l71" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102703"><a href="/dataverse/2019-08-20#i_102703">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102703"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I need to meet an electrician at home at 3:30 but Gustavo might be available.</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102704"><a href="/dataverse/2019-08-20#i_102704">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102704"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">eh, i'm gonna wait on vagrant to finish, will report back</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102705"><a href="/dataverse/2019-08-20#i_102705">18:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102705"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">p.s. is now when i start quoting national lampoon's christmas vacation?</td>
+</tr>
+
+        
+<tr id="id_l74" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102706"><a href="/dataverse/2019-08-20#i_102706">18:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102706"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">now that's a movie I haven't heard about in a long time, a long time</td>
+</tr>
+
+        
+<tr id="id_l75" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102707"><a href="/dataverse/2019-08-20#i_102707">18:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102707"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">famous electrical scene and all</td>
+</tr>
+
+        
+<tr id="id_l76" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102708"><a href="/dataverse/2019-08-20#i_102708">18:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102708"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">with a cat</td>
+</tr>
+
+        
+<tr id="id_l77" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102709"><a href="/dataverse/2019-08-20#i_102709">18:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102709"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">short answer: those SEVEREs appear in my Vagrant stand-up as well, but there are drastically fewer of them</td>
+</tr>
+
+        
+<tr id="id_l78" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102710"><a href="/dataverse/2019-08-20#i_102710">18:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102710"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">You're running the api test suite against Datavese running in Vagrant?</td>
+</tr>
+
+        
+<tr id="id_l79" class="new nick nick_donsizemore">
+
+<td class="time" id="i_102711"><a href="/dataverse/2019-08-20#i_102711">18:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102711"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">i'm not, but Glassfish is throwing those errors in my little Vagrant stand-up</td>
+</tr>
+
+        
+<tr id="id_l80" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_102712"><a href="/dataverse/2019-08-20#i_102712">18:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102712"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">does my response to Danny make sense? <a href="https://github.com/IQSS/dataverse-ansible/issues/98" title="https://github.com/IQSS/dataverse-ansible/issues/98">https://github.com/IQSS/dataverse-ansible/issues/98</a></td>
+</tr>
+
+        
+<tr id="id_l81" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_102713"><a href="/dataverse/2019-08-20#i_102713">20:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_102713"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">stefankasberger: it's pretty late for you. You're still here? :)</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2019-08-19" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2019-08-21" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2019-08-20">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2019-08-20;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2019-08-20;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

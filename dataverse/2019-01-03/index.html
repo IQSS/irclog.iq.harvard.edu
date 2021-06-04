@@ -1,0 +1,3450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2019-01-03" />
+    <title>IRC log for #dataverse, 2019-01-03</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2019-01-03</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2019-01-02" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2019-01-04" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2019-01-03">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2019-01-03;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2019-01-03;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_83633"><a href="/dataverse/2019-01-03#i_83633">05:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83633"  /></td>
+<td class="nick"></td>
+<td class="msg ">andrewSC joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_83634"><a href="/dataverse/2019-01-03#i_83634">07:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83634"  /></td>
+<td class="nick"></td>
+<td class="msg ">poikilotherm joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83635"><a href="/dataverse/2019-01-03#i_83635">08:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83635"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">pdurbin: ok thanks for the info ! I'll dig in both directories pointed by pameyer yesterday (conf/docker and conf/docker-aio), as my current plan is to get the big picture</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83636"><a href="/dataverse/2019-01-03#i_83636">08:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83636"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">so, leaving a litlle bit wildfly for now</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83637"><a href="/dataverse/2019-01-03#i_83637">08:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83637"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Hi pmauduit :-)</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83638"><a href="/dataverse/2019-01-03#i_83638">08:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83638"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I read in the logs that you are trying things with Docker</td>
+</tr>
+
+        
+<tr id="id_l8" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83639"><a href="/dataverse/2019-01-03#i_83639">08:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83639"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Maybe <a href="https://github.com/IQSS/dataverse/issues/5373" title="https://github.com/IQSS/dataverse/issues/5373">https://github.com/IQSS/dataverse/issues/5373</a> and <a href="https://github.com/IQSS/dataverse/issues/5292" title="https://github.com/IQSS/dataverse/issues/5292">https://github.com/IQSS/dataverse/issues/5292</a> are interesting for you :-)</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83640"><a href="/dataverse/2019-01-03#i_83640">08:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83640"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">If you would like to join forces, you're welcome... ;-)</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83641"><a href="/dataverse/2019-01-03#i_83641">09:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83641"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">sure ;-)</td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83642"><a href="/dataverse/2019-01-03#i_83642">09:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83642"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">I shall confess that I'm very new to J2EE / wildfly / glassfish</td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83643"><a href="/dataverse/2019-01-03#i_83643">09:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83643"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">but interesting to see how the whole stack has been built</td>
+</tr>
+
+        
+<tr id="id_l13" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83644"><a href="/dataverse/2019-01-03#i_83644">09:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83644"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Experience with docker?</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83645"><a href="/dataverse/2019-01-03#i_83645">09:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83645"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I am targeting dev first, then prod is easy... ;-)</td>
+</tr>
+
+        
+<tr id="id_l15" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83646"><a href="/dataverse/2019-01-03#i_83646">09:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83646"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">yes I do</td>
+</tr>
+
+        
+<tr id="id_l16" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83647"><a href="/dataverse/2019-01-03#i_83647">09:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83647"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">almost ... :)</td>
+</tr>
+
+        
+<tr id="id_l17" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83648"><a href="/dataverse/2019-01-03#i_83648">09:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83648"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">dataverse_1  | Oops, haven't been able to connect to the database dvndb,</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83649"><a href="/dataverse/2019-01-03#i_83649">09:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83649"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">dataverse_1  | running on dataverse-postgresql-0.dat​averse-postgresql-service, as user dvnapp.</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83650"><a href="/dataverse/2019-01-03#i_83650">09:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83650"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">trying to boot my compo using iqss/glassfish-dataverse docker image instead of tweaking my own one</td>
+</tr>
+
+        
+<tr id="id_l20" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83651"><a href="/dataverse/2019-01-03#i_83651">09:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83651"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Beware, dataverse-glassfish image is intended to be used on OpenShift/Kubernetes</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83652"><a href="/dataverse/2019-01-03#i_83652">09:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83652"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">It uses init-containers</td>
+</tr>
+
+        
+<tr id="id_l22" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83653"><a href="/dataverse/2019-01-03#i_83653">09:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83653"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I am trying to get the pieces together in 5292 to have simpler and easier containers, which are usable with docker-compose, too</td>
+</tr>
+
+        
+<tr id="id_l23" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83654"><a href="/dataverse/2019-01-03#i_83654">09:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83654"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l24" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83655"><a href="/dataverse/2019-01-03#i_83655">09:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83655"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Any feedback from the community helps :-) Currently, all production instances run on the &quot;classic installation mode&quot;, so recieving feedback that change is needed is very valuable to rise attention for this at IQSS ;-)</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83656"><a href="/dataverse/2019-01-03#i_83656">09:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83656"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">payara server is another J2EE server ?</td>
+</tr>
+
+        
+<tr id="id_l26" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83657"><a href="/dataverse/2019-01-03#i_83657">09:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83657"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">YEs</td>
+</tr>
+
+        
+<tr id="id_l27" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83658"><a href="/dataverse/2019-01-03#i_83658">09:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83658"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Payara is more or less a fork of Glassfish</td>
+</tr>
+
+        
+<tr id="id_l28" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83659"><a href="/dataverse/2019-01-03#i_83659">09:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83659"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">And the codebase is currently very Glassfish specific</td>
+</tr>
+
+        
+<tr id="id_l29" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83660"><a href="/dataverse/2019-01-03#i_83660">09:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83660"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">It will not be easy to change this to Wildfly</td>
+</tr>
+
+        
+<tr id="id_l30" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83661"><a href="/dataverse/2019-01-03#i_83661">09:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83661"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">I thought that wildfly was also a fork of glassfish</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83662"><a href="/dataverse/2019-01-03#i_83662">09:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83662"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">And as the ultimate ratio is to have both installation modes usable as long as not the majority of installations is based on containers, it is very likely to stay this way.</td>
+</tr>
+
+        
+<tr id="id_l32" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83663"><a href="/dataverse/2019-01-03#i_83663">09:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83663"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Nope</td>
+</tr>
+
+        
+<tr id="id_l33" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83664"><a href="/dataverse/2019-01-03#i_83664">09:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83664"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Wildfly is coming from JBoss, which is an independent implementation by RedHat</td>
+</tr>
+
+        
+<tr id="id_l34" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83665"><a href="/dataverse/2019-01-03#i_83665">09:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83665"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83666"><a href="/dataverse/2019-01-03#i_83666">09:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83666"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Glassfish has been owned by Oracle and is the Java EE app server _reference_ implementation</td>
+</tr>
+
+        
+<tr id="id_l36" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83667"><a href="/dataverse/2019-01-03#i_83667">09:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83667"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">It is nowadays property of Eclipse Foundation</td>
+</tr>
+
+        
+<tr id="id_l37" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83668"><a href="/dataverse/2019-01-03#i_83668">09:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83668"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">(Just as Java EE is moving to Eclipse as Jakarta EE)</td>
+</tr>
+
+        
+<tr id="id_l38" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83669"><a href="/dataverse/2019-01-03#i_83669">09:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83669"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">when I looked at glassfish docker images, it seemed a bit messy: I could find some blog posts from an official oracle blog, mentionning a docker-hub repo which now requires to be authenticated</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83670"><a href="/dataverse/2019-01-03#i_83670">09:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83670"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Messy is a very polite word for the current situation.</td>
+</tr>
+
+        
+<tr id="id_l40" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83671"><a href="/dataverse/2019-01-03#i_83671">09:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83671"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83672"><a href="/dataverse/2019-01-03#i_83672">09:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83672"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">This mess is due to the transition from Oracle to Eclipse.</td>
+</tr>
+
+        
+<tr id="id_l42" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83673"><a href="/dataverse/2019-01-03#i_83673">09:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83673"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Will take time to settle</td>
+</tr>
+
+        
+<tr id="id_l43" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83674"><a href="/dataverse/2019-01-03#i_83674">09:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83674"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">are a lot of people in the community running their dataverse instance on openshift, by the way ?</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83675"><a href="/dataverse/2019-01-03#i_83675">09:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83675"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">You could try to use Payara 4 images. But this is not officially tested or supported</td>
+</tr>
+
+        
+<tr id="id_l45" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83676"><a href="/dataverse/2019-01-03#i_83676">09:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83676"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Nope</td>
+</tr>
+
+        
+<tr id="id_l46" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83677"><a href="/dataverse/2019-01-03#i_83677">09:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83677"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">At least - not yet.</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83678"><a href="/dataverse/2019-01-03#i_83678">09:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83678"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">There is interest, but none of the officially known 35 production installations run on Kubernetes/OpenShift</td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83679"><a href="/dataverse/2019-01-03#i_83679">09:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83679"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">I've seen the issues about it, and since the links between redhat, openshift and wildfly, I wanted to have a look at this J2EE server at the first sight</td>
+</tr>
+
+        
+<tr id="id_l49" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83680"><a href="/dataverse/2019-01-03#i_83680">09:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83680"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">RedHat (or IBM nowadays) is active in a large number of places</td>
+</tr>
+
+        
+<tr id="id_l50" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83681"><a href="/dataverse/2019-01-03#i_83681">09:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83681"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">IIRC some RedHat engineers had an internship at IQSS to make Dataverse Openshift ready, and conf/docker is the result from that.</td>
+</tr>
+
+        
+<tr id="id_l51" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83682"><a href="/dataverse/2019-01-03#i_83682">09:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83682"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">pdurbin knows more about this</td>
+</tr>
+
+        
+<tr id="id_l52" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83683"><a href="/dataverse/2019-01-03#i_83683">09:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83683"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">He pointed me to some issues about this some time ago, let me see if I can find them</td>
+</tr>
+
+        
+<tr id="id_l53" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83684"><a href="/dataverse/2019-01-03#i_83684">10:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83684"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">I also see that you're working in your fork with a docker maven plugin (from fabric8.<abbr title="Input/Output">io</abbr>). We do use a similar plugin (the old one from spotify) on other projects</td>
+</tr>
+
+        
+<tr id="id_l54" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83685"><a href="/dataverse/2019-01-03#i_83685">10:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83685"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://github.com/IQSS/dataverse/issues/4040" title="https://github.com/IQSS/dataverse/issues/4040">https://github.com/IQSS/dataverse/issues/4040</a></td>
+</tr>
+
+        
+<tr id="id_l55" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83686"><a href="/dataverse/2019-01-03#i_83686">10:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83686"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">yes I stumbled upon this one yesterday</td>
+</tr>
+
+        
+<tr id="id_l56" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83687"><a href="/dataverse/2019-01-03#i_83687">10:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83687"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Yeah, I want to build the docker images as a part of the dev process</td>
+</tr>
+
+        
+<tr id="id_l57" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83688"><a href="/dataverse/2019-01-03#i_83688">10:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83688"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">This might lead someday into using CD</td>
+</tr>
+
+        
+<tr id="id_l58" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83689"><a href="/dataverse/2019-01-03#i_83689">10:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83689"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">But that might be some AU away.</td>
+</tr>
+
+        
+<tr id="id_l59" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83690"><a href="/dataverse/2019-01-03#i_83690">10:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83690"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Oh BTW pmauduit: I am using Payara 5 for this. There is some ongoing discussion about using Payara or Eclipse Glassfish and the current setup guide and images use Glassfish 4, which is really EOL and patched manually. You might try with Payara 4, which is at least more maintained (but EOL IIRC as of 01/2019 if you have no subscription), but there seemed to be some issues. (when looking at the GH issues, just search for Payara... ;-)</td>
+</tr>
+
+        
+<tr id="id_l60" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83691"><a href="/dataverse/2019-01-03#i_83691">10:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83691"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">yes, I saw that your were taking some images on your account @ quay.<abbr title="Input/Output">io</abbr> here: <a href="https://github.com/poikilotherm/dataverse/blob/5292-small-container/conf/docker/app/Dockerfile#L1" title="https://github.com/poikilotherm/dataverse/blob/5292-small-container/conf/docker/app/Dockerfile#L1">https://github.com/poikilotherm/dataverse/blob/5292-small-container/conf/docker/app/Dockerfile#L1</a></td>
+</tr>
+
+        
+<tr id="id_l61" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83692"><a href="/dataverse/2019-01-03#i_83692">10:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83692"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">:-)</td>
+</tr>
+
+        
+<tr id="id_l62" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83693"><a href="/dataverse/2019-01-03#i_83693">10:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83693"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Those have their own issues... :-/</td>
+</tr>
+
+        
+<tr id="id_l63" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83694"><a href="/dataverse/2019-01-03#i_83694">10:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83694"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://github.com/payara/Payara/issues/3506" title="https://github.com/payara/Payara/issues/3506">https://github.com/payara/Payara/issues/3506</a></td>
+</tr>
+
+        
+<tr id="id_l64" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83695"><a href="/dataverse/2019-01-03#i_83695">10:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83695"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Will be fixed in Payara 5.191</td>
+</tr>
+
+        
+<tr id="id_l65" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83696"><a href="/dataverse/2019-01-03#i_83696">10:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83696"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">(v5, Q1 2019)</td>
+</tr>
+
+        
+<tr id="id_l66" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83697"><a href="/dataverse/2019-01-03#i_83697">11:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83697"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Hey pmauduit, are you <a href="https://github.com/pmauduit" title="https://github.com/pmauduit">https://github.com/pmauduit</a> ?</td>
+</tr>
+
+        
+<tr id="id_l67" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83698"><a href="/dataverse/2019-01-03#i_83698">12:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83698"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Morning pdurbin :-)</td>
+</tr>
+
+        
+<tr id="id_l68" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83699"><a href="/dataverse/2019-01-03#i_83699">12:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83699"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">yes i am</td>
+</tr>
+
+        
+<tr id="id_l69" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83700"><a href="/dataverse/2019-01-03#i_83700">12:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83700"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">pmauduit: Shall I add you the list of people in #5373?</td>
+</tr>
+
+        
+<tr id="id_l70" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83701"><a href="/dataverse/2019-01-03#i_83701">12:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83701"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">sure</td>
+</tr>
+
+        
+<tr id="id_l71" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83702"><a href="/dataverse/2019-01-03#i_83702">12:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83702"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">good morning, glad to see you two chatting :)</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83703"><a href="/dataverse/2019-01-03#i_83703">12:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83703"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">yes, I'm pretty sure I read this here earlier</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83704"><a href="/dataverse/2019-01-03#i_83704">12:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83704"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">grmbl sorry for the last message</td>
+</tr>
+
+        
+<tr id="id_l74" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83705"><a href="/dataverse/2019-01-03#i_83705">12:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83705"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">in fact I was backlogging ... :-P</td>
+</tr>
+
+        
+<tr id="id_l75" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83706"><a href="/dataverse/2019-01-03#i_83706">12:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83706"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">It's not quite that Red Hat interns were at IQSS. They were remote. I had a weekly call with them. I went over to the Red Hat office in Boston once to meet with them. And I went to their final presentation with their professors.</td>
+</tr>
+
+        
+<tr id="id_l76" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_83707"><a href="/dataverse/2019-01-03#i_83707">12:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83707"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">pdurbin: ok, thanks for the clarification. My memories where wrong ;-)</td>
+</tr>
+
+        
+<tr id="id_l77" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_83708"><a href="/dataverse/2019-01-03#i_83708">12:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83708"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">-h</td>
+</tr>
+
+        
+<tr id="id_l78" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83709"><a href="/dataverse/2019-01-03#i_83709">12:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83709"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">It would have been great to have them at standup every day.</td>
+</tr>
+
+        
+<tr id="id_l79" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_83710"><a href="/dataverse/2019-01-03#i_83710">12:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83710"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">They did the best they could with a very challenging real world situation.</td>
+</tr>
+
+        
+<tr id="id_l80" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83711"><a href="/dataverse/2019-01-03#i_83711">13:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83711"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">poikilotherm: I was giving a try of the image generated from your branch (mvn clean package docker:build -Pcontainer), is there a way to configure the database access properties ?</td>
+</tr>
+
+        
+<tr id="id_l81" class="cont nick nick_pmauduit">
+
+<td class="time" id="i_83712"><a href="/dataverse/2019-01-03#i_83712">13:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83712"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">hmm I can override the init_2_configure.sh</td>
+</tr>
+
+        
+<tr id="id_l82" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83713"><a href="/dataverse/2019-01-03#i_83713">13:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83713"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">For now you need to hack on it... I was planning for ENV variable usage, but for my tests, this wasn't needed so far.</td>
+</tr>
+
+        
+<tr id="id_l83" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83714"><a href="/dataverse/2019-01-03#i_83714">13:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83714"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Please keep in mind: this is a WIP!</td>
+</tr>
+
+        
+<tr id="id_l84" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83715"><a href="/dataverse/2019-01-03#i_83715">13:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83715"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">It will NOT work as expected</td>
+</tr>
+
+        
+<tr id="id_l85" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83716"><a href="/dataverse/2019-01-03#i_83716">13:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83716"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Currently this is blocked by #5361 + #5344 and things like #5345, etc (pretty much every substory of #5292...)</td>
+</tr>
+
+        
+<tr id="id_l86" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83717"><a href="/dataverse/2019-01-03#i_83717">13:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83717"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Are you *sure* you don't want your own git repo? :)</td>
+</tr>
+
+        
+<tr id="id_l87" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83718"><a href="/dataverse/2019-01-03#i_83718">13:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83718"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">That would be a fork</td>
+</tr>
+
+        
+<tr id="id_l88" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83719"><a href="/dataverse/2019-01-03#i_83719">13:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83719"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I already have one ;-)</td>
+</tr>
+
+        
+<tr id="id_l89" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83720"><a href="/dataverse/2019-01-03#i_83720">13:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83720"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://github.com/poikilotherm/dataverse/" title="https://github.com/poikilotherm/dataverse/">https://github.com/poikilotherm/dataverse/</a></td>
+</tr>
+
+        
+<tr id="id_l90" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83721"><a href="/dataverse/2019-01-03#i_83721">13:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83721"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">How can we unblock one of these substories?</td>
+</tr>
+
+        
+<tr id="id_l91" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83722"><a href="/dataverse/2019-01-03#i_83722">13:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83722"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Well #5345 is about the timers</td>
+</tr>
+
+        
+<tr id="id_l92" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83723"><a href="/dataverse/2019-01-03#i_83723">13:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83723"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">That's in code review now thx to oyu</td>
+</tr>
+
+        
+<tr id="id_l93" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83724"><a href="/dataverse/2019-01-03#i_83724">13:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83724"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">yeah</td>
+</tr>
+
+        
+<tr id="id_l94" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83725"><a href="/dataverse/2019-01-03#i_83725">13:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83725"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">can we get any other substory moving?</td>
+</tr>
+
+        
+<tr id="id_l95" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83726"><a href="/dataverse/2019-01-03#i_83726">13:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83726"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">5344 needs work. I am looking into this, but need to look at Payara currently</td>
+</tr>
+
+        
+<tr id="id_l96" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83727"><a href="/dataverse/2019-01-03#i_83727">13:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83727"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok, so you are not blocked. you're working on Payara stuff</td>
+</tr>
+
+        
+<tr id="id_l97" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83728"><a href="/dataverse/2019-01-03#i_83728">13:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83728"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Yeah, but that is just a small side project being a base for my images... ;-)</td>
+</tr>
+
+        
+<tr id="id_l98" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83729"><a href="/dataverse/2019-01-03#i_83729">13:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83729"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Eager to be on 1.8u191 because of the container backports from 10+</td>
+</tr>
+
+        
+<tr id="id_l99" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83730"><a href="/dataverse/2019-01-03#i_83730">13:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83730"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">oh, it's small ok. what's next? what's after that?</td>
+</tr>
+
+        
+<tr id="id_l100" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83731"><a href="/dataverse/2019-01-03#i_83731">13:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83731"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">it's small, ok</td>
+</tr>
+
+        
+<tr id="id_l101" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83732"><a href="/dataverse/2019-01-03#i_83732">13:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83732"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://github.com/payara/docker-payaraserver-full/issues/70" title="https://github.com/payara/docker-payaraserver-full/issues/70">https://github.com/payara/docker-payaraserver-full/issues/70</a></td>
+</tr>
+
+        
+<tr id="id_l102" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83733"><a href="/dataverse/2019-01-03#i_83733">13:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83733"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Just for the sake of completion</td>
+</tr>
+
+        
+<tr id="id_l103" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83734"><a href="/dataverse/2019-01-03#i_83734">13:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83734"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I think I should look into #5344</td>
+</tr>
+
+        
+<tr id="id_l104" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83735"><a href="/dataverse/2019-01-03#i_83735">13:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83735"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Made some housekeeping in #5373 earlier</td>
+</tr>
+
+        
+<tr id="id_l105" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83736"><a href="/dataverse/2019-01-03#i_83736">13:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83736"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">And I need to fill in the gaps of my workplan for Danny ;-)</td>
+</tr>
+
+        
+<tr id="id_l106" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83737"><a href="/dataverse/2019-01-03#i_83737">13:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83737"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I'd love to see your workplan.</td>
+</tr>
+
+        
+<tr id="id_l107" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83738"><a href="/dataverse/2019-01-03#i_83738">13:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83738"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Well I hope Danny will discuss this with you guys and improve it :-)</td>
+</tr>
+
+        
+<tr id="id_l108" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83739"><a href="/dataverse/2019-01-03#i_83739">13:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83739"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">me too</td>
+</tr>
+
+        
+<tr id="id_l109" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83740"><a href="/dataverse/2019-01-03#i_83740">13:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83740"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">this is my work plan: <a href="https://trello.com/b/uggFGv2H/work-http-wwwiqharvardedu-people-philip-durbin" title="https://trello.com/b/uggFGv2H/work-http-wwwiqharvardedu-people-philip-durbin">https://trello.com/b/uggFGv2H/work-http-wwwiqharvardedu-people-philip-durbin</a></td>
+</tr>
+
+        
+<tr id="id_l110" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83741"><a href="/dataverse/2019-01-03#i_83741">13:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83741"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Oh while seeing Netbeans 10 on it: did you notice that Java EE support was removed?</td>
+</tr>
+
+        
+<tr id="id_l111" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83742"><a href="/dataverse/2019-01-03#i_83742">13:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83742"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Yeah. I'm confused about Netbeans 10. I don't think I can use it. I'm still on Netbeans 8.2. :/</td>
+</tr>
+
+        
+<tr id="id_l112" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83743"><a href="/dataverse/2019-01-03#i_83743">13:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83743"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Did you see a blog post or something that explains the removal?</td>
+</tr>
+
+        
+<tr id="id_l113" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83744"><a href="/dataverse/2019-01-03#i_83744">13:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83744"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://dzone.com/articles/notes-on-java-eejakarta-ee-support-for-netbeans-9" title="https://dzone.com/articles/notes-on-java-eejakarta-ee-support-for-netbeans-9">https://dzone.com/articles/notes-on-java-eejakarta-ee-support-for-netbeans-9</a></td>
+</tr>
+
+        
+<tr id="id_l114" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83745"><a href="/dataverse/2019-01-03#i_83745">13:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83745"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://lists.apache.org/thread.html/6ba78ed2f1f761214db4f31022d953fc635dfe3fd6aa7933a728f969@%3Cdev.netbeans.apache.org%3E" title="https://lists.apache.org/thread.html/6ba78ed2f1f761214db4f31022d953fc635dfe3fd6aa7933a728f969@%3Cdev.netbeans.apache.org%3E">https://lists.apache.org/thread.html/6ba78ed2f1f761214db4f31022d953fc635dfe3fd6aa7933a728f969@%3Cdev.netbeans.apache.org%3E</a></td>
+</tr>
+
+        
+<tr id="id_l115" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83746"><a href="/dataverse/2019-01-03#i_83746">13:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83746"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Thanks! Wow. Complicated. I think I'll stick with Netbeans 8.2 until Java EE (Jakarata EE) support &quot;just works&quot;. I wonder if we should add a note to the dev guide about this.</td>
+</tr>
+
+        
+<tr id="id_l116" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83747"><a href="/dataverse/2019-01-03#i_83747">13:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83747"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">You could use other editors... And there are people out there that installed the 8.2 plugin in 9.</td>
+</tr>
+
+        
+<tr id="id_l117" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83748"><a href="/dataverse/2019-01-03#i_83748">13:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83748"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Maybe this works fro 10, too</td>
+</tr>
+
+        
+<tr id="id_l118" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83749"><a href="/dataverse/2019-01-03#i_83749">13:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83749"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">You could use IDEA... JetBrains offers free licenses to OSS projects. And Dataverse might be eligible for those licenses.</td>
+</tr>
+
+        
+<tr id="id_l119" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83750"><a href="/dataverse/2019-01-03#i_83750">13:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83750"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Ah damn... No chance</td>
+</tr>
+
+        
+<tr id="id_l120" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83751"><a href="/dataverse/2019-01-03#i_83751">13:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83751"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Your <abbr title="Operating Systems">OS</abbr> project may not offer paid sponsorship, or receive funding from commercial companies or organizations (NGO, education, research, or governmental).</td>
+</tr>
+
+        
+<tr id="id_l121" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83752"><a href="/dataverse/2019-01-03#i_83752">13:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83752"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">But actually - what is Netbeans doing for you as a Java EE dev? Writing the code should still be possible. Running it from inside the <abbr title="Integrated Development Environment">IDE</abbr> is nice, but for many stuff you need other approaches when external services are needed</td>
+</tr>
+
+        
+<tr id="id_l122" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83753"><a href="/dataverse/2019-01-03#i_83753">14:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83753"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Matthew got Java EE stuff working in Netbeans 9. Sounds like a lot of work from what I'm seeing on that blog post. I like NetBeans. It's hard to list what it's doing for me. I like this plugin, for example: <a href="http://guides.dataverse.org/en/4.10/developers/tips.html#netbeans-connector-chrome-extension" title="http://guides.dataverse.org/en/4.10/developers/tips.html#netbeans-connector-chrome-extension">http://guides.dataverse.org/en/4.10/developers/tips.html#netbeans-connector-chrome-extension</a></td>
+</tr>
+
+        
+<tr id="id_l123" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83754"><a href="/dataverse/2019-01-03#i_83754">14:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83754"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Ah Spring Boot has support for LiveReload baked in out of the box...</td>
+</tr>
+
+        
+<tr id="id_l124" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83755"><a href="/dataverse/2019-01-03#i_83755">14:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83755"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I would really which for this in Java EE</td>
+</tr>
+
+        
+<tr id="id_l125" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83756"><a href="/dataverse/2019-01-03#i_83756">14:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83756"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">wish</td>
+</tr>
+
+        
+<tr id="id_l126" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83757"><a href="/dataverse/2019-01-03#i_83757">14:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83757"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Maybe <a href="http://hotswapagent.org" title="http://hotswapagent.org">http://hotswapagent.org</a> is there for the rescue</td>
+</tr>
+
+        
+<tr id="id_l127" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83758"><a href="/dataverse/2019-01-03#i_83758">14:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83758"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">(JRebel is quite expensive...)</td>
+</tr>
+
+        
+<tr id="id_l128" class="new special">
+
+<td class="time" id="i_83759"><a href="/dataverse/2019-01-03#i_83759">14:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83759"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l129" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83760"><a href="/dataverse/2019-01-03#i_83760">14:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83760"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Have you tried the Netbeans Chrome extension? It gives you hot reloading.</td>
+</tr>
+
+        
+<tr id="id_l130" class="new nick nick_poikilotherm">
+
+<td class="time" id="i_83761"><a href="/dataverse/2019-01-03#i_83761">14:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83761"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Not using Netbeans nor Chrome... ;-)</td>
+</tr>
+
+        
+<tr id="id_l131" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_83762"><a href="/dataverse/2019-01-03#i_83762">14:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83762"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Used Spring Boot with LiveReload and Browser Extensions before... ;-)</td>
+</tr>
+
+        
+<tr id="id_l132" class="cont nick nick_poikilotherm">
+
+<td class="time" id="i_83763"><a href="/dataverse/2019-01-03#i_83763">14:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83763"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Independent from <abbr title="Integrated Development Environment">IDE</abbr></td>
+</tr>
+
+        
+<tr id="id_l133" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83764"><a href="/dataverse/2019-01-03#i_83764">14:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83764"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Ok. I'm just saying Java EE already has this.</td>
+</tr>
+
+        
+<tr id="id_l134" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83765"><a href="/dataverse/2019-01-03#i_83765">14:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83765"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">using spring framework in a J2EE context is not possible ?</td>
+</tr>
+
+        
+<tr id="id_l135" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83766"><a href="/dataverse/2019-01-03#i_83766">14:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83766"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Nope</td>
+</tr>
+
+        
+<tr id="id_l136" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83767"><a href="/dataverse/2019-01-03#i_83767">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83767"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Why not?</td>
+</tr>
+
+        
+<tr id="id_l137" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83768"><a href="/dataverse/2019-01-03#i_83768">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83768"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Different technology</td>
+</tr>
+
+        
+<tr id="id_l138" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83769"><a href="/dataverse/2019-01-03#i_83769">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83769"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">There are some overlaps like CDI</td>
+</tr>
+
+        
+<tr id="id_l139" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83770"><a href="/dataverse/2019-01-03#i_83770">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83770"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">i thought that J2EE was a kind of superset above regular servlet webapps</td>
+</tr>
+
+        
+<tr id="id_l140" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83771"><a href="/dataverse/2019-01-03#i_83771">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83771"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Err... Short answer: kind of.</td>
+</tr>
+
+        
+<tr id="id_l141" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83772"><a href="/dataverse/2019-01-03#i_83772">14:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83772"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I was just listening to airhacks 22 and they said it's possible to combine Java EE and Spring: <a href="http://airhacks.fm" title="http://airhacks.fm">http://airhacks.fm</a></td>
+</tr>
+
+        
+<tr id="id_l142" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83773"><a href="/dataverse/2019-01-03#i_83773">14:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83773"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Spring only works on the smaller set ;-)</td>
+</tr>
+
+        
+<tr id="id_l143" class="new nick nick_pmauduit">
+
+<td class="time" id="i_83774"><a href="/dataverse/2019-01-03#i_83774">14:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83774"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">ok :)</td>
+</tr>
+
+        
+<tr id="id_l144" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83775"><a href="/dataverse/2019-01-03#i_83775">14:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83775"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Oh that's news to me :-</td>
+</tr>
+
+        
+<tr id="id_l145" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83776"><a href="/dataverse/2019-01-03#i_83776">14:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83776"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">me too</td>
+</tr>
+
+        
+<tr id="id_l146" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83777"><a href="/dataverse/2019-01-03#i_83777">14:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83777"  /></td>
+<td class="nick nick1">* poikilotherm</td>
+<td class="msg act ">is listening to <a href="https://s3.eu-central-1.amazonaws.com/airhacks.fm/airhacksfm_22.mp3" title="https://s3.eu-central-1.amazonaws.com/airhacks.fm/airhacksfm_22.mp3">https://s3.eu-central-1.amazonaws.com/airhacks.fm/airhacksfm_22.mp3</a></td>
+</tr>
+
+        
+<tr id="id_l147" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83778"><a href="/dataverse/2019-01-03#i_83778">14:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83778"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">poikilotherm: you can fast forward to 1:00:34</td>
+</tr>
+
+        
+<tr id="id_l148" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83779"><a href="/dataverse/2019-01-03#i_83779">14:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83779"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Well you could of course incorporate the Java EE JARs in Spring. But this seems like a really hacky way...</td>
+</tr>
+
+        
+<tr id="id_l149" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83780"><a href="/dataverse/2019-01-03#i_83780">14:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83780"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Thx</td>
+</tr>
+
+        
+<tr id="id_l150" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83781"><a href="/dataverse/2019-01-03#i_83781">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83781"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg "><a href="https://blog.eisele.net/2016/04/integration-architecture-with-java-ee-and-spring.html" title="https://blog.eisele.net/2016/04/integration-architecture-with-java-ee-and-spring.html">https://blog.eisele.net/2016/04/integration-architecture-with-java-ee-and-spring.html</a></td>
+</tr>
+
+        
+<tr id="id_l151" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83782"><a href="/dataverse/2019-01-03#i_83782">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83782"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Like I said - incorporate EE in the Fat JAR and go use it.</td>
+</tr>
+
+        
+<tr id="id_l152" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83783"><a href="/dataverse/2019-01-03#i_83783">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83783"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">In the podcast they talk about the opposite. Start with Java EE standards. Add Spring as needed.</td>
+</tr>
+
+        
+<tr id="id_l153" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83784"><a href="/dataverse/2019-01-03#i_83784">14:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83784"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Ok... So I'll update my answer above: you can combine it, but it depends on what to achieve. Using Spring Boot with Java EE seems no good idea nowadays with Microprofile and mini app servers and other UberJAR approaches around.</td>
+</tr>
+
+        
+<tr id="id_l154" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83785"><a href="/dataverse/2019-01-03#i_83785">14:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83785"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">sure, I agree with that</td>
+</tr>
+
+        
+<tr id="id_l155" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83786"><a href="/dataverse/2019-01-03#i_83786">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83786"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">poikilotherm: did you already send you work plan to Danny? I have my one on one with him in 5 minutes.</td>
+</tr>
+
+        
+<tr id="id_l156" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83787"><a href="/dataverse/2019-01-03#i_83787">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83787"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Nope</td>
+</tr>
+
+        
+<tr id="id_l157" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83788"><a href="/dataverse/2019-01-03#i_83788">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83788"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l158" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83789"><a href="/dataverse/2019-01-03#i_83789">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83789"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">are you coming?</td>
+</tr>
+
+        
+<tr id="id_l159" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83790"><a href="/dataverse/2019-01-03#i_83790">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83790"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">I'll hurry :-D</td>
+</tr>
+
+        
+<tr id="id_l160" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83791"><a href="/dataverse/2019-01-03#i_83791">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83791"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Depends on the work plan :-D</td>
+</tr>
+
+        
+<tr id="id_l161" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83792"><a href="/dataverse/2019-01-03#i_83792">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83792"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok :)</td>
+</tr>
+
+        
+<tr id="id_l162" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83793"><a href="/dataverse/2019-01-03#i_83793">14:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83793"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Need that first to show my people if it makes sense</td>
+</tr>
+
+        
+<tr id="id_l163" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83794"><a href="/dataverse/2019-01-03#i_83794">14:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83794"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">we don't want to waste your time</td>
+</tr>
+
+        
+<tr id="id_l164" class="new nick nick_poikilotherm dark">
+
+<td class="time" id="i_83795"><a href="/dataverse/2019-01-03#i_83795">14:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83795"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Hmm my edit rights from the agenda are gone. Just requested them again, but maybe you can give Danny a hint</td>
+</tr>
+
+        
+<tr id="id_l165" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83796"><a href="/dataverse/2019-01-03#i_83796">14:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83796"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">,too</td>
+</tr>
+
+        
+<tr id="id_l166" class="cont nick nick_poikilotherm dark">
+
+<td class="time" id="i_83797"><a href="/dataverse/2019-01-03#i_83797">15:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83797"  /></td>
+<td class="nick nick1">poikilotherm</td>
+<td class="msg ">Ok, he already fixed it :-D</td>
+</tr>
+
+        
+<tr id="id_l167" class="new special">
+
+<td class="time" id="i_83798"><a href="/dataverse/2019-01-03#i_83798">15:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83798"  /></td>
+<td class="nick"></td>
+<td class="msg ">Jim79 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l168" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83799"><a href="/dataverse/2019-01-03#i_83799">15:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83799"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">Anyone here looking at the publishing issue (in emails today)?</td>
+</tr>
+
+        
+<tr id="id_l169" class="new special">
+
+<td class="time" id="i_83800"><a href="/dataverse/2019-01-03#i_83800">15:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83800"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l170" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83801"><a href="/dataverse/2019-01-03#i_83801">15:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83801"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">Jim79 : as of last night, folks were definately looking at it</td>
+</tr>
+
+        
+<tr id="id_l171" class="new nick nick_Jim79">
+
+<td class="time" id="i_83802"><a href="/dataverse/2019-01-03#i_83802">15:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83802"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">me too - on a branch with minor qdr updates from develop, I see one issue is a call to DataCite to check a null identitier which returns 'true' for the identifier existing, leading to a loop with no log message until things timeout...</td>
+</tr>
+
+        
+<tr id="id_l172" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83803"><a href="/dataverse/2019-01-03#i_83803">15:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83803"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">&quot;null identifier&quot;?</td>
+</tr>
+
+        
+<tr id="id_l173" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83804"><a href="/dataverse/2019-01-03#i_83804">15:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83804"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">is that DataCite returning that a non-existant identifier exists?</td>
+</tr>
+
+        
+<tr id="id_l174" class="new nick nick_Jim79">
+
+<td class="time" id="i_83805"><a href="/dataverse/2019-01-03#i_83805">15:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83805"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">the alreadyexists() method gets called for a null/zero length string for some file(s)...</td>
+</tr>
+
+        
+<tr id="id_l175" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83806"><a href="/dataverse/2019-01-03#i_83806">15:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83806"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">Dataverse sends .../doi/&lt;nothing&gt; to DataCite which returns a 200 response as though nothing were some 10.5072/FK2... value and it was found...</td>
+</tr>
+
+        
+<tr id="id_l176" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83807"><a href="/dataverse/2019-01-03#i_83807">15:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83807"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">that's good info that I don't think has been in the debugging discussions before</td>
+</tr>
+
+        
+<tr id="id_l177" class="new nick nick_Jim79">
+
+<td class="time" id="i_83808"><a href="/dataverse/2019-01-03#i_83808">15:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83808"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">I don't know why we're sending it, or if the change is something like DataCite switching from sending an error when there's no doi in the <abbr title="Uniform Resource Locator">URL</abbr> to sending a 200 with a list</td>
+</tr>
+
+        
+<tr id="id_l178" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83809"><a href="/dataverse/2019-01-03#i_83809">15:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83809"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">would lead me to believe that this would only be effecting installations w\ file DOIs enabled</td>
+</tr>
+
+        
+<tr id="id_l179" class="new nick nick_Jim79">
+
+<td class="time" id="i_83810"><a href="/dataverse/2019-01-03#i_83810">15:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83810"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">could be</td>
+</tr>
+
+        
+<tr id="id_l180" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83811"><a href="/dataverse/2019-01-03#i_83811">15:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83811"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">I don't know why it would be sent either</td>
+</tr>
+
+        
+<tr id="id_l181" class="new nick nick_Jim79">
+
+<td class="time" id="i_83812"><a href="/dataverse/2019-01-03#i_83812">15:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83812"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">I'll keep digging but if others catch the root cause...</td>
+</tr>
+
+        
+<tr id="id_l182" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83813"><a href="/dataverse/2019-01-03#i_83813">15:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83813"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">don't remember what the MDS docs specify for error codes though</td>
+</tr>
+
+        
+<tr id="id_l183" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83814"><a href="/dataverse/2019-01-03#i_83814">15:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83814"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">have you seen the problem being intermittent?</td>
+</tr>
+
+        
+<tr id="id_l184" class="new nick nick_Jim79">
+
+<td class="time" id="i_83815"><a href="/dataverse/2019-01-03#i_83815">15:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83815"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">not sure about intermittent</td>
+</tr>
+
+        
+<tr id="id_l185" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_83816"><a href="/dataverse/2019-01-03#i_83816">15:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83816"  /></td>
+<td class="nick">donsizemore</td>
+<td class="msg ">@pameyer Jon and I share your suspicion. UNC disabled file DOIs and we aren't aware of any problems</td>
+</tr>
+
+        
+<tr id="id_l186" class="new nick nick_Jim79">
+
+<td class="time" id="i_83817"><a href="/dataverse/2019-01-03#i_83817">15:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83817"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">Back in december there were definitely days where mds was not working - giving 502 timeouts, etc. which could have overlapped with this issue</td>
+</tr>
+
+        
+<tr id="id_l187" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83818"><a href="/dataverse/2019-01-03#i_83818">15:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83818"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@donsizemore good to hear your *not* having problems</td>
+</tr>
+
+        
+<tr id="id_l188" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83819"><a href="/dataverse/2019-01-03#i_83819">15:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83819"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@Jim79 do you remember if those were outside the outage window datacite had in december?</td>
+</tr>
+
+        
+<tr id="id_l189" class="new nick nick_Jim79">
+
+<td class="time" id="i_83820"><a href="/dataverse/2019-01-03#i_83820">15:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83820"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">outside their planned one - I saw issues into the next week</td>
+</tr>
+
+        
+<tr id="id_l190" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83821"><a href="/dataverse/2019-01-03#i_83821">15:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83821"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">definitely intermeittent for those - I'd see one or two files get IDs and then the rest fail.</td>
+</tr>
+
+        
+<tr id="id_l191" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83822"><a href="/dataverse/2019-01-03#i_83822">15:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83822"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">consistent with there being multiple problems at the same time</td>
+</tr>
+
+        
+<tr id="id_l192" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83823"><a href="/dataverse/2019-01-03#i_83823">15:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83823"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">do you know if qdr is using dependent identifiers for file dois?</td>
+</tr>
+
+        
+<tr id="id_l193" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83824"><a href="/dataverse/2019-01-03#i_83824">15:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83824"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">wondering about a failure mode where the dataset doi fails/glitches and tries to generate a dependent file doi, but fails because there's nothing to depend on</td>
+</tr>
+
+        
+<tr id="id_l194" class="new nick nick_Jim79">
+
+<td class="time" id="i_83825"><a href="/dataverse/2019-01-03#i_83825">15:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83825"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">we do use dependent dois. BUt, since the dataset DOI is created early, I don't think it not existing is the answer for us.</td>
+</tr>
+
+        
+<tr id="id_l195" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83826"><a href="/dataverse/2019-01-03#i_83826">15:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83826"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">great - rules that out.</td>
+</tr>
+
+        
+<tr id="id_l196" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83827"><a href="/dataverse/2019-01-03#i_83827">15:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83827"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim79: thanks for looking into this. Is either production installation you work on affected?</td>
+</tr>
+
+        
+<tr id="id_l197" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83828"><a href="/dataverse/2019-01-03#i_83828">15:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83828"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">too early to rule anything out</td>
+</tr>
+
+        
+<tr id="id_l198" class="cont nick nick_Jim79 dark">
+
+<td class="time" id="i_83829"><a href="/dataverse/2019-01-03#i_83829">15:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83829"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">I saw some issues on our v4.9.4 test machine - not the same since I see some log messages there (versus the infinite loop discussed above)</td>
+</tr>
+
+        
+<tr id="id_l199" class="cont nick nick_Jim79 dark">
+
+<td class="time" id="i_83830"><a href="/dataverse/2019-01-03#i_83830">15:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83830"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">I don't know that anyone has published on prod since we saw the DataCite maintenance/follow on trouble</td>
+</tr>
+
+        
+<tr id="id_l200" class="new nick nick_pameyer">
+
+<td class="time" id="i_83831"><a href="/dataverse/2019-01-03#i_83831">15:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83831"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">I was talking to landrev last night, and some of the things he mentioned seeing sounded like there might be database locking issues</td>
+</tr>
+
+        
+<tr id="id_l201" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83832"><a href="/dataverse/2019-01-03#i_83832">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83832"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">look at the 4.9.4 log, I was still seeing some 502 errors from DataCite on 1-3-2019...</td>
+</tr>
+
+        
+<tr id="id_l202" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83833"><a href="/dataverse/2019-01-03#i_83833">15:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83833"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Ok. Until this morning I thought only Harvard Dataverse was having trouble publishing in production. Now we know Thanh Thanh is having trouble in production too: <a href="https://groups.google.com/d/msg/dataverse-community/WJ6sTgKfNI4/qpzd0KIeDwAJ" title="https://groups.google.com/d/msg/dataverse-community/WJ6sTgKfNI4/qpzd0KIeDwAJ">https://groups.google.com/d/msg/dataverse-community/WJ6sTgKfNI4/qpzd0KIeDwAJ</a></td>
+</tr>
+
+        
+<tr id="id_l203" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83834"><a href="/dataverse/2019-01-03#i_83834">15:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83834"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg "><a href="https://status.datacite.org/" title="https://status.datacite.org/">https://status.datacite.org/</a> doesn't think they had downtime 1-3-2019</td>
+</tr>
+
+        
+<tr id="id_l204" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83835"><a href="/dataverse/2019-01-03#i_83835">15:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83835"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">not disagreeing with the logs; just additional info.</td>
+</tr>
+
+        
+<tr id="id_l205" class="new nick nick_Jim79">
+
+<td class="time" id="i_83836"><a href="/dataverse/2019-01-03#i_83836">15:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83836"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">happily sending 502 responses :-)</td>
+</tr>
+
+        
+<tr id="id_l206" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83837"><a href="/dataverse/2019-01-03#i_83837">15:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83837"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">yeah - I'm confused still - perhaps it sends 502 incorrectly if it gets bad input or ...</td>
+</tr>
+
+        
+<tr id="id_l207" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83838"><a href="/dataverse/2019-01-03#i_83838">15:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83838"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">I don't have a great idea where the failure(s) are either...</td>
+</tr>
+
+        
+<tr id="id_l208" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83839"><a href="/dataverse/2019-01-03#i_83839">15:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83839"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">My take on the &quot;Update on DataCite Service Status&quot; email from December 19th is that DOI registration should have been unaffected by DataCite's recent upgrade/outage: <a href="https://listserv.ucop.edu/cgi-bin/wa.exe?A3=ind1812C&amp;L=EZID-L&amp;E=base64&amp;P=5644&amp;B=--_000_CY4PR06MB352549BCCE4DFD3E3505095B90BE0CY4PR06MB3525namp_&amp;T=text%2Fhtml;%20charset=utf-8&amp;XSS=3&amp;header=1" title="https://listserv.ucop.edu/cgi-bin/wa.exe?A3=ind1812C&amp;L=EZID-L&amp;E=base64&amp;P=5644&amp;B=--_000_CY4PR06MB352549BCCE4DFD3E3505095B90BE0CY4PR06MB3525namp_&amp;T=text%2Fhtml;%20charset=utf-8&amp;XSS=3&amp;header=1">https://listserv.ucop.edu/cgi-bin/wa.exe?A3=ind1812C&amp;L=EZID-L&amp;E=base64&amp;P=5644&amp;B=--_000_CY4PR06MB352549BCCE4DFD3E3505095B90BE0CY4PR06MB3525namp_&amp;T=text%2Fhtml;%20charset=utf-8&amp;XSS=3&amp;header=1</a></td>
+</tr>
+
+        
+<tr id="id_l209" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83840"><a href="/dataverse/2019-01-03#i_83840">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83840"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">&quot;Some users reported issues with DOI registration. These are unrelated to the Solr outage. Please reach out to DataCite support via support<img src="/at.png" alt="@" />datacite.org so that we can resolve these issues.&quot;</td>
+</tr>
+
+        
+<tr id="id_l210" class="new nick nick_pmauduit dark">
+
+<td class="time" id="i_83841"><a href="/dataverse/2019-01-03#i_83841">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83841"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">oh another question (more out of curiosity): since we do JPA in dataverse, are there any strong adherence to postgresql or we could use whatever existing <abbr title="Database Management System">DBMS</abbr> ? (postgres is definitely fine for me, it's just curiosity)</td>
+</tr>
+
+        
+<tr id="id_l211" class="new nick nick_pameyer">
+
+<td class="time" id="i_83842"><a href="/dataverse/2019-01-03#i_83842">15:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83842"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@pmauduit I don't know the details, but I think there's some code that assumes postgres</td>
+</tr>
+
+        
+<tr id="id_l212" class="new nick nick_pmauduit dark">
+
+<td class="time" id="i_83843"><a href="/dataverse/2019-01-03#i_83843">15:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83843"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l213" class="new nick nick_pameyer">
+
+<td class="time" id="i_83844"><a href="/dataverse/2019-01-03#i_83844">15:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83844"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@Jim79 in your troubleshooting, have you tried vacuuming any of the tables?</td>
+</tr>
+
+        
+<tr id="id_l214" class="new special dark">
+
+<td class="time" id="i_83845"><a href="/dataverse/2019-01-03#i_83845">16:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83845"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l215" class="new nick nick_Jim79">
+
+<td class="time" id="i_83846"><a href="/dataverse/2019-01-03#i_83846">16:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83846"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">no</td>
+</tr>
+
+        
+<tr id="id_l216" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83847"><a href="/dataverse/2019-01-03#i_83847">16:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83847"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">thanks</td>
+</tr>
+
+        
+<tr id="id_l217" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83848"><a href="/dataverse/2019-01-03#i_83848">16:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83848"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">pmauduit: I'm pretty sure the sequence at <a href="http://guides.dataverse.org/en/4.10/installation/config.html#identifiergenerationstyle" title="http://guides.dataverse.org/en/4.10/installation/config.html#identifiergenerationstyle">http://guides.dataverse.org/en/4.10/installation/config.html#identifiergenerationstyle</a> is postgres-specific and I believe other parts of the code assume postgres.</td>
+</tr>
+
+        
+<tr id="id_l218" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83849"><a href="/dataverse/2019-01-03#i_83849">16:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83849"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">every now and then we'll try to remove postgres-specific stuff (e.g. <a href="https://github.com/IQSS/dataverse/commit/b4bf254" title="https://github.com/IQSS/dataverse/commit/b4bf254">https://github.com/IQSS/dataverse/commit/b4bf254</a> ) but right now we require postgres</td>
+</tr>
+
+        
+<tr id="id_l219" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83850"><a href="/dataverse/2019-01-03#i_83850">16:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83850"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">FWIW - a hack to just not call DataCite to check if a null/empty DOI exists allows me to publish on a ~develop branch. Looking into what changed...</td>
+</tr>
+
+        
+<tr id="id_l220" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83851"><a href="/dataverse/2019-01-03#i_83851">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83851"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim79: thanks. I'm confused. Did the Dataverse code change? Are older versions of Dataverse (where file PIDs are supported)? Or did something change on DataCite's end after their upgrade/outage?</td>
+</tr>
+
+        
+<tr id="id_l221" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83852"><a href="/dataverse/2019-01-03#i_83852">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83852"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">Looks like that issue only affects files w/o a DOI, i.e. republishing a Dataset with updated metadata but no new files doesn't cause the trouble.</td>
+</tr>
+
+        
+<tr id="id_l222" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83853"><a href="/dataverse/2019-01-03#i_83853">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83853"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">whoops, I meant to say &quot;are older versions of Dataverse affected?&quot;</td>
+</tr>
+
+        
+<tr id="id_l223" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83854"><a href="/dataverse/2019-01-03#i_83854">16:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83854"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">Not sure - I think there is still some problem with v4.9.4 - not sure if it is the same or not</td>
+</tr>
+
+        
+<tr id="id_l224" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83855"><a href="/dataverse/2019-01-03#i_83855">16:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83855"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l225" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83856"><a href="/dataverse/2019-01-03#i_83856">16:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83856"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I'm just wondering what changed: Dataverse or DataCite</td>
+</tr>
+
+        
+<tr id="id_l226" class="new nick nick_pmauduit dark">
+
+<td class="time" id="i_83857"><a href="/dataverse/2019-01-03#i_83857">16:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83857"  /></td>
+<td class="nick nick6">pmauduit</td>
+<td class="msg ">ok thanks for the info</td>
+</tr>
+
+        
+<tr id="id_l227" class="new nick nick_pameyer">
+
+<td class="time" id="i_83858"><a href="/dataverse/2019-01-03#i_83858">16:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83858"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@pdurbin: I'm leaning towards both</td>
+</tr>
+
+        
+<tr id="id_l228" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83859"><a href="/dataverse/2019-01-03#i_83859">16:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83859"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">heh</td>
+</tr>
+
+        
+<tr id="id_l229" class="new nick nick_pameyer">
+
+<td class="time" id="i_83860"><a href="/dataverse/2019-01-03#i_83860">16:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83860"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">well, Jim79 seeing 502 from datacite when they don't show downtime suggests pretty strongly something going on there</td>
+</tr>
+
+        
+<tr id="id_l230" class="cont nick nick_pameyer">
+
+<td class="time" id="i_83861"><a href="/dataverse/2019-01-03#i_83861">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83861"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">but the problem seeming to be limitied to installations using file dois suggests something in the dataverse code too</td>
+</tr>
+
+        
+<tr id="id_l231" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83862"><a href="/dataverse/2019-01-03#i_83862">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83862"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">As a workaround, what about setting :FilePIDsEnabled to false for a while?</td>
+</tr>
+
+        
+<tr id="id_l232" class="new nick nick_Jim79">
+
+<td class="time" id="i_83863"><a href="/dataverse/2019-01-03#i_83863">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83863"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">not sure - if DataCite changed what it sent in response to a call to find no DOI (i.e. it now sends a list) and v.4.9.4 and 4.10 both sent that but DV changed to keep retrying, it could explain things. Definitely can't say that's true yet</td>
+</tr>
+
+        
+<tr id="id_l233" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83864"><a href="/dataverse/2019-01-03#i_83864">16:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83864"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim79: do you feel confident enough in the symptoms to open an issue?</td>
+</tr>
+
+        
+<tr id="id_l234" class="new nick nick_Jim79">
+
+<td class="time" id="i_83865"><a href="/dataverse/2019-01-03#i_83865">16:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83865"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">sounds like it might work...</td>
+</tr>
+
+        
+<tr id="id_l235" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83866"><a href="/dataverse/2019-01-03#i_83866">16:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83866"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">um - at this point we could have an issue that there's a publication problem, perhaps isolated to the case where file DOIs need to be assigned (file DOIs on and new files that need DOIs assigned)...</td>
+</tr>
+
+        
+<tr id="id_l236" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83867"><a href="/dataverse/2019-01-03#i_83867">16:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83867"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">it looks like <a href="https://github.com/IQSS/dataverse/blame/develop/src/main/java/edu/harvard/iq/dataverse/DataFileServiceBean.java#L1570" title="https://github.com/IQSS/dataverse/blame/develop/src/main/java/edu/harvard/iq/dataverse/DataFileServiceBean.java#L1570">https://github.com/IQSS/dataverse/blame/develop/src/main/java/edu/harvard/iq/dataverse/DataFileServiceBean.java#L1570</a>, which hasn't been changed in a year, would have always been sending a null identifier for new files into the alreadyExists methods</td>
+</tr>
+
+        
+<tr id="id_l237" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83868"><a href="/dataverse/2019-01-03#i_83868">16:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83868"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">which seems like a DV bug (not really checking the new identifier) that has been exposed by a change at DataCite?</td>
+</tr>
+
+        
+<tr id="id_l238" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83869"><a href="/dataverse/2019-01-03#i_83869">16:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83869"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">OK - I think this is clear enough I'll create an issue and propose a fix (in a PR) to refactor the GlobalIdService to check alreadyExists(GlobalId) rather than alreadyExists(DVObject) so one can cleanly test new identifiers</td>
+</tr>
+
+        
+<tr id="id_l239" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83870"><a href="/dataverse/2019-01-03#i_83870">16:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83870"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">If that's going to duplicate other work, let me know...</td>
+</tr>
+
+        
+<tr id="id_l240" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83871"><a href="/dataverse/2019-01-03#i_83871">17:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83871"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg "><a href="https://github.com/IQSS/dataverse/issues/5427" title="https://github.com/IQSS/dataverse/issues/5427">https://github.com/IQSS/dataverse/issues/5427</a></td>
+</tr>
+
+        
+<tr id="id_l241" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83872"><a href="/dataverse/2019-01-03#i_83872">17:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83872"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">Jim79 that looks plausible to me</td>
+</tr>
+
+        
+<tr id="id_l242" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83873"><a href="/dataverse/2019-01-03#i_83873">17:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83873"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim79: thanks! I just walked down the hall to talk to Leonid and it sound like he's going to pop in here soon to coordinate with you.</td>
+</tr>
+
+        
+<tr id="id_l243" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83874"><a href="/dataverse/2019-01-03#i_83874">17:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83874"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">Thanks...</td>
+</tr>
+
+        
+<tr id="id_l244" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83875"><a href="/dataverse/2019-01-03#i_83875">17:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83875"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim79: <a href="https://github.com/IQSS/dataverse/issues/4602" title="https://github.com/IQSS/dataverse/issues/4602">https://github.com/IQSS/dataverse/issues/4602</a> is unrelated, right?</td>
+</tr>
+
+        
+<tr id="id_l245" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83876"><a href="/dataverse/2019-01-03#i_83876">17:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83876"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">related I think - null is sent during the check of newly minted IDs when it shouldn't</td>
+</tr>
+
+        
+<tr id="id_l246" class="cont nick nick_Jim79 dark">
+
+<td class="time" id="i_83877"><a href="/dataverse/2019-01-03#i_83877">17:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83877"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">looks like handles also have been able to ignore the first check (DV gets to assume that the id is unique) as DataCite was...</td>
+</tr>
+
+        
+<tr id="id_l247" class="cont nick nick_Jim79 dark">
+
+<td class="time" id="i_83878"><a href="/dataverse/2019-01-03#i_83878">17:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83878"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">the fact that there are two times its being checked is a ~separable issue, but I think really checking the new id when you mint/first assign should be fixed/is the one to keep.</td>
+</tr>
+
+        
+<tr id="id_l248" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83879"><a href="/dataverse/2019-01-03#i_83879">17:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83879"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Ok. I left a comment indicating that it might be related. Thanks.</td>
+</tr>
+
+        
+<tr id="id_l249" class="new special dark">
+
+<td class="time" id="i_83880"><a href="/dataverse/2019-01-03#i_83880">17:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83880"  /></td>
+<td class="nick"></td>
+<td class="msg ">leonid joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l250" class="new nick nick_leonid">
+
+<td class="time" id="i_83881"><a href="/dataverse/2019-01-03#i_83881">17:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83881"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">Hi everybody;</td>
+</tr>
+
+        
+<tr id="id_l251" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83882"><a href="/dataverse/2019-01-03#i_83882">17:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83882"  /></td>
+<td class="nick nick2">* pdurbin</td>
+<td class="msg act ">waves at leonid</td>
+</tr>
+
+        
+<tr id="id_l252" class="new nick nick_leonid">
+
+<td class="time" id="i_83883"><a href="/dataverse/2019-01-03#i_83883">17:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83883"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">I spent some (very frustrating) time yesterday investigating this stuff too; I also realized we were doing something improper with looking up file level DOIs, and possibly sending nulls.</td>
+</tr>
+
+        
+<tr id="id_l253" class="cont nick nick_leonid">
+
+<td class="time" id="i_83884"><a href="/dataverse/2019-01-03#i_83884">17:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83884"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">specifically, our production logs had a bunch of exception stack traces like this:</td>
+</tr>
+
+        
+<tr id="id_l254" class="cont nick nick_leonid">
+
+<td class="time" id="i_83885"><a href="/dataverse/2019-01-03#i_83885">17:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83885"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">java.lang.RuntimeException: IOException when get metadata         at edu.harvard.iq.dataverse.DataCiteRESTfullClient​.testDOIExists(DataCiteRESTfullClient.java:162)         at edu.harvard.iq.dataverse.DOIDataCi​teRegisterService.testDOIExists(DO​IDataCiteRegisterService.java:226)</td>
+</tr>
+
+        
+<tr id="id_l255" class="cont nick nick_leonid">
+
+<td class="time" id="i_83886"><a href="/dataverse/2019-01-03#i_83886">17:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83886"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">the ioexception is from a fairly straightforward point in the code where it makes a call to <a href="https://mds.datacite.org/metadata/" title="https://mds.datacite.org/metadata/">https://mds.datacite.org/metadata/</a>... for the id in question</td>
+</tr>
+
+        
+<tr id="id_l256" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83887"><a href="/dataverse/2019-01-03#i_83887">17:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83887"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">yeah - I think the exception occurs when DataCite gives a 502 response</td>
+</tr>
+
+        
+<tr id="id_l257" class="new nick nick_leonid">
+
+<td class="time" id="i_83888"><a href="/dataverse/2019-01-03#i_83888">17:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83888"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">(and it works on the command line just fine; both for existing ids, and for ones not yet registered - with a 404).</td>
+</tr>
+
+        
+<tr id="id_l258" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83889"><a href="/dataverse/2019-01-03#i_83889">17:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83889"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">(and guessing that either getting lots of pings from the ~infinite loop, or just responding on 16M DOIs instead of checking for 1 causes a 502)</td>
+</tr>
+
+        
+<tr id="id_l259" class="new nick nick_leonid">
+
+<td class="time" id="i_83890"><a href="/dataverse/2019-01-03#i_83890">17:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83890"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">also, we are running 4.9.4 still - so that's before Jim's latest changes to DataCiteRESTfullClient.java, etc. were incorporated</td>
+</tr>
+
+        
+<tr id="id_l260" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83891"><a href="/dataverse/2019-01-03#i_83891">17:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83891"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">yeah - the code sending a null hasn't changed for 6/12 months, so there has to have been something at DataCite recently</td>
+</tr>
+
+        
+<tr id="id_l261" class="new nick nick_leonid">
+
+<td class="time" id="i_83892"><a href="/dataverse/2019-01-03#i_83892">17:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83892"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">so for a moment i assumed it was simply a matter of accumuluting, not-properly-closed http client connections that were causing the client to start barfing (a false lead, as i know by now)_</td>
+</tr>
+
+        
+<tr id="id_l262" class="cont nick nick_leonid">
+
+<td class="time" id="i_83893"><a href="/dataverse/2019-01-03#i_83893">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83893"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">what further frustrated me was when i realized that there was no 1:1 corelation between these stack traces and the actual inability to publish a dataset</td>
+</tr>
+
+        
+<tr id="id_l263" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83894"><a href="/dataverse/2019-01-03#i_83894">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83894"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">?? - some where it just hung?</td>
+</tr>
+
+        
+<tr id="id_l264" class="cont nick nick_Jim79 dark">
+
+<td class="time" id="i_83895"><a href="/dataverse/2019-01-03#i_83895">17:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83895"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">or exceptions when it still succeeded?</td>
+</tr>
+
+        
+<tr id="id_l265" class="new nick nick_leonid">
+
+<td class="time" id="i_83896"><a href="/dataverse/2019-01-03#i_83896">17:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83896"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">i had a list of datasets that users specifically complained about not being able to publish; and when trying to publish those, there was NOTHING in the logs, no stack traces, and hte process just hung...</td>
+</tr>
+
+        
+<tr id="id_l266" class="cont nick nick_leonid">
+
+<td class="time" id="i_83897"><a href="/dataverse/2019-01-03#i_83897">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83897"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">at that point i was too tired and i left, planning to actually send it through a debugger in the morning</td>
+</tr>
+
+        
+<tr id="id_l267" class="cont nick nick_leonid">
+
+<td class="time" id="i_83898"><a href="/dataverse/2019-01-03#i_83898">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83898"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">and this is what you must have done - and that's how you discovered the infinite loop, right?</td>
+</tr>
+
+        
+<tr id="id_l268" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83899"><a href="/dataverse/2019-01-03#i_83899">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83899"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">yeah - when datacite kept up and didn't 502, the loop just keeps going</td>
+</tr>
+
+        
+<tr id="id_l269" class="cont nick nick_Jim79 dark">
+
+<td class="time" id="i_83900"><a href="/dataverse/2019-01-03#i_83900">17:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83900"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">yeah - I added some log messages</td>
+</tr>
+
+        
+<tr id="id_l270" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83901"><a href="/dataverse/2019-01-03#i_83901">17:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83901"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">that's been my experience... with a file in the dataset, publishing just hangs with nothing in server.log. this is on dev boxes close to develop configured with datacite</td>
+</tr>
+
+        
+<tr id="id_l271" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83902"><a href="/dataverse/2019-01-03#i_83902">17:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83902"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">so yeah, this part is still an unknown - it looks like there's an exception in some cases, and an infinite loop in others...</td>
+</tr>
+
+        
+<tr id="id_l272" class="new nick nick_Jim79">
+
+<td class="time" id="i_83903"><a href="/dataverse/2019-01-03#i_83903">17:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83903"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">I think it makes sense - it's just whether DataCite keeps up with the barrage or not</td>
+</tr>
+
+        
+<tr id="id_l273" class="new special dark">
+
+<td class="time" id="i_83904"><a href="/dataverse/2019-01-03#i_83904">17:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83904"  /></td>
+<td class="nick"></td>
+<td class="msg ">madunlap joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l274" class="new nick nick_pameyer">
+
+<td class="time" id="i_83905"><a href="/dataverse/2019-01-03#i_83905">17:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83905"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">I'm not sure if this explains the deploy failures or not</td>
+</tr>
+
+        
+<tr id="id_l275" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83906"><a href="/dataverse/2019-01-03#i_83906">17:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83906"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">oh, so it's not an infinite loop literally - it really is a timeout on the dataset part?</td>
+</tr>
+
+        
+<tr id="id_l276" class="new nick nick_Jim79">
+
+<td class="time" id="i_83907"><a href="/dataverse/2019-01-03#i_83907">17:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83907"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">IN any case - I'm doing a quick test on my branch and will then push a PR on develop</td>
+</tr>
+
+        
+<tr id="id_l277" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83908"><a href="/dataverse/2019-01-03#i_83908">17:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83908"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">this would make some sense; when you send their /metadata api a null it looks like it tries to look up EVERYTHING in their database, lol.</td>
+</tr>
+
+        
+<tr id="id_l278" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83909"><a href="/dataverse/2019-01-03#i_83909">17:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83909"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">ok, great, thanks a lot!</td>
+</tr>
+
+        
+<tr id="id_l279" class="new nick nick_Jim79">
+
+<td class="time" id="i_83910"><a href="/dataverse/2019-01-03#i_83910">17:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83910"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">well, DV keeps generating new IDs since DataCite keeps saying they exist (by now responding with a 200 to /metadata/null) unless/until it 502s.</td>
+</tr>
+
+        
+<tr id="id_l280" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83911"><a href="/dataverse/2019-01-03#i_83911">17:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83911"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">I think something else timeouts/breaks after 5-10 minutes if DataCite keeps up and that stops the loop as well</td>
+</tr>
+
+        
+<tr id="id_l281" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83912"><a href="/dataverse/2019-01-03#i_83912">17:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83912"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">i basically came here to acknowledge that we've been researching this too and to thank you for the incoming pr</td>
+</tr>
+
+        
+<tr id="id_l282" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83913"><a href="/dataverse/2019-01-03#i_83913">17:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83913"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">oh, yes, of course... sorry to be slow.</td>
+</tr>
+
+        
+<tr id="id_l283" class="new nick nick_Jim79">
+
+<td class="time" id="i_83914"><a href="/dataverse/2019-01-03#i_83914">17:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83914"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">glad to help and appreciate being able to compare notes</td>
+</tr>
+
+        
+<tr id="id_l284" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83915"><a href="/dataverse/2019-01-03#i_83915">17:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83915"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">i didn't get the part about interpreting the 200 as &quot;already exists&quot; right away</td>
+</tr>
+
+        
+<tr id="id_l285" class="new nick nick_Jim79">
+
+<td class="time" id="i_83916"><a href="/dataverse/2019-01-03#i_83916">17:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83916"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">always nasty when two issues collide...</td>
+</tr>
+
+        
+<tr id="id_l286" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83917"><a href="/dataverse/2019-01-03#i_83917">17:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83917"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">we should thank DataCite because I think they had to have changed the response to 200 in the recent update</td>
+</tr>
+
+        
+<tr id="id_l287" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83918"><a href="/dataverse/2019-01-03#i_83918">17:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83918"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">and let datacite know about the null query -&gt; return everything behavior.  pretty sure that's something they'd want turned off</td>
+</tr>
+
+        
+<tr id="id_l288" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83919"><a href="/dataverse/2019-01-03#i_83919">17:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83919"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">pameyer: would we report it at <a href="https://github.com/datacite/poodle" title="https://github.com/datacite/poodle">https://github.com/datacite/poodle</a> ?</td>
+</tr>
+
+        
+<tr id="id_l289" class="new nick nick_Jim79 dark">
+
+<td class="time" id="i_83920"><a href="/dataverse/2019-01-03#i_83920">17:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83920"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">not sure what could/should be done about prior DV versions - this affects all file DOIs (so 4.9.x) and unless DataCite reverts, I think it requires a code update to fix (could do the suggestion to turn off file DOIs until upgrading to 4.10.x...)</td>
+</tr>
+
+        
+<tr id="id_l290" class="new nick nick_pameyer">
+
+<td class="time" id="i_83921"><a href="/dataverse/2019-01-03#i_83921">17:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83921"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">pdurbin: that looks like the repo; but not sure if it should go there or to their support email</td>
+</tr>
+
+        
+<tr id="id_l291" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83922"><a href="/dataverse/2019-01-03#i_83922">17:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83922"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">pameyer: the deploy failure is an entirely different thing yes; (last night I wasn't able to deploy on one of the 2 production nodes, because the app on the first node kept some kind of a lock on the dvobject table in the db??? - on of the guesses is that it was possibly a result of an attempt to publish gone wrong on the first node... but who knows)</td>
+</tr>
+
+        
+<tr id="id_l292" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83923"><a href="/dataverse/2019-01-03#i_83923">17:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83923"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">Yes, I agree, that it is prudent to advise everybody to disable file level DOIs until the next version.</td>
+</tr>
+
+        
+<tr id="id_l293" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83924"><a href="/dataverse/2019-01-03#i_83924">17:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83924"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">(this is what i have just done in our production)</td>
+</tr>
+
+        
+<tr id="id_l294" class="new nick nick_Jim79">
+
+<td class="time" id="i_83925"><a href="/dataverse/2019-01-03#i_83925">17:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83925"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">- I had some deploy failures (different mechanism here) and suspected that the infinite loop was still going...</td>
+</tr>
+
+        
+<tr id="id_l295" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83926"><a href="/dataverse/2019-01-03#i_83926">17:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83926"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@leonid ok.  This fix makes sense to me; but there may be other problems lurking</td>
+</tr>
+
+        
+<tr id="id_l296" class="new nick nick_leonid">
+
+<td class="time" id="i_83927"><a href="/dataverse/2019-01-03#i_83927">17:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83927"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">for the record, i never liked the idea of file level dois in the first place. not as the default behavior, definitely. (and when it was first added, there was no way to even opt out of it at all).</td>
+</tr>
+
+        
+<tr id="id_l297" class="cont nick nick_leonid">
+
+<td class="time" id="i_83928"><a href="/dataverse/2019-01-03#i_83928">17:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83928"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">@pameyer the &quot;fix&quot; - you mean, the workaround of disabling the registration for file-level DOIs? that would be a temporary thing; and we would provide a script for re-registering them later, for those who want them.</td>
+</tr>
+
+        
+<tr id="id_l298" class="cont nick nick_leonid">
+
+<td class="time" id="i_83929"><a href="/dataverse/2019-01-03#i_83929">17:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83929"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">or are you talking about @Jim79's fix?</td>
+</tr>
+
+        
+<tr id="id_l299" class="new special dark">
+
+<td class="time" id="i_83930"><a href="/dataverse/2019-01-03#i_83930">17:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83930"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l300" class="new nick nick_pameyer">
+
+<td class="time" id="i_83931"><a href="/dataverse/2019-01-03#i_83931">17:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83931"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">@leonid - I was talking about @Jim79's fix (not sending null to datacite)</td>
+</tr>
+
+        
+<tr id="id_l301" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83932"><a href="/dataverse/2019-01-03#i_83932">17:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83932"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">well, we shouldn't be sending that null to datacite... so it is a good fix. :)</td>
+</tr>
+
+        
+<tr id="id_l302" class="new nick nick_pameyer">
+
+<td class="time" id="i_83933"><a href="/dataverse/2019-01-03#i_83933">17:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83933"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">and thinking about it some more, it does seem plausible to me that it was the cause of the deploy problems</td>
+</tr>
+
+        
+<tr id="id_l303" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83934"><a href="/dataverse/2019-01-03#i_83934">17:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83934"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">and to be clear, we are sending a string &quot;null&quot;; not a real null or a zero byte, or anything like that.</td>
+</tr>
+
+        
+<tr id="id_l304" class="new nick nick_pameyer">
+
+<td class="time" id="i_83935"><a href="/dataverse/2019-01-03#i_83935">17:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83935"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">infinite loop of alter/update/insert/select in a different transaction from a transaction trying to do create table / create index</td>
+</tr>
+
+        
+<tr id="id_l305" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83936"><a href="/dataverse/2019-01-03#i_83936">17:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83936"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">one would think they should just return a 404; (and that's presumably what they were doing before)</td>
+</tr>
+
+        
+<tr id="id_l306" class="new nick nick_pameyer">
+
+<td class="time" id="i_83937"><a href="/dataverse/2019-01-03#i_83937">17:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83937"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">ah - I'd been thinking that sending &quot;null&quot; resulted in &quot;metadata on all datacite dois&quot;, which would probably be suboptimal from their perspective</td>
+</tr>
+
+        
+<tr id="id_l307" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83938"><a href="/dataverse/2019-01-03#i_83938">17:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83938"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">yes, sure, there are ways to be more careful there. we'll open a dev ticket for further improvememnts and take it from there</td>
+</tr>
+
+        
+<tr id="id_l308" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83939"><a href="/dataverse/2019-01-03#i_83939">17:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83939"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">we are literally sending this: <a href="https://mds.datacite.org/metadata/null" title="https://mds.datacite.org/metadata/null">https://mds.datacite.org/metadata/null</a></td>
+</tr>
+
+        
+<tr id="id_l309" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83940"><a href="/dataverse/2019-01-03#i_83940">17:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83940"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">and the response to it is now identical to <a href="https://mds.datacite.org/metadata/xxx" title="https://mds.datacite.org/metadata/xxx">https://mds.datacite.org/metadata/xxx</a></td>
+</tr>
+
+        
+<tr id="id_l310" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83941"><a href="/dataverse/2019-01-03#i_83941">17:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83941"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">and/or to just <a href="https://mds.datacite.org/metadata/" title="https://mds.datacite.org/metadata/">https://mds.datacite.org/metadata/</a></td>
+</tr>
+
+        
+<tr id="id_l311" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83942"><a href="/dataverse/2019-01-03#i_83942">18:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83942"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">... and, if nothing else, we can do more than just check if the return code is 200. we can (should) probably read the actual response and validate it...</td>
+</tr>
+
+        
+<tr id="id_l312" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83943"><a href="/dataverse/2019-01-03#i_83943">18:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83943"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Well, we'll use the incoming pull request from Jim79 as a starting point, right? And decide how much technical debt we want to pay down?</td>
+</tr>
+
+        
+<tr id="id_l313" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83944"><a href="/dataverse/2019-01-03#i_83944">18:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83944"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">I feel we should accept Jim's pr as is - since it does fix a pretty serious issue. then open another issue for further improvements/&quot;technical debt&quot;; and make sure it doesn't fall through the cracks.</td>
+</tr>
+
+        
+<tr id="id_l314" class="new nick nick_Jim79">
+
+<td class="time" id="i_83945"><a href="/dataverse/2019-01-03#i_83945">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83945"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">OK - <a href="https://github.com/IQSS/dataverse/pull/5428" title="https://github.com/IQSS/dataverse/pull/5428">https://github.com/IQSS/dataverse/pull/5428</a> exists. It's editable by maintainers, so feel free to change as needed...</td>
+</tr>
+
+        
+<tr id="id_l315" class="cont nick nick_Jim79">
+
+<td class="time" id="i_83946"><a href="/dataverse/2019-01-03#i_83946">18:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83946"  /></td>
+<td class="nick nick3">Jim79</td>
+<td class="msg ">(fyi - I haven't tested on develop directly, just the modified develop at QDR...)</td>
+</tr>
+
+        
+<tr id="id_l316" class="new special dark">
+
+<td class="time" id="i_83947"><a href="/dataverse/2019-01-03#i_83947">18:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83947"  /></td>
+<td class="nick"></td>
+<td class="msg ">Jim15 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l317" class="cont special dark">
+
+<td class="time" id="i_83948"><a href="/dataverse/2019-01-03#i_83948">18:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83948"  /></td>
+<td class="nick"></td>
+<td class="msg ">Jim97 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l318" class="new nick nick_Jim97">
+
+<td class="time" id="i_83949"><a href="/dataverse/2019-01-03#i_83949">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83949"  /></td>
+<td class="nick nick8">Jim97</td>
+<td class="msg ">I agree that this PR doesn't really fix things in that, while it now sends the identifier in question, the fact that DataCite will give a 200 response for anything means duplicates won't be detected...</td>
+</tr>
+
+        
+<tr id="id_l319" class="cont nick nick_Jim97">
+
+<td class="time" id="i_83950"><a href="/dataverse/2019-01-03#i_83950">18:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83950"  /></td>
+<td class="nick nick8">Jim97</td>
+<td class="msg ">just noticed that, despite the application/xml header I send in curl, DataCite responds with json when it can't find the id. It's only xml when the id is found...</td>
+</tr>
+
+        
+<tr id="id_l320" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83951"><a href="/dataverse/2019-01-03#i_83951">18:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83951"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">wait, i don't think DataCite really gives 200 in response to anything... if I give it something like 10.7910/DVN/MADEUPNONEXISTINGID i get back an honest 404</td>
+</tr>
+
+        
+<tr id="id_l321" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83952"><a href="/dataverse/2019-01-03#i_83952">18:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83952"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">it's only when i give it a string without slashes (like &quot;null&quot; or &quot;xxx&quot;) that I get that &quot;everything&quot; response</td>
+</tr>
+
+        
+<tr id="id_l322" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83953"><a href="/dataverse/2019-01-03#i_83953">18:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83953"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">yeah, I noticed that too - that it's all json, despite the &quot;accept: xml&quot; header</td>
+</tr>
+
+        
+<tr id="id_l323" class="cont nick nick_leonid dark">
+
+<td class="time" id="i_83954"><a href="/dataverse/2019-01-03#i_83954">18:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83954"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">so as long as we are not sending it total junk, but actual ids expected in your dataverse installation - with a sensible name space, etc. - i think it should be working as it should; properly detecting duplicates.</td>
+</tr>
+
+        
+<tr id="id_l324" class="new nick nick_Jim97">
+
+<td class="time" id="i_83955"><a href="/dataverse/2019-01-03#i_83955">18:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83955"  /></td>
+<td class="nick nick8">Jim97</td>
+<td class="msg ">Ahh - good.</td>
+</tr>
+
+        
+<tr id="id_l325" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83956"><a href="/dataverse/2019-01-03#i_83956">18:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83956"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim97: did you see the compilation failure with FakePidProviderServiceBean?</td>
+</tr>
+
+        
+<tr id="id_l326" class="new nick nick_Jim97">
+
+<td class="time" id="i_83957"><a href="/dataverse/2019-01-03#i_83957">18:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83957"  /></td>
+<td class="nick nick8">Jim97</td>
+<td class="msg ">Nope... one sec...</td>
+</tr>
+
+        
+<tr id="id_l327" class="cont nick nick_Jim97">
+
+<td class="time" id="i_83958"><a href="/dataverse/2019-01-03#i_83958">18:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83958"  /></td>
+<td class="nick nick8">Jim97</td>
+<td class="msg ">try that - should the new method also return true like the alreadyExists(dvObject) call?</td>
+</tr>
+
+        
+<tr id="id_l328" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83959"><a href="/dataverse/2019-01-03#i_83959">18:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83959"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Jim97: yep. Thanks! Now it compiles. Green instead of red at <a href="https://travis-ci.org/IQSS/dataverse/pull_requests" title="https://travis-ci.org/IQSS/dataverse/pull_requests">https://travis-ci.org/IQSS/dataverse/pull_requests</a></td>
+</tr>
+
+        
+<tr id="id_l329" class="new nick nick_Jim97">
+
+<td class="time" id="i_83960"><a href="/dataverse/2019-01-03#i_83960">18:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83960"  /></td>
+<td class="nick nick8">Jim97</td>
+<td class="msg ">my qdr dev branch is just older than when you added the Fake Pid provider...</td>
+</tr>
+
+        
+<tr id="id_l330" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83961"><a href="/dataverse/2019-01-03#i_83961">18:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83961"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">yeah, that thing is brand new</td>
+</tr>
+
+        
+<tr id="id_l331" class="new special">
+
+<td class="time" id="i_83962"><a href="/dataverse/2019-01-03#i_83962">18:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83962"  /></td>
+<td class="nick"></td>
+<td class="msg ">Jim92 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l332" class="cont special">
+
+<td class="time" id="i_83963"><a href="/dataverse/2019-01-03#i_83963">18:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83963"  /></td>
+<td class="nick"></td>
+<td class="msg ">Jim_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l333" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83964"><a href="/dataverse/2019-01-03#i_83964">18:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83964"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">How do I reference leonid in github - @&lt;what&gt;?</td>
+</tr>
+
+        
+<tr id="id_l334" class="new nick nick_leonid">
+
+<td class="time" id="i_83965"><a href="/dataverse/2019-01-03#i_83965">18:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83965"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">@pdurbin do you know/remember where the DataCite code came from? Gustavo mentioned it was written externally, then passed to us... Most lines in there are checked in by steve, but the classes list @luopc as the author... who is that?</td>
+</tr>
+
+        
+<tr id="id_l335" class="cont nick nick_leonid">
+
+<td class="time" id="i_83966"><a href="/dataverse/2019-01-03#i_83966">18:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83966"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">@landreev</td>
+</tr>
+
+        
+<tr id="id_l336" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83967"><a href="/dataverse/2019-01-03#i_83967">18:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83967"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">thanks</td>
+</tr>
+
+        
+<tr id="id_l337" class="new special">
+
+<td class="time" id="i_83968"><a href="/dataverse/2019-01-03#i_83968">18:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83968"  /></td>
+<td class="nick"></td>
+<td class="msg ">isullivan joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l338" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83969"><a href="/dataverse/2019-01-03#i_83969">18:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83969"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">leonid: Pengcheng Luo from Peking. Did you meet him at last year's community meeting? I had lunch with him. He gave a talk called &quot;Support University Students’ Data Driven Research in a National Contest with PKU Open Research Data Platform&quot;: <a href="https://dataversecommunitymeeting20.sched.com/speaker/pengchengluo" title="https://dataversecommunitymeeting20.sched.com/speaker/pengchengluo">https://dataversecommunitymeeting20.sched.com/speaker/pengchengluo</a></td>
+</tr>
+
+        
+<tr id="id_l339" class="new nick nick_leonid">
+
+<td class="time" id="i_83970"><a href="/dataverse/2019-01-03#i_83970">18:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83970"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">ok, i know who he is, yes. did not immediately connect the github name to the person - thanks.</td>
+</tr>
+
+        
+<tr id="id_l340" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_83971"><a href="/dataverse/2019-01-03#i_83971">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83971"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">really nice guy</td>
+</tr>
+
+        
+<tr id="id_l341" class="new nick nick_leonid">
+
+<td class="time" id="i_83972"><a href="/dataverse/2019-01-03#i_83972">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83972"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">yep</td>
+</tr>
+
+        
+<tr id="id_l342" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83973"><a href="/dataverse/2019-01-03#i_83973">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83973"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">Should we note something for the community list or wait until the fix is available?</td>
+</tr>
+
+        
+<tr id="id_l343" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83974"><a href="/dataverse/2019-01-03#i_83974">19:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83974"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Good question. It's a free country. Please feel free to send something. :)</td>
+</tr>
+
+        
+<tr id="id_l344" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83975"><a href="/dataverse/2019-01-03#i_83975">19:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83975"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">(responding to earlier discussion) - the /api/admin/registerDataFileAll method should be all that's needed to catch up if people turn off file pids for now, so the workaround shouldn't cause much extra work.</td>
+</tr>
+
+        
+<tr id="id_l345" class="cont nick nick_Jim_ dark">
+
+<td class="time" id="i_83976"><a href="/dataverse/2019-01-03#i_83976">19:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83976"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">Yeah, but one authoritative note that there's a 4.10.x fix and a 4.9.x workaround might be better (and I'm not authoritative...)</td>
+</tr>
+
+        
+<tr id="id_l346" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83977"><a href="/dataverse/2019-01-03#i_83977">19:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83977"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">am I? :)</td>
+</tr>
+
+        
+<tr id="id_l347" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83978"><a href="/dataverse/2019-01-03#i_83978">19:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83978"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">to me you are :-)</td>
+</tr>
+
+        
+<tr id="id_l348" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83979"><a href="/dataverse/2019-01-03#i_83979">19:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83979"  /></td>
+<td class="nick nick2">* pdurbin</td>
+<td class="msg act ">blushes</td>
+</tr>
+
+        
+<tr id="id_l349" class="new special dark">
+
+<td class="time" id="i_83980"><a href="/dataverse/2019-01-03#i_83980">19:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83980"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l350" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83981"><a href="/dataverse/2019-01-03#i_83981">19:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83981"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">Danny's most recent post on the thread says &quot;I'll update this as we uncover more information.&quot; So I guess he's planning on sending something.</td>
+</tr>
+
+        
+<tr id="id_l351" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83982"><a href="/dataverse/2019-01-03#i_83982">19:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83982"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">OK - let me send some text to Danny and let him be authoritative...</td>
+</tr>
+
+        
+<tr id="id_l352" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83983"><a href="/dataverse/2019-01-03#i_83983">19:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83983"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">sounds good</td>
+</tr>
+
+        
+<tr id="id_l353" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83984"><a href="/dataverse/2019-01-03#i_83984">19:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83984"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I would probably just link to the <abbr title="Internet Relay Chat">IRC</abbr> log, which isn't very useful. Lots of noise. :)</td>
+</tr>
+
+        
+<tr id="id_l354" class="new nick nick_leonid dark">
+
+<td class="time" id="i_83985"><a href="/dataverse/2019-01-03#i_83985">20:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83985"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">fyi, I spoke to Danny about notifying other installations; I wrote a blurb and he's going to send it out.</td>
+</tr>
+
+        
+<tr id="id_l355" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83986"><a href="/dataverse/2019-01-03#i_83986">20:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83986"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">awesome</td>
+</tr>
+
+        
+<tr id="id_l356" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83987"><a href="/dataverse/2019-01-03#i_83987">21:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83987"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I see Jim_ sent a nice note to the google group. Thanks!</td>
+</tr>
+
+        
+<tr id="id_l357" class="new nick nick_Jim_ dark">
+
+<td class="time" id="i_83988"><a href="/dataverse/2019-01-03#i_83988">21:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83988"  /></td>
+<td class="nick nick7">Jim_</td>
+<td class="msg ">I emailed DataCite support as well - partly to note that this might have been causing 502s and suggesting they respect accept headers</td>
+</tr>
+
+        
+<tr id="id_l358" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83989"><a href="/dataverse/2019-01-03#i_83989">21:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83989"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">cool, please keep us posted on what they say</td>
+</tr>
+
+        
+<tr id="id_l359" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_83990"><a href="/dataverse/2019-01-03#i_83990">21:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83990"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I wonder if the 502 is from a timeout: <a href="https://serverfault.com/questions/475866/sporatic-502-errors-with-ruby-on-rails-site-running-on-nginx" title="https://serverfault.com/questions/475866/sporatic-502-errors-with-ruby-on-rails-site-running-on-nginx">https://serverfault.com/questions/475866/sporatic-502-errors-with-ruby-on-rails-site-running-on-nginx</a></td>
+</tr>
+
+        
+<tr id="id_l360" class="new nick nick_Guest43965 dark">
+
+<td class="time" id="i_83991"><a href="/dataverse/2019-01-03#i_83991">21:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83991"  /></td>
+<td class="nick">Guest43965</td>
+<td class="msg ">definitely - with enough load, DataCite doesn't reply to their gateway in time. FWIW - this is what happens with Dataverse and large files - if it takes too long for Dataverse to store (and perhaps unzip/ingest), the web app gets a 502 from apache</td>
+</tr>
+
+        
+<tr id="id_l361" class="new nick nick_pdurbin">
+
+<td class="time" id="i_83992"><a href="/dataverse/2019-01-03#i_83992">21:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83992"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok, interesting</td>
+</tr>
+
+        
+<tr id="id_l362" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83993"><a href="/dataverse/2019-01-03#i_83993">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83993"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">I'm not too farmiliar with rails, but some other frameworks are configured to email folks whenever there's an exception in the app</td>
+</tr>
+
+        
+<tr id="id_l363" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_83994"><a href="/dataverse/2019-01-03#i_83994">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83994"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">hopefully wasn't the case here</td>
+</tr>
+
+        
+<tr id="id_l364" class="new nick nick_leonid">
+
+<td class="time" id="i_83995"><a href="/dataverse/2019-01-03#i_83995">21:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83995"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">Thanks for contacting DataCite; I was going to ask if that was already done.</td>
+</tr>
+
+        
+<tr id="id_l365" class="cont nick nick_leonid">
+
+<td class="time" id="i_83996"><a href="/dataverse/2019-01-03#i_83996">21:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83996"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">i'm not sure if their ignoring of the &quot;accept: xml&quot; header is an issue of its own; or just a side effect of their defaulting to &quot;show all&quot; when a junk query is received...</td>
+</tr>
+
+        
+<tr id="id_l366" class="cont nick nick_leonid">
+
+<td class="time" id="i_83997"><a href="/dataverse/2019-01-03#i_83997">21:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83997"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">i feel like the latter is the main bug; and as long as they fix it, the other may be irrelevant... but who knows - definitely a good idea to pass everything we know to them.</td>
+</tr>
+
+        
+<tr id="id_l367" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_83998"><a href="/dataverse/2019-01-03#i_83998">21:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83998"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">that was on the metadata endpoint, right?</td>
+</tr>
+
+        
+<tr id="id_l368" class="new nick nick_leonid">
+
+<td class="time" id="i_83999"><a href="/dataverse/2019-01-03#i_83999">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_83999"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">correct.</td>
+</tr>
+
+        
+<tr id="id_l369" class="cont nick nick_leonid">
+
+<td class="time" id="i_84000"><a href="/dataverse/2019-01-03#i_84000">21:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_84000"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">.../metadata/10.7910/DVN/ZZZZZZZ returns 404, as it should (assumign ZZZZZZZ does not exist)</td>
+</tr>
+
+        
+<tr id="id_l370" class="cont nick nick_leonid">
+
+<td class="time" id="i_84001"><a href="/dataverse/2019-01-03#i_84001">21:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_84001"  /></td>
+<td class="nick nick4">leonid</td>
+<td class="msg ">but, for some reason, .../metadata/ZZZZZZZ is now resulting in what seems like a [paginated, thank god] list of everything they have; always in json.</td>
+</tr>
+
+        
+<tr id="id_l371" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_84002"><a href="/dataverse/2019-01-03#i_84002">21:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_84002"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">there's a lot of magic lurking there; but it does appear that the xml only gets rendered on a 200 status</td>
+</tr>
+
+        
+<tr id="id_l372" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_84003"><a href="/dataverse/2019-01-03#i_84003">21:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_84003"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">but somewhat oddly, it looks to me like it should be doing text/plain as a default</td>
+</tr>
+
+        
+<tr id="id_l373" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_84004"><a href="/dataverse/2019-01-03#i_84004">21:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_84004"  /></td>
+<td class="nick nick5">pameyer</td>
+<td class="msg ">appears to be downstream of the code in the poodle repo pdurbin mentioned</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2019-01-02" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2019-01-04" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2019-01-03">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2019-01-03;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2019-01-03;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

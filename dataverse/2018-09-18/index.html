@@ -1,0 +1,2100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2018-09-18" />
+    <title>IRC log for #dataverse, 2018-09-18</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2018-09-18</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2018-09-17" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2018-09-19" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2018-09-18">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2018-09-18;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2018-09-18;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_72498"><a href="/dataverse/2018-09-18#i_72498">03:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72498"  /></td>
+<td class="nick"></td>
+<td class="msg ">dataverse-user joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_72499"><a href="/dataverse/2018-09-18#i_72499">10:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72499"  /></td>
+<td class="nick"></td>
+<td class="msg ">juancorr joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="cont special dark">
+
+<td class="time" id="i_72500"><a href="/dataverse/2018-09-18#i_72500">12:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72500"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l5" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72501"><a href="/dataverse/2018-09-18#i_72501">12:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72501"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pameyer i would like to speak with the folks who put the &quot;press enter to reboot&quot; logic in the dell idrac firmware update routine.</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72502"><a href="/dataverse/2018-09-18#i_72502">13:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72502"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">donsizemore: morning. I might have an Ansible question.</td>
+</tr>
+
+        
+<tr id="id_l7" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72503"><a href="/dataverse/2018-09-18#i_72503">13:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72503"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin yes sir</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72504"><a href="/dataverse/2018-09-18#i_72504">13:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72504"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">donsizemore: please check out this &quot;TODO: allow arbitrary repo, not just IQSS. Will require changing it on the ansible side as well&quot; at <a href="https://github.com/IQSS/dataverse/blob/19e2915128f13fee46afe3d63fa4e24d34705a8c/scripts/installer/ec2-create-instance.sh#L4" title="https://github.com/IQSS/dataverse/blob/19e2915128f13fee46afe3d63fa4e24d34705a8c/scripts/installer/ec2-create-instance.sh#L4">https://github.com/IQSS/dataverse/blob/19e2915128f13fee46afe3d63fa4e24d34705a8c/scripts/installer/ec2-create-instance.sh#L4</a></td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72505"><a href="/dataverse/2018-09-18#i_72505">13:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72505"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">You'll see that &quot;IQSS&quot; is hard coded in a couple commands.</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72506"><a href="/dataverse/2018-09-18#i_72506">13:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72506"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">oh, that should be pretty simple. so you just want the github url to become a variable?</td>
+</tr>
+
+        
+<tr id="id_l11" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72507"><a href="/dataverse/2018-09-18#i_72507">13:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72507"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">donsizemore: yeah, so that arbitrary branches can be spun up from non-IQSS repos such as <a href="https://github.com/OdumInstitute/dataverse" title="https://github.com/OdumInstitute/dataverse">https://github.com/OdumInstitute/dataverse</a></td>
+</tr>
+
+        
+<tr id="id_l12" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72508"><a href="/dataverse/2018-09-18#i_72508">13:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72508"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin push first, test later <a href="https://github.com/IQSS/dataverse-ansible/commit/7ea1f7a94e203a3c8a21bc11b3da3463e20bd52c" title="https://github.com/IQSS/dataverse-ansible/commit/7ea1f7a94e203a3c8a21bc11b3da3463e20bd52c">https://github.com/IQSS/dataverse-ansible/commit/7ea1f7a94e203a3c8a21bc11b3da3463e20bd52c</a></td>
+</tr>
+
+        
+<tr id="id_l13" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72509"><a href="/dataverse/2018-09-18#i_72509">13:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72509"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">donsizemore: cool, but now I have another question</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72510"><a href="/dataverse/2018-09-18#i_72510">13:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72510"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">sed -i &quot;s/branch:/branch: $BRANCH_NAME/&quot; dataverse/defaults/main.yml</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72511"><a href="/dataverse/2018-09-18#i_72511">13:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72511"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">The script I linked to above has that sed line in it.</td>
+</tr>
+
+        
+<tr id="id_l16" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72512"><a href="/dataverse/2018-09-18#i_72512">13:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72512"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">It seems weird to me that we have to modify that main.yml file on disk. Shouldn't we be able to pass an argument to Ansible?</td>
+</tr>
+
+        
+<tr id="id_l17" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72513"><a href="/dataverse/2018-09-18#i_72513">13:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72513"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin that may have been experimentation on matthew's part? i thought he was passing extra variables to ansible-playbook but ansible's inverted variable priority may have bitten him</td>
+</tr>
+
+        
+<tr id="id_l18" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72514"><a href="/dataverse/2018-09-18#i_72514">13:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72514"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">The sed line is what he got to work. I'm wondering if there's another way. Passing an argument, setting an environment variable. Something.</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72515"><a href="/dataverse/2018-09-18#i_72515">13:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72515"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">he did say he got bit by something</td>
+</tr>
+
+        
+<tr id="id_l20" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72516"><a href="/dataverse/2018-09-18#i_72516">13:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72516"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">the cleanest thing would be to pass --extra-vars &quot;dataverse.git.branch=9999-get-my-margarita&quot; which ansible claims should always win the precedence war <a href="https://docs.ansible.com/ansible/2.6/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable" title="https://docs.ansible.com/ansible/2.6/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable">https://docs.ansible.com/ansible/2.6/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable</a></td>
+</tr>
+
+        
+<tr id="id_l21" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72517"><a href="/dataverse/2018-09-18#i_72517">14:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72517"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">ah &quot;extra vars (always win precedence)&quot;</td>
+</tr>
+
+        
+<tr id="id_l22" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72518"><a href="/dataverse/2018-09-18#i_72518">14:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72518"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">yeah, that sounds like what we want, right?</td>
+</tr>
+
+        
+<tr id="id_l23" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72519"><a href="/dataverse/2018-09-18#i_72519">14:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72519"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">if ansible does what it says =)</td>
+</tr>
+
+        
+<tr id="id_l24" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_72520"><a href="/dataverse/2018-09-18#i_72520">14:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72520"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">one other question he had about dataverse-ansible, for which i don't have a good answer due to the dataverse release cycle: dataverse-ansible downloads the dvinstall.zip corresponding to dataverse.version</td>
+</tr>
+
+        
+<tr id="id_l25" class="new special dark">
+
+<td class="time" id="i_72521"><a href="/dataverse/2018-09-18#i_72521">14:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72521"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l26" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72522"><a href="/dataverse/2018-09-18#i_72522">14:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72522"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">if a branch is specified, it clones that branch, builds the warfile and overwrites the one exploded from dvinstall.zip. however, if he needs to specify say a custom schema.xml or other anciliary file, i suppose i could add in variables for them? (he noticed that he deployed develop but got install files for 4.9.2)</td>
+</tr>
+
+        
+<tr id="id_l27" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72523"><a href="/dataverse/2018-09-18#i_72523">14:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72523"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">Buh. yeah, I guess we'll need to handle that stuff in the future. That'll be some work.</td>
+</tr>
+
+        
+<tr id="id_l28" class="new nick nick_pameyer">
+
+<td class="time" id="i_72524"><a href="/dataverse/2018-09-18#i_72524">14:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72524"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">this may be a silly question, but why not do a (optional) dataverse-build role; and set that ahead of the dataverse-install role?</td>
+</tr>
+
+        
+<tr id="id_l29" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72525"><a href="/dataverse/2018-09-18#i_72525">14:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72525"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">That's why we're calling the current effort &quot;spinning up arbitrary branches, phase one&quot;</td>
+</tr>
+
+        
+<tr id="id_l30" class="new nick nick_pameyer">
+
+<td class="time" id="i_72526"><a href="/dataverse/2018-09-18#i_72526">14:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72526"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">assuming that the dataverse-install starts from dvinstall.zip from somewhere; the build role could create that.  if it's missing, have the dataverse-deploy role download it</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_72527"><a href="/dataverse/2018-09-18#i_72527">14:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72527"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pameyer not silly at all. off the top of my head it's because dataverse-ansible doesn't simply use the install script, it dives in to glassfish-setup</td>
+</tr>
+
+        
+<tr id="id_l32" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_72528"><a href="/dataverse/2018-09-18#i_72528">14:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72528"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">ooh, i do like building custom dvinstall.zips</td>
+</tr>
+
+        
+<tr id="id_l33" class="new nick nick_pameyer">
+
+<td class="time" id="i_72529"><a href="/dataverse/2018-09-18#i_72529">14:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72529"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">right - not the script, just use the zip</td>
+</tr>
+
+        
+<tr id="id_l34" class="cont nick nick_pameyer">
+
+<td class="time" id="i_72530"><a href="/dataverse/2018-09-18#i_72530">14:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72530"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">and yeah; having to physically push buttons isn't the the greatest sometimes</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_72531"><a href="/dataverse/2018-09-18#i_72531">14:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72531"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pameyer and today i learned you have a Makefile: <a href="https://github.com/IQSS/dataverse/blob/cb2d308b17a1a70e9961e009682589ad3d8599d2/scripts/installer/Makefile" title="https://github.com/IQSS/dataverse/blob/cb2d308b17a1a70e9961e009682589ad3d8599d2/scripts/installer/Makefile">https://github.com/IQSS/dataverse/blob/cb2d308b17a1a70e9961e009682589ad3d8599d2/scripts/installer/Makefile</a></td>
+</tr>
+
+        
+<tr id="id_l36" class="cont nick nick_donsizemore dark">
+
+<td class="time" id="i_72532"><a href="/dataverse/2018-09-18#i_72532">14:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72532"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pameyer might be quicker to just build the custom makefile when a branch is specified. let me poke at that, thank you for the suggestion</td>
+</tr>
+
+        
+<tr id="id_l37" class="new nick nick_pdurbin">
+
+<td class="time" id="i_72533"><a href="/dataverse/2018-09-18#i_72533">14:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72533"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">donsizemore: for what it's worth, I recently documented that Makefile at <a href="http://guides.dataverse.org/en/4.9.2/developers/making-releases.html#make-artifacts-available-for-download" title="http://guides.dataverse.org/en/4.9.2/developers/making-releases.html#make-artifacts-available-for-download">http://guides.dataverse.org/en/4.9.2/developers/making-releases.html#make-artifacts-available-for-download</a></td>
+</tr>
+
+        
+<tr id="id_l38" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_72534"><a href="/dataverse/2018-09-18#i_72534">14:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72534"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">the Makefile wants the warfile to exist... so instead i could make the branch tasklist copy out each file specified. only 6 totaly</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_pdurbin">
+
+<td class="time" id="i_72535"><a href="/dataverse/2018-09-18#i_72535">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72535"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">whatever is sane to you and Pete. He and I have talked a lot about mvn vs make</td>
+</tr>
+
+        
+<tr id="id_l40" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_72536"><a href="/dataverse/2018-09-18#i_72536">14:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72536"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin solr is the only service which would require restarting. i can wedge this in pretty easily... but i tend to choose the shortest/simplest path.</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_pdurbin">
+
+<td class="time" id="i_72537"><a href="/dataverse/2018-09-18#i_72537">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72537"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">I'm not sure what you're up to exactly but I trust you. Here comes your rain.</td>
+</tr>
+
+        
+<tr id="id_l42" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_72538"><a href="/dataverse/2018-09-18#i_72538">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72538"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">no! no more rain! my mahonia holly can't take it</td>
+</tr>
+
+        
+<tr id="id_l43" class="new special">
+
+<td class="time" id="i_72539"><a href="/dataverse/2018-09-18#i_72539">14:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72539"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72540"><a href="/dataverse/2018-09-18#i_72540">14:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72540"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">@donsizemore - hopefully the rain up here means you folks get a break</td>
+</tr>
+
+        
+<tr id="id_l45" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72541"><a href="/dataverse/2018-09-18#i_72541">14:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72541"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pameyer i think i can do what you're suggesting pretty easily. will report back this afternoon</td>
+</tr>
+
+        
+<tr id="id_l46" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72542"><a href="/dataverse/2018-09-18#i_72542">14:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72542"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">great - thanks</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72543"><a href="/dataverse/2018-09-18#i_72543">14:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72543"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">two things to keep in mind though 1) you might want to do `make clean` before `make` with that Makefile, it doesn't realize when the war file is newer than the zipfile 2) sometimes I have ideas that seem to make sense, but don't always - so there's always the chance this is a blind alley</td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72544"><a href="/dataverse/2018-09-18#i_72544">14:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72544"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin i was responsible for perpetrating maven.ibiblio.org, you can hard-code it during a maven emergency, and yell at me if it falls over</td>
+</tr>
+
+        
+<tr id="id_l49" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72545"><a href="/dataverse/2018-09-18#i_72545">15:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72545"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">donsizemore: I'm sure you got way more rain that this but here you go, the view out my window: <a href="https://youtu.be/Jj6RC8eC-MQ" title="https://youtu.be/Jj6RC8eC-MQ">https://youtu.be/Jj6RC8eC-MQ</a></td>
+</tr>
+
+        
+<tr id="id_l50" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72546"><a href="/dataverse/2018-09-18#i_72546">15:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72546"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin our deputy director measured 11&quot; in two days at his house, just north of chapel hill</td>
+</tr>
+
+        
+<tr id="id_l51" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_72547"><a href="/dataverse/2018-09-18#i_72547">15:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72547"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin and more than anything i'm envious that your office has a window</td>
+</tr>
+
+        
+<tr id="id_l52" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72548"><a href="/dataverse/2018-09-18#i_72548">15:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72548"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">wow, 11 inches</td>
+</tr>
+
+        
+<tr id="id_l53" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72549"><a href="/dataverse/2018-09-18#i_72549">15:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72549"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin the river near goldsboro crested at 26' above flood stage, and i believe the cape fear near wilmington rose above the gauge</td>
+</tr>
+
+        
+<tr id="id_l54" class="new special dark">
+
+<td class="time" id="i_72550"><a href="/dataverse/2018-09-18#i_72550">15:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72550"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l55" class="new nick nick_pdurbin">
+
+<td class="time" id="i_72551"><a href="/dataverse/2018-09-18#i_72551">15:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72551"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">yikes</td>
+</tr>
+
+        
+<tr id="id_l56" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_72552"><a href="/dataverse/2018-09-18#i_72552">15:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72552"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">andrewSC bjonnh bricas juancorr pameyer: wow, check this out: <a href="https://static.scholarsportal.info/static/dataverse/dataverse-dist.png" title="https://static.scholarsportal.info/static/dataverse/dataverse-dist.png">https://static.scholarsportal.info/static/dataverse/dataverse-dist.png</a></td>
+</tr>
+
+        
+<tr id="id_l57" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72553"><a href="/dataverse/2018-09-18#i_72553">15:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72553"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">interesting</td>
+</tr>
+
+        
+<tr id="id_l58" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72554"><a href="/dataverse/2018-09-18#i_72554">15:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72554"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">has me wondering about things I've heard with harvesting timers and where they run</td>
+</tr>
+
+        
+<tr id="id_l59" class="new nick nick_pdurbin">
+
+<td class="time" id="i_72555"><a href="/dataverse/2018-09-18#i_72555">16:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72555"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">via <a href="https://groups.google.com/d/msg/dataverse-community/tfd6BZPgk-M/w3QEB8q5CAAJ" title="https://groups.google.com/d/msg/dataverse-community/tfd6BZPgk-M/w3QEB8q5CAAJ">https://groups.google.com/d/msg/dataverse-community/tfd6BZPgk-M/w3QEB8q5CAAJ</a></td>
+</tr>
+
+        
+<tr id="id_l60" class="new special dark">
+
+<td class="time" id="i_72556"><a href="/dataverse/2018-09-18#i_72556">16:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72556"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l61" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72557"><a href="/dataverse/2018-09-18#i_72557">17:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72557"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin who make-a-duh mistake? me?</td>
+</tr>
+
+        
+<tr id="id_l62" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_72558"><a href="/dataverse/2018-09-18#i_72558">17:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72558"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pdurbin will be fixed in my next commit</td>
+</tr>
+
+        
+<tr id="id_l63" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72559"><a href="/dataverse/2018-09-18#i_72559">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72559"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">awesome. kudos to Matthew for figuring it out</td>
+</tr>
+
+        
+<tr id="id_l64" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72560"><a href="/dataverse/2018-09-18#i_72560">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72560"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">thanks!</td>
+</tr>
+
+        
+<tr id="id_l65" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72561"><a href="/dataverse/2018-09-18#i_72561">17:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72561"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">i shouldn't be allowed to computer before noon. or after, for that matter.</td>
+</tr>
+
+        
+<tr id="id_l66" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72562"><a href="/dataverse/2018-09-18#i_72562">17:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72562"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l67" class="new special">
+
+<td class="time" id="i_72563"><a href="/dataverse/2018-09-18#i_72563">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72563"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l68" class="cont special">
+
+<td class="time" id="i_72564"><a href="/dataverse/2018-09-18#i_72564">17:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72564"  /></td>
+<td class="nick"></td>
+<td class="msg ">Mahsa joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l69" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72565"><a href="/dataverse/2018-09-18#i_72565">18:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72565"  /></td>
+<td class="nick nick3">* pdurbin</td>
+<td class="msg act ">waves at Mahsa</td>
+</tr>
+
+        
+<tr id="id_l70" class="new special">
+
+<td class="time" id="i_72566"><a href="/dataverse/2018-09-18#i_72566">18:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72566"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l71" class="cont special">
+
+<td class="time" id="i_72567"><a href="/dataverse/2018-09-18#i_72567">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72567"  /></td>
+<td class="nick"></td>
+<td class="msg ">qqmyers joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_qqmyers dark">
+
+<td class="time" id="i_72568"><a href="/dataverse/2018-09-18#i_72568">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72568"  /></td>
+<td class="nick nick5">qqmyers</td>
+<td class="msg ">Does anyone happen to know if DOIDataCiteRegisterCache serves a purpose? I see that it gets populated when a dataset is created and Datacite is the doi provider, but I don't see it being used.</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont nick nick_qqmyers dark">
+
+<td class="time" id="i_72569"><a href="/dataverse/2018-09-18#i_72569">19:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72569"  /></td>
+<td class="nick nick5">qqmyers</td>
+<td class="msg ">Which I think is a good thing since there are no entries for datasets created when the provider was ezid and you switch to Datacite.</td>
+</tr>
+
+        
+<tr id="id_l74" class="new special">
+
+<td class="time" id="i_72570"><a href="/dataverse/2018-09-18#i_72570">19:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72570"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l75" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_72571"><a href="/dataverse/2018-09-18#i_72571">19:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72571"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">qqmyers: hi! I just checked with sekmiller and it sounds like it might not be used.</td>
+</tr>
+
+        
+<tr id="id_l76" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72572"><a href="/dataverse/2018-09-18#i_72572">19:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72572"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">it sure seems to be used a lot in DOIDataCiteRegisterService though</td>
+</tr>
+
+        
+<tr id="id_l77" class="new special">
+
+<td class="time" id="i_72573"><a href="/dataverse/2018-09-18#i_72573">19:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72573"  /></td>
+<td class="nick"></td>
+<td class="msg ">qqmyers joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l78" class="cont special">
+
+<td class="time" id="i_72574"><a href="/dataverse/2018-09-18#i_72574">19:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72574"  /></td>
+<td class="nick"></td>
+<td class="msg ">qqmyers69 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l79" class="new nick nick_qqmyers69 dark">
+
+<td class="time" id="i_72575"><a href="/dataverse/2018-09-18#i_72575">19:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72575"  /></td>
+<td class="nick nick5">qqmyers69</td>
+<td class="msg ">Thanks - I think it is a good thing it is not used - like I said, if entries had to be there to reserve DOIs, migrating from ezid would be a problem. As it is, I've checked and you can't reuse a DOI if it exists in the database (in the dvobject table) or at the service, but the cache is not checked.</td>
+</tr>
+
+        
+<tr id="id_l80" class="new special">
+
+<td class="time" id="i_72576"><a href="/dataverse/2018-09-18#i_72576">19:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72576"  /></td>
+<td class="nick"></td>
+<td class="msg ">Mahsa67 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l81" class="cont special">
+
+<td class="time" id="i_72577"><a href="/dataverse/2018-09-18#i_72577">19:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72577"  /></td>
+<td class="nick"></td>
+<td class="msg ">Mahsa joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l82" class="new nick nick_Mahsa dark">
+
+<td class="time" id="i_72578"><a href="/dataverse/2018-09-18#i_72578">19:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72578"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Hi everyone, The other day Pameyer pointed that there is an issue with our Glassfish &lt;-&gt; Apache fronting (<a href="http://irclog.iq.harvard.edu/dataverse/2018-09-05#i_72053" title="http://irclog.iq.harvard.edu/dataverse/2018-09-05#i_72053">http://irclog.iq.harvard.edu/dataverse/2018-09-05#i_72053</a></td>
+</tr>
+
+        
+<tr id="id_l83" class="cont nick nick_Mahsa dark">
+
+<td class="time" id="i_72579"><a href="/dataverse/2018-09-18#i_72579">19:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72579"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I fixed a few things, and I am now seeing this error</td>
+</tr>
+
+        
+<tr id="id_l84" class="cont nick nick_Mahsa dark">
+
+<td class="time" id="i_72580"><a href="/dataverse/2018-09-18#i_72580">19:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72580"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">GRIZZLY0013: Exception during FilterChain execution java.lang.IllegalStateException: Unexpected mark=18245         at org.glassfish.grizzly.http.ajp.AjpMessageF​ilter.handleRead(AjpMessageFilter.java:89)</td>
+</tr>
+
+        
+<tr id="id_l85" class="cont nick nick_Mahsa dark">
+
+<td class="time" id="i_72581"><a href="/dataverse/2018-09-18#i_72581">19:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72581"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Does anyone have any idea what is this error ?</td>
+</tr>
+
+        
+<tr id="id_l86" class="new nick nick_pdurbin">
+
+<td class="time" id="i_72582"><a href="/dataverse/2018-09-18#i_72582">19:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72582"  /></td>
+<td class="nick nick3">pdurbin</td>
+<td class="msg ">Mahsa: hi, pameyer and I are in a meeting. Sorry.</td>
+</tr>
+
+        
+<tr id="id_l87" class="new nick nick_Mahsa dark">
+
+<td class="time" id="i_72583"><a href="/dataverse/2018-09-18#i_72583">19:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72583"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">That is fine. Thanks</td>
+</tr>
+
+        
+<tr id="id_l88" class="new nick nick_donsizemore">
+
+<td class="time" id="i_72584"><a href="/dataverse/2018-09-18#i_72584">19:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72584"  /></td>
+<td class="nick nick4">donsizemore</td>
+<td class="msg ">@pameyer @pdurbin i have something that May Suck but Should Work(tm), but i want to do more testing</td>
+</tr>
+
+        
+<tr id="id_l89" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72585"><a href="/dataverse/2018-09-18#i_72585">20:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72585"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">Hi Mahsa - does that exception show up on all requests?</td>
+</tr>
+
+        
+<tr id="id_l90" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72586"><a href="/dataverse/2018-09-18#i_72586">20:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72586"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">@donsizemore - there's always more testing to do :)</td>
+</tr>
+
+        
+<tr id="id_l91" class="new special">
+
+<td class="time" id="i_72587"><a href="/dataverse/2018-09-18#i_72587">20:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72587"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l92" class="new nick nick_Mahsa dark">
+
+<td class="time" id="i_72588"><a href="/dataverse/2018-09-18#i_72588">20:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72588"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Hi, Yes, it shows up when I got to the website , basically, the website does not load on port 8080</td>
+</tr>
+
+        
+<tr id="id_l93" class="new special">
+
+<td class="time" id="i_72589"><a href="/dataverse/2018-09-18#i_72589">20:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72589"  /></td>
+<td class="nick"></td>
+<td class="msg ">Mahsa joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l94" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72590"><a href="/dataverse/2018-09-18#i_72590">20:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72590"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">@Mahsa - I don't see that exception in my server.log; but I'm wondering if it's related to the apache ajp configuration.</td>
+</tr>
+
+        
+<tr id="id_l95" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72591"><a href="/dataverse/2018-09-18#i_72591">20:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72591"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">do you have a line like `ProxyPass / ajp://localhost:8009/` in your apache configuration?</td>
+</tr>
+
+        
+<tr id="id_l96" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72592"><a href="/dataverse/2018-09-18#i_72592">20:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72592"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Yes</td>
+</tr>
+
+        
+<tr id="id_l97" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72593"><a href="/dataverse/2018-09-18#i_72593">20:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72593"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I have that line</td>
+</tr>
+
+        
+<tr id="id_l98" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72594"><a href="/dataverse/2018-09-18#i_72594">20:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72594"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">One quick question,</td>
+</tr>
+
+        
+<tr id="id_l99" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72595"><a href="/dataverse/2018-09-18#i_72595">20:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72595"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">the JK connect should be enabled on http listener1 (8080), is that correct ?</td>
+</tr>
+
+        
+<tr id="id_l100" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72596"><a href="/dataverse/2018-09-18#i_72596">20:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72596"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">not sure what you mean by &quot;JK connector&quot;; but the AJP connector shouldn't be on 8080</td>
+</tr>
+
+        
+<tr id="id_l101" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72597"><a href="/dataverse/2018-09-18#i_72597">20:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72597"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">unless you've changed some of the default glassfish settings</td>
+</tr>
+
+        
+<tr id="id_l102" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72598"><a href="/dataverse/2018-09-18#i_72598">20:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72598"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I meant JK listener</td>
+</tr>
+
+        
+<tr id="id_l103" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72599"><a href="/dataverse/2018-09-18#i_72599">20:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72599"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Apache mod-jk listener</td>
+</tr>
+
+        
+<tr id="id_l104" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72600"><a href="/dataverse/2018-09-18#i_72600">20:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72600"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">for connecting apache httpd to glassfish?</td>
+</tr>
+
+        
+<tr id="id_l105" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72601"><a href="/dataverse/2018-09-18#i_72601">20:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72601"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Yes, I have 2 http listeners and and JK connector in my http listeners</td>
+</tr>
+
+        
+<tr id="id_l106" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72602"><a href="/dataverse/2018-09-18#i_72602">20:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72602"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Yes,</td>
+</tr>
+
+        
+<tr id="id_l107" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72603"><a href="/dataverse/2018-09-18#i_72603">20:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72603"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">My http listener 1 (on glassfish, port 8080), has a JK listener option which I think should be enabled</td>
+</tr>
+
+        
+<tr id="id_l108" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72604"><a href="/dataverse/2018-09-18#i_72604">20:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72604"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">for fronting glassfish with Apache</td>
+</tr>
+
+        
+<tr id="id_l109" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72605"><a href="/dataverse/2018-09-18#i_72605">20:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72605"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">is this correct ?</td>
+</tr>
+
+        
+<tr id="id_l110" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72606"><a href="/dataverse/2018-09-18#i_72606">20:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72606"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">ah - gotcha.  I took a quick look at my domain.xml</td>
+</tr>
+
+        
+<tr id="id_l111" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72607"><a href="/dataverse/2018-09-18#i_72607">20:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72607"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I think I have to do some glassfish configs to make things work</td>
+</tr>
+
+        
+<tr id="id_l112" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72608"><a href="/dataverse/2018-09-18#i_72608">20:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72608"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">for `&lt;network-listener jk-enabled=&quot;true&quot; protocol=&quot;http-listener-1&quot; port=&quot;8009&quot; name=&quot;jk-connector&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;` in domain.xml, I'm using `ProxyPass / ajp://localhost:8009/` in my apache httpd configuration file</td>
+</tr>
+
+        
+<tr id="id_l113" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72609"><a href="/dataverse/2018-09-18#i_72609">20:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72609"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Yes, my setting is identical to this</td>
+</tr>
+
+        
+<tr id="id_l114" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72610"><a href="/dataverse/2018-09-18#i_72610">20:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72610"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">glassfish is serving web traffic on 8080 in this case (aka - I can get to dataverse on port 8080)</td>
+</tr>
+
+        
+<tr id="id_l115" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72611"><a href="/dataverse/2018-09-18#i_72611">20:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72611"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I get the empty response on 8080</td>
+</tr>
+
+        
+<tr id="id_l116" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72612"><a href="/dataverse/2018-09-18#i_72612">20:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72612"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">But things on working on https /port 8181</td>
+</tr>
+
+        
+<tr id="id_l117" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72613"><a href="/dataverse/2018-09-18#i_72613">20:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72613"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">*are working</td>
+</tr>
+
+        
+<tr id="id_l118" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72614"><a href="/dataverse/2018-09-18#i_72614">20:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72614"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">ok - it sounds like you configured glassfish to do ssl; which isn't something I've done</td>
+</tr>
+
+        
+<tr id="id_l119" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72615"><a href="/dataverse/2018-09-18#i_72615">20:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72615"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I usually do https/ssl to apache</td>
+</tr>
+
+        
+<tr id="id_l120" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72616"><a href="/dataverse/2018-09-18#i_72616">20:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72616"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I think 8181 is the second http listener  on glassfish, it comes with default</td>
+</tr>
+
+        
+<tr id="id_l121" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72617"><a href="/dataverse/2018-09-18#i_72617">20:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72617"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I did not do any configs</td>
+</tr>
+
+        
+<tr id="id_l122" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72618"><a href="/dataverse/2018-09-18#i_72618">20:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72618"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">my point was, it seems the problem is not with the dataverse application, but with fronting glassfish on 8080 with apache using the JK connector</td>
+</tr>
+
+        
+<tr id="id_l123" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72619"><a href="/dataverse/2018-09-18#i_72619">20:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72619"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">so let me put it this way</td>
+</tr>
+
+        
+<tr id="id_l124" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72620"><a href="/dataverse/2018-09-18#i_72620">20:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72620"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">when I set the jk-enabled to &quot;false&quot;</td>
+</tr>
+
+        
+<tr id="id_l125" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72621"><a href="/dataverse/2018-09-18#i_72621">20:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72621"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">got it.  I just checked, and I see dataverse on 8181 from glassfish too (without doing any configuration)</td>
+</tr>
+
+        
+<tr id="id_l126" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72622"><a href="/dataverse/2018-09-18#i_72622">20:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72622"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">The website is working with no errors , since JK is disabled</td>
+</tr>
+
+        
+<tr id="id_l127" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72623"><a href="/dataverse/2018-09-18#i_72623">21:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72623"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">great</td>
+</tr>
+
+        
+<tr id="id_l128" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72624"><a href="/dataverse/2018-09-18#i_72624">21:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72624"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">by &quot;the website&quot;, you're referring to apache -&gt; glassfish (with JK disabled)?</td>
+</tr>
+
+        
+<tr id="id_l129" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72625"><a href="/dataverse/2018-09-18#i_72625">21:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72625"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I meant dataverse loads on glasssfish successfully, I have not had any luck with Apache -&gt; glassfish yet</td>
+</tr>
+
+        
+<tr id="id_l130" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72626"><a href="/dataverse/2018-09-18#i_72626">21:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72626"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">ok - I think I understand.</td>
+</tr>
+
+        
+<tr id="id_l131" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72627"><a href="/dataverse/2018-09-18#i_72627">21:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72627"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">in your case, when you set jk-enabled to true, are you failing to load dataverse on glassfish?</td>
+</tr>
+
+        
+<tr id="id_l132" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72628"><a href="/dataverse/2018-09-18#i_72628">21:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72628"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">yes</td>
+</tr>
+
+        
+<tr id="id_l133" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72629"><a href="/dataverse/2018-09-18#i_72629">21:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72629"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">and I see the error above</td>
+</tr>
+
+        
+<tr id="id_l134" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72630"><a href="/dataverse/2018-09-18#i_72630">21:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72630"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">in glassfish log</td>
+</tr>
+
+        
+<tr id="id_l135" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72631"><a href="/dataverse/2018-09-18#i_72631">21:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72631"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">java.lang.IllegalStateException: Unexpected mark=18245         at org.glassfish.grizzly.http.ajp.AjpMessageF​ilter.handleRead(AjpMessageFilter.java:89)</td>
+</tr>
+
+        
+<tr id="id_l136" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72632"><a href="/dataverse/2018-09-18#i_72632">21:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72632"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">does your network-listener entry for the jk-connector look different from the one I posted?</td>
+</tr>
+
+        
+<tr id="id_l137" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72633"><a href="/dataverse/2018-09-18#i_72633">21:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72633"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I think it is similiar but will just double check</td>
+</tr>
+
+        
+<tr id="id_l138" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72634"><a href="/dataverse/2018-09-18#i_72634">21:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72634"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">and just to confirm, when the jk-connector is disabled; 8181 on glassfish works, but 8080 is empty</td>
+</tr>
+
+        
+<tr id="id_l139" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72635"><a href="/dataverse/2018-09-18#i_72635">21:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72635"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">correct, 8181 works, 8080  is empty</td>
+</tr>
+
+        
+<tr id="id_l140" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72636"><a href="/dataverse/2018-09-18#i_72636">21:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72636"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">one thing that might provide more information would be to do `curl -i <a href="http://localhost:8080" title="http://localhost:8080">http://localhost:8080</a>` - this will show any headers that the empty response may have</td>
+</tr>
+
+        
+<tr id="id_l141" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72637"><a href="/dataverse/2018-09-18#i_72637">21:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72637"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">&quot;empty reply from server</td>
+</tr>
+
+        
+<tr id="id_l142" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72638"><a href="/dataverse/2018-09-18#i_72638">21:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72638"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">odd - I'd expect a host header at least</td>
+</tr>
+
+        
+<tr id="id_l143" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72639"><a href="/dataverse/2018-09-18#i_72639">21:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72639"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">server header I mean; not host header</td>
+</tr>
+
+        
+<tr id="id_l144" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72640"><a href="/dataverse/2018-09-18#i_72640">21:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72640"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">yes, I see</td>
+</tr>
+
+        
+<tr id="id_l145" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72641"><a href="/dataverse/2018-09-18#i_72641">21:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72641"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">&lt;network-listener protocol=&quot;http-listener-1&quot; jk-enabled=&quot;true&quot; port=&quot;8080&quot; name=&quot;http-listener-1&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l146" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72642"><a href="/dataverse/2018-09-18#i_72642">21:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72642"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I just copied/pasted this from domain.xml</td>
+</tr>
+
+        
+<tr id="id_l147" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72643"><a href="/dataverse/2018-09-18#i_72643">21:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72643"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">could you try changing the port to 8009 and restarting glassfish?</td>
+</tr>
+
+        
+<tr id="id_l148" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72644"><a href="/dataverse/2018-09-18#i_72644">21:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72644"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I copy/pasted my example too :)</td>
+</tr>
+
+        
+<tr id="id_l149" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72645"><a href="/dataverse/2018-09-18#i_72645">21:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72645"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Sorry, I have another line like this</td>
+</tr>
+
+        
+<tr id="id_l150" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72646"><a href="/dataverse/2018-09-18#i_72646">21:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72646"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">&lt;network-listener protocol=&quot;http-listener-1&quot; jk-enabled=&quot;true&quot; port=&quot;8009&quot; name=&quot;jk-connector&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;</td>
+</tr>
+
+        
+<tr id="id_l151" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72647"><a href="/dataverse/2018-09-18#i_72647">21:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72647"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">hmm - 2 jk-connector lines?</td>
+</tr>
+
+        
+<tr id="id_l152" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72648"><a href="/dataverse/2018-09-18#i_72648">21:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72648"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I copied the wrong one first, sorry :-)</td>
+</tr>
+
+        
+<tr id="id_l153" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72649"><a href="/dataverse/2018-09-18#i_72649">21:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72649"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">no problem</td>
+</tr>
+
+        
+<tr id="id_l154" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72650"><a href="/dataverse/2018-09-18#i_72650">21:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72650"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Thst is right, let me check</td>
+</tr>
+
+        
+<tr id="id_l155" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72651"><a href="/dataverse/2018-09-18#i_72651">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72651"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I'm only seeing one jk-connector line in mine</td>
+</tr>
+
+        
+<tr id="id_l156" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72652"><a href="/dataverse/2018-09-18#i_72652">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72652"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">[root<img src="/at.png" alt="@" />dvapp config]# grep -n jk-connector domain.xml</td>
+</tr>
+
+        
+<tr id="id_l157" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72653"><a href="/dataverse/2018-09-18#i_72653">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72653"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">79:        &lt;virtual-server network-listeners=&quot;http-listener​-1,http-listener-2,jk-connector&quot; id=&quot;server&quot;&gt;&lt;/virtual-server&gt;</td>
+</tr>
+
+        
+<tr id="id_l158" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72654"><a href="/dataverse/2018-09-18#i_72654">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72654"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">251:          &lt;network-listener jk-enabled=&quot;true&quot; protocol=&quot;http-listener-1&quot; port=&quot;8009&quot; name=&quot;jk-connector&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l159" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72655"><a href="/dataverse/2018-09-18#i_72655">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72655"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I'm wondering if the problem could be listening for http and ajp both on port 8080</td>
+</tr>
+
+        
+<tr id="id_l160" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72656"><a href="/dataverse/2018-09-18#i_72656">21:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72656"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">can you pleasse copy the http-listener-1 line too ?</td>
+</tr>
+
+        
+<tr id="id_l161" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72657"><a href="/dataverse/2018-09-18#i_72657">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72657"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Sorry, You dont have that :D LOL</td>
+</tr>
+
+        
+<tr id="id_l162" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72658"><a href="/dataverse/2018-09-18#i_72658">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72658"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">[root<img src="/at.png" alt="@" />dvapp config]# grep -n http-listener-1 domain.xml</td>
+</tr>
+
+        
+<tr id="id_l163" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72659"><a href="/dataverse/2018-09-18#i_72659">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72659"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">79:        &lt;virtual-server network-listeners=&quot;http-listener​-1,http-listener-2,jk-connector&quot; id=&quot;server&quot;&gt;&lt;/virtual-server&gt;</td>
+</tr>
+
+        
+<tr id="id_l164" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72660"><a href="/dataverse/2018-09-18#i_72660">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72660"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">230:          &lt;protocol name=&quot;http-listener-1&quot;&gt;</td>
+</tr>
+
+        
+<tr id="id_l165" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72661"><a href="/dataverse/2018-09-18#i_72661">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72661"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">248:          &lt;network-listener protocol=&quot;http-listener-1&quot; port=&quot;8080&quot; name=&quot;http-listener-1&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l166" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72662"><a href="/dataverse/2018-09-18#i_72662">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72662"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">251:          &lt;network-listener jk-enabled=&quot;true&quot; protocol=&quot;http-listener-1&quot; port=&quot;8009&quot; name=&quot;jk-connector&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l167" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72663"><a href="/dataverse/2018-09-18#i_72663">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72663"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">273:        &lt;virtual-server network-listeners=&quot;http-listener-1, http-listener-2&quot; id=&quot;server&quot;&gt;</td>
+</tr>
+
+        
+<tr id="id_l168" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72664"><a href="/dataverse/2018-09-18#i_72664">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72664"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">403:          &lt;protocol name=&quot;http-listener-1&quot;&gt;</td>
+</tr>
+
+        
+<tr id="id_l169" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72665"><a href="/dataverse/2018-09-18#i_72665">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72665"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">436:          &lt;network-listener protocol=&quot;http-listener-1&quot; port=&quot;${HTTP_LISTENER_PORT}&quot; name=&quot;http-listener-1&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l170" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72666"><a href="/dataverse/2018-09-18#i_72666">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72666"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I got confused</td>
+</tr>
+
+        
+<tr id="id_l171" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72667"><a href="/dataverse/2018-09-18#i_72667">21:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72667"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Yes, I see</td>
+</tr>
+
+        
+<tr id="id_l172" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72668"><a href="/dataverse/2018-09-18#i_72668">21:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72668"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I think I know why I have two lines here</td>
+</tr>
+
+        
+<tr id="id_l173" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72669"><a href="/dataverse/2018-09-18#i_72669">21:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72669"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">That is probably because I enabled JK on my listener1</td>
+</tr>
+
+        
+<tr id="id_l174" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72670"><a href="/dataverse/2018-09-18#i_72670">21:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72670"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">that would make sense</td>
+</tr>
+
+        
+<tr id="id_l175" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72671"><a href="/dataverse/2018-09-18#i_72671">21:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72671"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">if I remove it, maybe one would disapear, So it seems I have created more problems, to solve Glassfish -&gt; Apache issue :D LOL</td>
+</tr>
+
+        
+<tr id="id_l176" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72672"><a href="/dataverse/2018-09-18#i_72672">21:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72672"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">sorry  about that</td>
+</tr>
+
+        
+<tr id="id_l177" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72673"><a href="/dataverse/2018-09-18#i_72673">21:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72673"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">it's worth a try</td>
+</tr>
+
+        
+<tr id="id_l178" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72674"><a href="/dataverse/2018-09-18#i_72674">21:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72674"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">no problem :)</td>
+</tr>
+
+        
+<tr id="id_l179" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72675"><a href="/dataverse/2018-09-18#i_72675">21:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72675"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I just removed it, let me restart my glassfish</td>
+</tr>
+
+        
+<tr id="id_l180" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72676"><a href="/dataverse/2018-09-18#i_72676">21:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72676"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">I'll keep my fingers crossed for good luck</td>
+</tr>
+
+        
+<tr id="id_l181" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72677"><a href="/dataverse/2018-09-18#i_72677">21:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72677"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I will be back to step 1 even if it works LOL</td>
+</tr>
+
+        
+<tr id="id_l182" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72678"><a href="/dataverse/2018-09-18#i_72678">21:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72678"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Ok,</td>
+</tr>
+
+        
+<tr id="id_l183" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72679"><a href="/dataverse/2018-09-18#i_72679">21:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72679"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">So they are both still here which is a good news</td>
+</tr>
+
+        
+<tr id="id_l184" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72680"><a href="/dataverse/2018-09-18#i_72680">21:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72680"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">This might be the reason the fronting is not working</td>
+</tr>
+
+        
+<tr id="id_l185" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72681"><a href="/dataverse/2018-09-18#i_72681">21:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72681"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Can you please do me a favor ?</td>
+</tr>
+
+        
+<tr id="id_l186" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72682"><a href="/dataverse/2018-09-18#i_72682">21:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72682"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">well, one problem at a time ;)</td>
+</tr>
+
+        
+<tr id="id_l187" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72683"><a href="/dataverse/2018-09-18#i_72683">21:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72683"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">possibly - what do you have in mind?</td>
+</tr>
+
+        
+<tr id="id_l188" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72684"><a href="/dataverse/2018-09-18#i_72684">21:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72684"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Is it possible that you copy/paste  all you have under   &lt;network-listeners&gt; &lt;/network-listeners?</td>
+</tr>
+
+        
+<tr id="id_l189" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72685"><a href="/dataverse/2018-09-18#i_72685">21:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72685"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">shouldn't be a problem - let me double-check what's in there first</td>
+</tr>
+
+        
+<tr id="id_l190" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72686"><a href="/dataverse/2018-09-18#i_72686">21:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72686"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">thanx</td>
+</tr>
+
+        
+<tr id="id_l191" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72687"><a href="/dataverse/2018-09-18#i_72687">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72687"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">no passwords / credentials in there :)</td>
+</tr>
+
+        
+<tr id="id_l192" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72688"><a href="/dataverse/2018-09-18#i_72688">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72688"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&lt;network-listeners&gt;</td>
+</tr>
+
+        
+<tr id="id_l193" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72689"><a href="/dataverse/2018-09-18#i_72689">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72689"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&lt;network-listener protocol=&quot;http-listener-1&quot; port=&quot;8080&quot; name=&quot;http-listener-1&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l194" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72690"><a href="/dataverse/2018-09-18#i_72690">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72690"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&lt;network-listener protocol=&quot;http-listener-2&quot; port=&quot;8181&quot; name=&quot;http-listener-2&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l195" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72691"><a href="/dataverse/2018-09-18#i_72691">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72691"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&lt;network-listener protocol=&quot;admin-listener&quot; port=&quot;4848&quot; name=&quot;admin-listener&quot; thread-pool=&quot;admin-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l196" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72692"><a href="/dataverse/2018-09-18#i_72692">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72692"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&lt;network-listener jk-enabled=&quot;true&quot; protocol=&quot;http-listener-1&quot; port=&quot;8009&quot; name=&quot;jk-connector&quot; thread-pool=&quot;http-thread-pool&quot; transport=&quot;tcp&quot;&gt;&lt;/network-listener&gt;</td>
+</tr>
+
+        
+<tr id="id_l197" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_72693"><a href="/dataverse/2018-09-18#i_72693">21:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72693"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">&lt;/network-listeners&gt;</td>
+</tr>
+
+        
+<tr id="id_l198" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72694"><a href="/dataverse/2018-09-18#i_72694">21:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72694"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Mine is the same,</td>
+</tr>
+
+        
+<tr id="id_l199" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72695"><a href="/dataverse/2018-09-18#i_72695">21:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72695"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">so I am back to step 1,</td>
+</tr>
+
+        
+<tr id="id_l200" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72696"><a href="/dataverse/2018-09-18#i_72696">21:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72696"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">dataverse is working on 8080 now , but Apache fronting is not working</td>
+</tr>
+
+        
+<tr id="id_l201" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72697"><a href="/dataverse/2018-09-18#i_72697">21:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72697"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Thank you Pameyer</td>
+</tr>
+
+        
+<tr id="id_l202" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72698"><a href="/dataverse/2018-09-18#i_72698">21:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72698"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I will have to look somewhere else now</td>
+</tr>
+
+        
+<tr id="id_l203" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72699"><a href="/dataverse/2018-09-18#i_72699">21:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72699"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">:q!</td>
+</tr>
+
+        
+<tr id="id_l204" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72700"><a href="/dataverse/2018-09-18#i_72700">21:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72700"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">you're welcome - good luck</td>
+</tr>
+
+        
+<tr id="id_l205" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72701"><a href="/dataverse/2018-09-18#i_72701">21:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72701"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Thanks</td>
+</tr>
+
+        
+<tr id="id_l206" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72702"><a href="/dataverse/2018-09-18#i_72702">21:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72702"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">btw - I'd check that mod_ajp is loaded, and that the ports match; but I usually haven't had much trouble with it</td>
+</tr>
+
+        
+<tr id="id_l207" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72703"><a href="/dataverse/2018-09-18#i_72703">21:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72703"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Sure, I will start there</td>
+</tr>
+
+        
+<tr id="id_l208" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72704"><a href="/dataverse/2018-09-18#i_72704">21:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72704"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">One quick Q</td>
+</tr>
+
+        
+<tr id="id_l209" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72705"><a href="/dataverse/2018-09-18#i_72705">21:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72705"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I am running glassfish as root,</td>
+</tr>
+
+        
+<tr id="id_l210" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72706"><a href="/dataverse/2018-09-18#i_72706">21:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72706"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">that should not be causing any problems</td>
+</tr>
+
+        
+<tr id="id_l211" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72707"><a href="/dataverse/2018-09-18#i_72707">21:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72707"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">right ?</td>
+</tr>
+
+        
+<tr id="id_l212" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72708"><a href="/dataverse/2018-09-18#i_72708">21:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72708"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">with regards to Apache fronting</td>
+</tr>
+
+        
+<tr id="id_l213" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72709"><a href="/dataverse/2018-09-18#i_72709">21:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72709"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">it should not be be.  for development, I run glassfish as root with apache in front of it with no problems</td>
+</tr>
+
+        
+<tr id="id_l214" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72710"><a href="/dataverse/2018-09-18#i_72710">21:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72710"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Ok, that is good to know, Thanks you again</td>
+</tr>
+
+        
+<tr id="id_l215" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72711"><a href="/dataverse/2018-09-18#i_72711">21:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72711"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">What do you mean by ports match ?</td>
+</tr>
+
+        
+<tr id="id_l216" class="cont nick nick_Mahsa">
+
+<td class="time" id="i_72712"><a href="/dataverse/2018-09-18#i_72712">21:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72712"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I know mod_ajp is loaded</td>
+</tr>
+
+        
+<tr id="id_l217" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72713"><a href="/dataverse/2018-09-18#i_72713">21:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72713"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">it may be more effort than would be helpful, but if you check the `conf/docker-aio` folder of the dataverse github the steps there should get to a working configuration of apache+glassfish</td>
+</tr>
+
+        
+<tr id="id_l218" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72714"><a href="/dataverse/2018-09-18#i_72714">21:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72714"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">Great! Thanks! I will check it out</td>
+</tr>
+
+        
+<tr id="id_l219" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72715"><a href="/dataverse/2018-09-18#i_72715">21:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72715"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">ports matching meaning that the ProxyPass / ajp://localhost:$port/ matches the port for the ajp listener in glassfish</td>
+</tr>
+
+        
+<tr id="id_l220" class="new nick nick_Mahsa">
+
+<td class="time" id="i_72716"><a href="/dataverse/2018-09-18#i_72716">21:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72716"  /></td>
+<td class="nick nick1">Mahsa</td>
+<td class="msg ">I see , I will check it. Thanks</td>
+</tr>
+
+        
+<tr id="id_l221" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_72717"><a href="/dataverse/2018-09-18#i_72717">21:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72717"  /></td>
+<td class="nick nick2">pameyer</td>
+<td class="msg ">you're welcome - good luck</td>
+</tr>
+
+        
+<tr id="id_l222" class="new special">
+
+<td class="time" id="i_72718"><a href="/dataverse/2018-09-18#i_72718">21:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72718"  /></td>
+<td class="nick"></td>
+<td class="msg ">Mahsa left #dataverse</td>
+</tr>
+
+        
+<tr id="id_l223" class="cont special">
+
+<td class="time" id="i_72719"><a href="/dataverse/2018-09-18#i_72719">22:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72719"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2018-09-17" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2018-09-19" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2018-09-18">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2018-09-18;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2018-09-18;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

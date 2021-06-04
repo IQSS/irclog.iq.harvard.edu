@@ -1,0 +1,768 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2017-07-14" />
+    <title>IRC log for #dataverse, 2017-07-14</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2017-07-14</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2017-07-13" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2017-07-15" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2017-07-14">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2017-07-14;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2017-07-14;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_54522"><a href="/dataverse/2017-07-14#i_54522">03:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54522"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_54523"><a href="/dataverse/2017-07-14#i_54523">12:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54523"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54524"><a href="/dataverse/2017-07-14#i_54524">12:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54524"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin morning! so Dataverse appears to work with ADFS-for-Shib</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_54525"><a href="/dataverse/2017-07-14#i_54525">13:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54525"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin Josh Bright at WCU wrote some custom code for ADFS to send DV what it wants and while he says he's &quot;not sure about the edupersonscoped affilation. Right now I'm ONLY sending (username, email, first and lastname)&quot; -- the WCU folks see what they should see in the UI and the Glassfish logs are quiet</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54526"><a href="/dataverse/2017-07-14#i_54526">13:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54526"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: nice! Is that custom code open source?</td>
+</tr>
+
+        
+<tr id="id_l7" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54527"><a href="/dataverse/2017-07-14#i_54527">13:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54527"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin I'll ask him. just got things working this morning. would be something good to stash in the dataverse utility box</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54528"><a href="/dataverse/2017-07-14#i_54528">13:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54528"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: thanks. Yeah, we'd be happy to link to it from the Installation Guide.</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54529"><a href="/dataverse/2017-07-14#i_54529">13:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54529"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Has anyone heard of Payara?</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54530"><a href="/dataverse/2017-07-14#i_54530">13:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54530"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin the mariadb of glassfish =)</td>
+</tr>
+
+        
+<tr id="id_l11" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54531"><a href="/dataverse/2017-07-14#i_54531">13:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54531"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">heh</td>
+</tr>
+
+        
+<tr id="id_l12" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54532"><a href="/dataverse/2017-07-14#i_54532">13:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54532"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin i need to run for a bit but feel free to conscript me into whatever you're thinking there.</td>
+</tr>
+
+        
+<tr id="id_l13" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54533"><a href="/dataverse/2017-07-14#i_54533">13:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54533"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Well, today this issue got a comment for the first time in a year: <a href="https://github.com/payara/Payara/issues/532" title="https://github.com/payara/Payara/issues/532">https://github.com/payara/Payara/issues/532</a></td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54534"><a href="/dataverse/2017-07-14#i_54534">13:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54534"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: at your leisure, you could read throught that issue. No rush!</td>
+</tr>
+
+        
+<tr id="id_l15" class="new special">
+
+<td class="time" id="i_54535"><a href="/dataverse/2017-07-14#i_54535">14:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54535"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l16" class="cont special">
+
+<td class="time" id="i_54536"><a href="/dataverse/2017-07-14#i_54536">14:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54536"  /></td>
+<td class="nick"></td>
+<td class="msg ">bsilverstein joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l17" class="cont special">
+
+<td class="time" id="i_54537"><a href="/dataverse/2017-07-14#i_54537">14:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54537"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l18" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_54538"><a href="/dataverse/2017-07-14#i_54538">14:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54538"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin I just wrote Anders back privately. altering the user in postgres and updating domain.xml gave me no trouble locally</td>
+</tr>
+
+        
+<tr id="id_l19" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54539"><a href="/dataverse/2017-07-14#i_54539">14:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54539"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: thanks, I was just looking at <a href="https://groups.google.com/d/msg/dataverse-community/Xb1xHK2D8OU/0Ka0JCalAQAJ" title="https://groups.google.com/d/msg/dataverse-community/Xb1xHK2D8OU/0Ka0JCalAQAJ">https://groups.google.com/d/msg/dataverse-community/Xb1xHK2D8OU/0Ka0JCalAQAJ</a></td>
+</tr>
+
+        
+<tr id="id_l20" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_54540"><a href="/dataverse/2017-07-14#i_54540">14:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54540"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: your reply is much appreciated!</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_54541"><a href="/dataverse/2017-07-14#i_54541">14:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54541"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: oh hey, good morning. We're exposing each &quot;reason for return&quot; via <abbr title="Application Programming Interface">API</abbr> and I'm wondering if you could see yourself writing a script to parse the <abbr title="JavaScript Object Notation">JSON</abbr> and send your users a nice, custom email about why their dataset was returned.</td>
+</tr>
+
+        
+<tr id="id_l22" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_54542"><a href="/dataverse/2017-07-14#i_54542">14:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54542"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">pdurbin: 'each &quot;reason for return&quot;'?</td>
+</tr>
+
+        
+<tr id="id_l23" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_54543"><a href="/dataverse/2017-07-14#i_54543">14:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54543"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">I'm not sure if I would; probably would assume that the user is already getting an email with that info and not wanting to duplicate info</td>
+</tr>
+
+        
+<tr id="id_l24" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54544"><a href="/dataverse/2017-07-14#i_54544">14:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54544"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: ok. So you'll wait for the feature to be more fully developed. You'll have a box to type into in the <abbr title="Graphical User Interface">GUI</abbr>. Your users will get the &quot;reason for return&quot; via email and in the GUI. Does that sound right?</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_54545"><a href="/dataverse/2017-07-14#i_54545">14:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54545"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">yup</td>
+</tr>
+
+        
+<tr id="id_l26" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54546"><a href="/dataverse/2017-07-14#i_54546">14:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54546"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: cool. Thanks! We'll probably just ship enough of a notifications <abbr title="Application Programming Interface">API</abbr> to satisfy our tests then.</td>
+</tr>
+
+        
+<tr id="id_l27" class="new nick nick_bsilverstein dark">
+
+<td class="time" id="i_54547"><a href="/dataverse/2017-07-14#i_54547">15:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54547"  /></td>
+<td class="nick nick4">bsilverstein</td>
+<td class="msg ">pdurbin: quick question you may have an answer to: in files where database columns are defined, what does the @Expose tag do?</td>
+</tr>
+
+        
+<tr id="id_l28" class="new special">
+
+<td class="time" id="i_54548"><a href="/dataverse/2017-07-14#i_54548">15:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54548"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l29" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54549"><a href="/dataverse/2017-07-14#i_54549">15:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54549"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">bsilverstein: huh. I have no idea! Let's go find the Javadoc.</td>
+</tr>
+
+        
+<tr id="id_l30" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54550"><a href="/dataverse/2017-07-14#i_54550">15:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54550"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">huh, added by raprasad it looks like... from Google's GSON library</td>
+</tr>
+
+        
+<tr id="id_l31" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54551"><a href="/dataverse/2017-07-14#i_54551">15:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54551"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I'm not sure if this is the version we use but &quot;An annotation that indicates this member should be exposed for <abbr title="JavaScript Object Notation">JSON</abbr> serialization or deserialization.&quot; <a href="https://static.javadoc.io/com.google.code.gson/gson/2.6.2/com/google/gson/annotations/Expose.html" title="https://static.javadoc.io/com.google.code.gson/gson/2.6.2/com/google/gson/annotations/Expose.html">https://static.javadoc.io/com.google.code.gson/gson/2.6.2/com/google/gson/annotations/Expose.html</a></td>
+</tr>
+
+        
+<tr id="id_l32" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54552"><a href="/dataverse/2017-07-14#i_54552">15:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54552"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">bsilverstein: does that help?</td>
+</tr>
+
+        
+<tr id="id_l33" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54553"><a href="/dataverse/2017-07-14#i_54553">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54553"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Some <abbr title="JavaScript Object Notation">JSON</abbr> stuff got standardized in Java EE 7 and more JSON standardization is coming in Java EE 8. I think we should stick to the standards when possible rather than using third party JSON libraries.</td>
+</tr>
+
+        
+<tr id="id_l34" class="new nick nick_bsilverstein">
+
+<td class="time" id="i_54554"><a href="/dataverse/2017-07-14#i_54554">15:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54554"  /></td>
+<td class="nick nick4">bsilverstein</td>
+<td class="msg ">pdurbin: cool! yeah, was just curious. took a look at DataFile.java (the filesystemname column we discussed) and it had the @Exposed tag</td>
+</tr>
+
+        
+<tr id="id_l35" class="cont nick nick_bsilverstein">
+
+<td class="time" id="i_54555"><a href="/dataverse/2017-07-14#i_54555">15:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54555"  /></td>
+<td class="nick nick4">bsilverstein</td>
+<td class="msg ">figured I should determine why it was there before reassigning anything to a new table</td>
+</tr>
+
+        
+<tr id="id_l36" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_54556"><a href="/dataverse/2017-07-14#i_54556">15:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54556"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin about to dive into payara but had gotten distracted by wildfly, and now keep envisioning payara as a tropical fruit crawling with flies</td>
+</tr>
+
+        
+<tr id="id_l37" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54557"><a href="/dataverse/2017-07-14#i_54557">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54557"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">bsilverstein: my guess is that it was added when we added the ability to upload files via native api</td>
+</tr>
+
+        
+<tr id="id_l38" class="new special dark">
+
+<td class="time" id="i_54558"><a href="/dataverse/2017-07-14#i_54558">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54558"  /></td>
+<td class="nick"></td>
+<td class="msg ">jhand joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_bsilverstein">
+
+<td class="time" id="i_54559"><a href="/dataverse/2017-07-14#i_54559">16:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54559"  /></td>
+<td class="nick nick4">bsilverstein</td>
+<td class="msg ">donsizemore: like a bad papaya!</td>
+</tr>
+
+        
+<tr id="id_l40" class="cont nick nick_bsilverstein">
+
+<td class="time" id="i_54560"><a href="/dataverse/2017-07-14#i_54560">16:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54560"  /></td>
+<td class="nick nick4">bsilverstein</td>
+<td class="msg ">pdurbin: cool, thanks for the help :D</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_54561"><a href="/dataverse/2017-07-14#i_54561">16:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54561"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@bsilverstein pomegranates make better margaritas</td>
+</tr>
+
+        
+<tr id="id_l42" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54562"><a href="/dataverse/2017-07-14#i_54562">16:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54562"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: no rush. Do you think you'd sooner run Wildfly or Payara?</td>
+</tr>
+
+        
+<tr id="id_l43" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_54563"><a href="/dataverse/2017-07-14#i_54563">16:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54563"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: what are your latest thoughts on <a href="https://github.com/IQSS/dataverse/issues/2917" title="https://github.com/IQSS/dataverse/issues/2917">https://github.com/IQSS/dataverse/issues/2917</a> ?</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_54564"><a href="/dataverse/2017-07-14#i_54564">16:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54564"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">nothing new since dvcm - why?</td>
+</tr>
+
+        
+<tr id="id_l45" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54565"><a href="/dataverse/2017-07-14#i_54565">16:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54565"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin payara is the drop-in replacement, but wildfly is red hat, is all</td>
+</tr>
+
+        
+<tr id="id_l46" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54566"><a href="/dataverse/2017-07-14#i_54566">16:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54566"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: I was just talking to Julian about it. In the context of <a href="https://github.com/IQSS/dataverse/issues/3839" title="https://github.com/IQSS/dataverse/issues/3839">https://github.com/IQSS/dataverse/issues/3839</a> which is related.</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54567"><a href="/dataverse/2017-07-14#i_54567">16:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54567"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: you didn't answer my question. :)</td>
+</tr>
+
+        
+<tr id="id_l48" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_54568"><a href="/dataverse/2017-07-14#i_54568">16:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54568"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">which is fine :)</td>
+</tr>
+
+        
+<tr id="id_l49" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54569"><a href="/dataverse/2017-07-14#i_54569">16:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54569"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin so, i just deployed dataverse 4.7 over payara 4.1.2.172, and the UI looks fine though server.log throws a bunch warnings</td>
+</tr>
+
+        
+<tr id="id_l50" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_54570"><a href="/dataverse/2017-07-14#i_54570">16:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54570"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin <a href="http://irss-dls-buildbox.irss.unc.edu:8080/dataverse/root" title="http://irss-dls-buildbox.irss.unc.edu:8080/dataverse/root">http://irss-dls-buildbox.irss.unc.edu:8080/dataverse/root</a> the password is &quot;nunupl4y3d&quot;</td>
+</tr>
+
+        
+<tr id="id_l51" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54571"><a href="/dataverse/2017-07-14#i_54571">16:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54571"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: is that the latest Payara? You're saying it works now? If so, can you please leave a comment on that Payara issue?</td>
+</tr>
+
+        
+<tr id="id_l52" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54572"><a href="/dataverse/2017-07-14#i_54572">16:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54572"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin i used the first download link at <a href="https://www.payara.fish/downloads" title="https://www.payara.fish/downloads">https://www.payara.fish/downloads</a> happy to leave a comment. how in-depth should i go about the warnings? there are a bunch</td>
+</tr>
+
+        
+<tr id="id_l53" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_54573"><a href="/dataverse/2017-07-14#i_54573">16:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54573"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: up to you. I gotta run to a meeting. Thanks for the password but I haven't logged in yet.</td>
+</tr>
+
+        
+<tr id="id_l54" class="new nick nick_donsizemore">
+
+<td class="time" id="i_54574"><a href="/dataverse/2017-07-14#i_54574">16:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54574"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@pdurbin i uploaded the entire server.log for reference - no state secrets in it. i'm impressed with payara's zippy performance even on this old hand-me-down hardware. it's currently harvesting the IQSS set from harvard =)</td>
+</tr>
+
+        
+<tr id="id_l55" class="new special dark">
+
+<td class="time" id="i_54575"><a href="/dataverse/2017-07-14#i_54575">17:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54575"  /></td>
+<td class="nick"></td>
+<td class="msg ">sivoais joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l56" class="cont special dark">
+
+<td class="time" id="i_54576"><a href="/dataverse/2017-07-14#i_54576">17:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54576"  /></td>
+<td class="nick"></td>
+<td class="msg ">bsilverstein joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l57" class="new nick nick_pameyer">
+
+<td class="time" id="i_54577"><a href="/dataverse/2017-07-14#i_54577">17:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54577"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">pdurbin: re 3839, at first glance that's probably not DataCite related</td>
+</tr>
+
+        
+<tr id="id_l58" class="cont nick nick_pameyer">
+
+<td class="time" id="i_54578"><a href="/dataverse/2017-07-14#i_54578">17:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54578"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">at least, DataCite the schema.  but it's not related to what I'd been thinking of for 2917</td>
+</tr>
+
+        
+<tr id="id_l59" class="new special dark">
+
+<td class="time" id="i_54579"><a href="/dataverse/2017-07-14#i_54579">18:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54579"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l60" class="cont special dark">
+
+<td class="time" id="i_54580"><a href="/dataverse/2017-07-14#i_54580">18:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54580"  /></td>
+<td class="nick"></td>
+<td class="msg ">garnett joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l61" class="cont special dark">
+
+<td class="time" id="i_54581"><a href="/dataverse/2017-07-14#i_54581">19:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54581"  /></td>
+<td class="nick"></td>
+<td class="msg ">yoh joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l62" class="cont special dark">
+
+<td class="time" id="i_54582"><a href="/dataverse/2017-07-14#i_54582">19:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54582"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l63" class="cont special dark">
+
+<td class="time" id="i_54583"><a href="/dataverse/2017-07-14#i_54583">21:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54583"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l64" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54584"><a href="/dataverse/2017-07-14#i_54584">21:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54584"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">donsizemore: I saw! Thanks!</td>
+</tr>
+
+        
+<tr id="id_l65" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_54585"><a href="/dataverse/2017-07-14#i_54585">21:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54585"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: has code been written for 2917?</td>
+</tr>
+
+        
+<tr id="id_l66" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_54586"><a href="/dataverse/2017-07-14#i_54586">21:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54586"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">the dv.sbgrid link is still operational</td>
+</tr>
+
+        
+<tr id="id_l67" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_54587"><a href="/dataverse/2017-07-14#i_54587">21:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54587"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">no idea about potential merge conflicts; but from time I'd expect a decent amount of drift</td>
+</tr>
+
+        
+<tr id="id_l68" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_54588"><a href="/dataverse/2017-07-14#i_54588">21:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54588"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">probably for dc 3.1; which I don't think is the most recent version of the spec</td>
+</tr>
+
+        
+<tr id="id_l69" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54589"><a href="/dataverse/2017-07-14#i_54589">21:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54589"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: the sbgrid label was removed. why? not interested any more?</td>
+</tr>
+
+        
+<tr id="id_l70" class="new nick nick_pameyer dark">
+
+<td class="time" id="i_54590"><a href="/dataverse/2017-07-14#i_54590">21:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54590"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">wasn't a v1 requirement</td>
+</tr>
+
+        
+<tr id="id_l71" class="cont nick nick_pameyer dark">
+
+<td class="time" id="i_54591"><a href="/dataverse/2017-07-14#i_54591">21:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54591"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">still interested, and probably not going to forget</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_pdurbin">
+
+<td class="time" id="i_54592"><a href="/dataverse/2017-07-14#i_54592">21:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54592"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: ok. So I won't hold my breath on code for that issue. Thanks.</td>
+</tr>
+
+        
+<tr id="id_l73" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_54593"><a href="/dataverse/2017-07-14#i_54593">21:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54593"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I reached out via email to the guy who opened <a href="https://stackoverflow.com/questions/34617273/data-repository-software-solution" title="https://stackoverflow.com/questions/34617273/data-repository-software-solution">https://stackoverflow.com/questions/34617273/data-repository-software-solution</a> and I think he should at least give Dataverse a whirl.</td>
+</tr>
+
+        
+<tr id="id_l74" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_54594"><a href="/dataverse/2017-07-14#i_54594">22:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54594"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Ok, I'm heading out. Have a good weekend, everyone. I'm bringing my kids to Yellowstone but I'll be back in less than two weeks. Be excellent to each other.</td>
+</tr>
+
+        
+<tr id="id_l75" class="new special dark">
+
+<td class="time" id="i_54595"><a href="/dataverse/2017-07-14#i_54595">22:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_54595"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin left #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2017-07-13" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2017-07-15" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2017-07-14">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2017-07-14;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2017-07-14;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

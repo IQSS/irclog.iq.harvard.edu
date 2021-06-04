@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2018-01-16" />
+    <title>IRC log for #dataverse, 2018-01-16</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2018-01-16</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2018-01-15" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2018-01-17" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2018-01-16">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2018-01-16;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2018-01-16;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_62188"><a href="/dataverse/2018-01-16#i_62188">08:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62188"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_62189"><a href="/dataverse/2018-01-16#i_62189">12:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62189"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_andrewSC">
+
+<td class="time" id="i_62190"><a href="/dataverse/2018-01-16#i_62190">14:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62190"  /></td>
+<td class="nick nick3">andrewSC</td>
+<td class="msg ">I was just looking over the documentation, is there a way to delete a user once they've signed up? As in, it was a test/temporary account to test something?</td>
+</tr>
+
+        
+<tr id="id_l5" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62191"><a href="/dataverse/2018-01-16#i_62191">14:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62191"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">andrewSC: it's possible, especially if the user hasn't created anything</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_andrewSC">
+
+<td class="time" id="i_62192"><a href="/dataverse/2018-01-16#i_62192">14:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62192"  /></td>
+<td class="nick nick3">andrewSC</td>
+<td class="msg ">nice yeah this was just to conifrm the signup url changes I made</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_andrewSC">
+
+<td class="time" id="i_62193"><a href="/dataverse/2018-01-16#i_62193">14:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62193"  /></td>
+<td class="nick nick3">andrewSC</td>
+<td class="msg ">do i just need to a delete from within the db or is there an api endpoint or?</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62194"><a href="/dataverse/2018-01-16#i_62194">14:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62194"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">curl -X DELETE <a href="http://localhost:8080/api/admin/authenticatedUsers/myself" title="http://localhost:8080/api/admin/authenticatedUsers/myself">http://localhost:8080/api/admin/authenticatedUsers/myself</a></td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62195"><a href="/dataverse/2018-01-16#i_62195">14:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62195"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That example is from <a href="http://guides.dataverse.org/en/4.8.4/installation/shibboleth.html#exchange-metadata-with-your-identity-provider" title="http://guides.dataverse.org/en/4.8.4/installation/shibboleth.html#exchange-metadata-with-your-identity-provider">http://guides.dataverse.org/en/4.8.4/installation/shibboleth.html#exchange-metadata-with-your-identity-provider</a></td>
+</tr>
+
+        
+<tr id="id_l10" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62196"><a href="/dataverse/2018-01-16#i_62196">14:49</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62196"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">... because I recommend creating a test account using the TestShib service before bothering you identity people.</td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62197"><a href="/dataverse/2018-01-16#i_62197">14:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62197"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">see also <a href="https://github.com/IQSS/dataverse/issues/1929" title="https://github.com/IQSS/dataverse/issues/1929">https://github.com/IQSS/dataverse/issues/1929</a></td>
+</tr>
+
+        
+<tr id="id_l12" class="new special">
+
+<td class="time" id="i_62198"><a href="/dataverse/2018-01-16#i_62198">15:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62198"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont special">
+
+<td class="time" id="i_62199"><a href="/dataverse/2018-01-16#i_62199">16:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62199"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont special">
+
+<td class="time" id="i_62200"><a href="/dataverse/2018-01-16#i_62200">16:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62200"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont special">
+
+<td class="time" id="i_62201"><a href="/dataverse/2018-01-16#i_62201">16:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62201"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l16" class="cont special">
+
+<td class="time" id="i_62202"><a href="/dataverse/2018-01-16#i_62202">16:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62202"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l17" class="cont special">
+
+<td class="time" id="i_62203"><a href="/dataverse/2018-01-16#i_62203">16:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62203"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l18" class="cont special">
+
+<td class="time" id="i_62204"><a href="/dataverse/2018-01-16#i_62204">16:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62204"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri_ joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont special">
+
+<td class="time" id="i_62205"><a href="/dataverse/2018-01-16#i_62205">17:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62205"  /></td>
+<td class="nick"></td>
+<td class="msg ">zer0G joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l20" class="cont special">
+
+<td class="time" id="i_62206"><a href="/dataverse/2018-01-16#i_62206">17:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62206"  /></td>
+<td class="nick"></td>
+<td class="msg ">zer0G joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont special">
+
+<td class="time" id="i_62207"><a href="/dataverse/2018-01-16#i_62207">17:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62207"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l22" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62208"><a href="/dataverse/2018-01-16#i_62208">17:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62208"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">The community call is starting: <a href="https://groups.google.com/d/msg/dataverse-community/xkZ5y5gW7a8/1oywBf-bAQAJ" title="https://groups.google.com/d/msg/dataverse-community/xkZ5y5gW7a8/1oywBf-bAQAJ">https://groups.google.com/d/msg/dataverse-community/xkZ5y5gW7a8/1oywBf-bAQAJ</a></td>
+</tr>
+
+        
+<tr id="id_l23" class="new special">
+
+<td class="time" id="i_62209"><a href="/dataverse/2018-01-16#i_62209">17:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62209"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l24" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62210"><a href="/dataverse/2018-01-16#i_62210">17:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62210"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">welcome, zer0G</td>
+</tr>
+
+        
+<tr id="id_l25" class="new nick nick_zer0G">
+
+<td class="time" id="i_62211"><a href="/dataverse/2018-01-16#i_62211">18:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62211"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">pdurbin, thanks.</td>
+</tr>
+
+        
+<tr id="id_l26" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62212"><a href="/dataverse/2018-01-16#i_62212">18:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62212"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Here are the notes from today's community call: <a href="https://groups.google.com/d/msg/dataverse-community/xkZ5y5gW7a8/AaqqBJK7AQAJ" title="https://groups.google.com/d/msg/dataverse-community/xkZ5y5gW7a8/AaqqBJK7AQAJ">https://groups.google.com/d/msg/dataverse-community/xkZ5y5gW7a8/AaqqBJK7AQAJ</a></td>
+</tr>
+
+        
+<tr id="id_l27" class="new nick nick_zer0G">
+
+<td class="time" id="i_62213"><a href="/dataverse/2018-01-16#i_62213">18:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62213"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">I joined this channel just stumbling around <abbr title="Internet Relay Chat">IRC</abbr> channels... this turned out to be a really interesting find.</td>
+</tr>
+
+        
+<tr id="id_l28" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62214"><a href="/dataverse/2018-01-16#i_62214">18:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62214"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">zer0G: cool, what are some of your other favorite <abbr title="Internet Relay Chat">IRC</abbr> channels?</td>
+</tr>
+
+        
+<tr id="id_l29" class="new nick nick_zer0G">
+
+<td class="time" id="i_62215"><a href="/dataverse/2018-01-16#i_62215">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62215"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">Well I was looking for reddit's #datahoarders community. This is tangentially related though...</td>
+</tr>
+
+        
+<tr id="id_l30" class="cont nick nick_zer0G">
+
+<td class="time" id="i_62216"><a href="/dataverse/2018-01-16#i_62216">18:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62216"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">Is the dataverse project only the software backend? Or is part of the project to accumulate publically accessible data sets</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62217"><a href="/dataverse/2018-01-16#i_62217">18:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62217"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I've never heard of it, but I like how it starts. &quot;We are digital librarians&quot; at <a href="https://www.reddit.com/r/DataHoarder/" title="https://www.reddit.com/r/DataHoarder/">https://www.reddit.com/r/DataHoarder/</a></td>
+</tr>
+
+        
+<tr id="id_l32" class="new nick nick_zer0G">
+
+<td class="time" id="i_62218"><a href="/dataverse/2018-01-16#i_62218">18:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62218"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">does the project interface with alternative repositories like sci-hub ?</td>
+</tr>
+
+        
+<tr id="id_l33" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62219"><a href="/dataverse/2018-01-16#i_62219">18:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62219"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Well, the software is called Dataverse. There are 30 installations of it around the world and each installation has its own way of doing things. Most are oriented toward hosting data generated by the researchers at their institution.</td>
+</tr>
+
+        
+<tr id="id_l34" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62220"><a href="/dataverse/2018-01-16#i_62220">18:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62220"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That said, I feel like Harvard Dataverse (one of the 30) will sometimes do outreach to people and offer to host their datasets. I'm not sure though. I'm just a developer. :)</td>
+</tr>
+
+        
+<tr id="id_l35" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62221"><a href="/dataverse/2018-01-16#i_62221">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62221"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">In terms of interfacing with other projects, Dataverse supports the OAI-PMH protocol for &quot;harvesting&quot; metadata from other repositories.</td>
+</tr>
+
+        
+<tr id="id_l36" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62222"><a href="/dataverse/2018-01-16#i_62222">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62222"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">And there are other APIs for getting data in and out.</td>
+</tr>
+
+        
+<tr id="id_l37" class="new nick nick_zer0G">
+
+<td class="time" id="i_62223"><a href="/dataverse/2018-01-16#i_62223">18:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62223"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">So the target (user) audience is Academic researchers, and the software is generally used by academic institutions (who can host giant datasets)</td>
+</tr>
+
+        
+<tr id="id_l38" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62224"><a href="/dataverse/2018-01-16#i_62224">18:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62224"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">yep</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_zer0G">
+
+<td class="time" id="i_62225"><a href="/dataverse/2018-01-16#i_62225">18:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62225"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">What's the size of these data repositories? How big is harvards?</td>
+</tr>
+
+        
+<tr id="id_l40" class="cont nick nick_zer0G">
+
+<td class="time" id="i_62226"><a href="/dataverse/2018-01-16#i_62226">18:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62226"  /></td>
+<td class="nick nick2">zer0G</td>
+<td class="msg ">Do you guys have a bug bounty program?</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_62227"><a href="/dataverse/2018-01-16#i_62227">18:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62227"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="https://dataverse.harvard.edu" title="https://dataverse.harvard.edu">https://dataverse.harvard.edu</a> says the number of files is 223,547. That's across 23,000 or so datasets.</td>
+</tr>
+
+        
+<tr id="id_l42" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62228"><a href="/dataverse/2018-01-16#i_62228">18:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62228"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">No but we have lots of bugs if you want to help. :)</td>
+</tr>
+
+        
+<tr id="id_l43" class="new special">
+
+<td class="time" id="i_62229"><a href="/dataverse/2018-01-16#i_62229">18:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62229"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l44" class="cont special">
+
+<td class="time" id="i_62230"><a href="/dataverse/2018-01-16#i_62230">20:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62230"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l45" class="cont special">
+
+<td class="time" id="i_62231"><a href="/dataverse/2018-01-16#i_62231">21:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62231"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l46" class="cont special">
+
+<td class="time" id="i_62232"><a href="/dataverse/2018-01-16#i_62232">21:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62232"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont special">
+
+<td class="time" id="i_62233"><a href="/dataverse/2018-01-16#i_62233">22:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62233"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2018-01-15" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2018-01-17" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2018-01-16">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2018-01-16;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2018-01-16;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

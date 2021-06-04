@@ -1,0 +1,1326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2017-12-01" />
+    <title>IRC log for #dataverse, 2017-12-01</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2017-12-01</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2017-11-30" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2017-12-02" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2017-12-01">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2017-12-01;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2017-12-01;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_60704"><a href="/dataverse/2017-12-01#i_60704">02:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60704"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_60705"><a href="/dataverse/2017-12-01#i_60705">05:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60705"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="cont special dark">
+
+<td class="time" id="i_60706"><a href="/dataverse/2017-12-01#i_60706">08:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60706"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l5" class="new nick nick_ruben48">
+
+<td class="time" id="i_60707"><a href="/dataverse/2017-12-01#i_60707">10:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60707"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">pdurbin I got Dataporten working now, code here: <a href="https://github.com/uit-no/dataverse/tree/dataporten" title="https://github.com/uit-no/dataverse/tree/dataporten">https://github.com/uit-no/dataverse/tree/dataporten</a></td>
+</tr>
+
+        
+<tr id="id_l6" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60708"><a href="/dataverse/2017-12-01#i_60708">10:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60708"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">one thing I noticed is that no mather with OAuto provider I use, the Log In button always displays &quot;Create or Connect your ORCDI&quot;</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60709"><a href="/dataverse/2017-12-01#i_60709">10:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60709"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">which OAuth*</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60710"><a href="/dataverse/2017-12-01#i_60710">11:06</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60710"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: great that you got it working! There's a known issue with that button, just reported yesterday: <a href="https://github.com/IQSS/dataverse/issues/4333" title="https://github.com/IQSS/dataverse/issues/4333">https://github.com/IQSS/dataverse/issues/4333</a></td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60711"><a href="/dataverse/2017-12-01#i_60711">11:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60711"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">If you go to <a href="https://dataverse.harvard.edu" title="https://dataverse.harvard.edu">https://dataverse.harvard.edu</a> and click &quot;Log In&quot;, you can see the bug is there too. I haven't looking into it yet but probably will today. If you want to try to figure out what's going on, I'd appreciate it.</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_ruben48">
+
+<td class="time" id="i_60712"><a href="/dataverse/2017-12-01#i_60712">11:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60712"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">it's more or less hardcoded in the template loginpage.chtml</td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60713"><a href="/dataverse/2017-12-01#i_60713">11:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60713"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">loginpage.xhtml</td>
+</tr>
+
+        
+<tr id="id_l12" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60714"><a href="/dataverse/2017-12-01#i_60714">11:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60714"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Yeah, `login.button.orcid` apparently.</td>
+</tr>
+
+        
+<tr id="id_l13" class="new nick nick_ruben48">
+
+<td class="time" id="i_60715"><a href="/dataverse/2017-12-01#i_60715">11:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60715"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">jepp</td>
+</tr>
+
+        
+<tr id="id_l14" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60716"><a href="/dataverse/2017-12-01#i_60716">11:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60716"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">If you look at <a href="https://github.com/IQSS/dataverse/commit/11d4f0dd95d539889e125af2ea614c5282c53deb#diff-1edaf9d6e72c76a445255cf6a4780a47" title="https://github.com/IQSS/dataverse/commit/11d4f0dd95d539889e125af2ea614c5282c53deb#diff-1edaf9d6e72c76a445255cf6a4780a47">https://github.com/IQSS/dataverse/commit/11d4f0dd95d539889e125af2ea614c5282c53deb#diff-1edaf9d6e72c76a445255cf6a4780a47</a> you can see that #{LoginPage.loginButtonText} was replaced by #{bundle['login.button.orcid']}</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60717"><a href="/dataverse/2017-12-01#i_60717">11:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60717"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: do you want to see if that fixes it?</td>
+</tr>
+
+        
+<tr id="id_l16" class="new nick nick_ruben48">
+
+<td class="time" id="i_60718"><a href="/dataverse/2017-12-01#i_60718">11:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60718"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yeah sure, I can do that</td>
+</tr>
+
+        
+<tr id="id_l17" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60719"><a href="/dataverse/2017-12-01#i_60719">11:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60719"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">about Dataporten, will you consider a merge request? It will be useful for all the higher education insitusions in Norway</td>
+</tr>
+
+        
+<tr id="id_l18" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60720"><a href="/dataverse/2017-12-01#i_60720">11:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60720"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: well, over in th Google Groups thread, you may have seen me write this: &quot;I'm not sure how we'd even test your code without you giving us credentials to your national OAuth provider. I get slightly nervous about having code in our source tree that we aren't sure works or aren't sure will work after we refactor related code in the future.</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60721"><a href="/dataverse/2017-12-01#i_60721">11:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60721"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="https://groups.google.com/d/msg/dataverse-community/pBJVjc4_wvs/jM_c3cNEBwAJ" title="https://groups.google.com/d/msg/dataverse-community/pBJVjc4_wvs/jM_c3cNEBwAJ">https://groups.google.com/d/msg/dataverse-community/pBJVjc4_wvs/jM_c3cNEBwAJ</a></td>
+</tr>
+
+        
+<tr id="id_l20" class="new nick nick_ruben48">
+
+<td class="time" id="i_60722"><a href="/dataverse/2017-12-01#i_60722">11:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60722"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yes, I say that</td>
+</tr>
+
+        
+<tr id="id_l21" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60723"><a href="/dataverse/2017-12-01#i_60723">11:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60723"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">maybe we could provide some guest accounts if it helps</td>
+</tr>
+
+        
+<tr id="id_l22" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60724"><a href="/dataverse/2017-12-01#i_60724">11:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60724"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">saw*</td>
+</tr>
+
+        
+<tr id="id_l23" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60725"><a href="/dataverse/2017-12-01#i_60725">11:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60725"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I'll tell you what.... Can you please start by creating a GitHub issue?</td>
+</tr>
+
+        
+<tr id="id_l24" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60726"><a href="/dataverse/2017-12-01#i_60726">11:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60726"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That way we'll have something to talk about. That's why I wrote this: &quot;We do all of our estimation by talking about specific GitHub issues, so in a future backlog grooming meeting, perhaps the IQSS team can talk about how much work on our part it would be.&quot;</td>
+</tr>
+
+        
+<tr id="id_l25" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60727"><a href="/dataverse/2017-12-01#i_60727">11:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60727"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">We estimate GitHub issues on Wednesdays.</td>
+</tr>
+
+        
+<tr id="id_l26" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60728"><a href="/dataverse/2017-12-01#i_60728">11:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60728"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Including details like &quot;we can provide a guest account&quot; in the GitHub issue will mean the estimate will be lower. Less work for QA.</td>
+</tr>
+
+        
+<tr id="id_l27" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60729"><a href="/dataverse/2017-12-01#i_60729">11:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60729"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Also, I'd me remiss if I didn't point out what Gustavo wrote about modularity here: <a href="https://groups.google.com/d/msg/dataverse-community/pBJVjc4_wvs/8fVRMttXBwAJ" title="https://groups.google.com/d/msg/dataverse-community/pBJVjc4_wvs/8fVRMttXBwAJ">https://groups.google.com/d/msg/dataverse-community/pBJVjc4_wvs/8fVRMttXBwAJ</a></td>
+</tr>
+
+        
+<tr id="id_l28" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60730"><a href="/dataverse/2017-12-01#i_60730">11:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60730"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">be*</td>
+</tr>
+
+        
+<tr id="id_l29" class="new nick nick_ruben48">
+
+<td class="time" id="i_60731"><a href="/dataverse/2017-12-01#i_60731">11:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60731"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yeah, hoping for modularity :)</td>
+</tr>
+
+        
+<tr id="id_l30" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60732"><a href="/dataverse/2017-12-01#i_60732">11:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60732"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">but you know ho it is.. someone is paying someone so that I can work on this for a given amount of time</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60733"><a href="/dataverse/2017-12-01#i_60733">11:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60733"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Sure. And of course, I don't want you to have to run a fork.</td>
+</tr>
+
+        
+<tr id="id_l32" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60734"><a href="/dataverse/2017-12-01#i_60734">11:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60734"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Without modularity already in place, you'd have to run a fork.</td>
+</tr>
+
+        
+<tr id="id_l33" class="new nick nick_ruben48">
+
+<td class="time" id="i_60735"><a href="/dataverse/2017-12-01#i_60735">11:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60735"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yeah.. and I'm not comfortable doing that.. need to set up som CI to make deployment easier and probably a lot of work doing code reviews</td>
+</tr>
+
+        
+<tr id="id_l34" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60736"><a href="/dataverse/2017-12-01#i_60736">11:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60736"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I'm going to sit and have breakfast with the family. Back in a bit.</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_ruben48">
+
+<td class="time" id="i_60737"><a href="/dataverse/2017-12-01#i_60737">11:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60737"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">Have fun, I will be at work for another 2.5 hours</td>
+</tr>
+
+        
+<tr id="id_l36" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60738"><a href="/dataverse/2017-12-01#i_60738">11:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60738"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: the best thing you could do is create a GitHub issue. You can either present it as an issue or a suggestion. You can explain the benefit (more people using Dataverse) and you can say that you are happy to write the code and provide a means for the Dataverse team to QA the solution (a future pull request).</td>
+</tr>
+
+        
+<tr id="id_l37" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60739"><a href="/dataverse/2017-12-01#i_60739">11:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60739"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">That way, the team at IQSS will have something on the screen to estimate. We'll give it a 2, 3, 5 or whatever based on what you write in the issue.</td>
+</tr>
+
+        
+<tr id="id_l38" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60740"><a href="/dataverse/2017-12-01#i_60740">12:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60740"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Heh, I was going to say that it will appear in the Inbox at <a href="https://waffle.io/IQSS/dataverse" title="https://waffle.io/IQSS/dataverse">https://waffle.io/IQSS/dataverse</a></td>
+</tr>
+
+        
+<tr id="id_l39" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60741"><a href="/dataverse/2017-12-01#i_60741">12:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60741"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">but it's already there! thanks!</td>
+</tr>
+
+        
+<tr id="id_l40" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60742"><a href="/dataverse/2017-12-01#i_60742">12:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60742"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg "><a href="https://github.com/IQSS/dataverse/issues/4334" title="https://github.com/IQSS/dataverse/issues/4334">https://github.com/IQSS/dataverse/issues/4334</a> looks perfect. If you can follow up once you know about the guest account, that would be great. Otherwise, we won't be able to test the code.</td>
+</tr>
+
+        
+<tr id="id_l41" class="new nick nick_ruben48">
+
+<td class="time" id="i_60743"><a href="/dataverse/2017-12-01#i_60743">12:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60743"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yeah, I just need to check that I'm in the clear if I provide a client id and secret with a few guest accounts</td>
+</tr>
+
+        
+<tr id="id_l42" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60744"><a href="/dataverse/2017-12-01#i_60744">12:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60744"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">need to talk up a level or two in the organisation :)</td>
+</tr>
+
+        
+<tr id="id_l43" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60745"><a href="/dataverse/2017-12-01#i_60745">12:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60745"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">about the text on the login button, seems like there is a function getLoginButtonText in LoginPage.java line 266 thats not on use</td>
+</tr>
+
+        
+<tr id="id_l44" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60746"><a href="/dataverse/2017-12-01#i_60746">12:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60746"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: do you feel like making a pull request for just that one line fix?</td>
+</tr>
+
+        
+<tr id="id_l45" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60747"><a href="/dataverse/2017-12-01#i_60747">12:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60747"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">(I *think* it's just a one line fix.)</td>
+</tr>
+
+        
+<tr id="id_l46" class="new nick nick_ruben48">
+
+<td class="time" id="i_60748"><a href="/dataverse/2017-12-01#i_60748">12:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60748"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">shure.. need to get som goodwill in the community :)</td>
+</tr>
+
+        
+<tr id="id_l47" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60749"><a href="/dataverse/2017-12-01#i_60749">12:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60749"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">anyways ;)</td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60750"><a href="/dataverse/2017-12-01#i_60750">12:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60750"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">heh, you've already got goodwill :)</td>
+</tr>
+
+        
+<tr id="id_l49" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60751"><a href="/dataverse/2017-12-01#i_60751">12:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60751"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I'm just glad the bug was reported by a close collaborator before you found it. :)</td>
+</tr>
+
+        
+<tr id="id_l50" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60752"><a href="/dataverse/2017-12-01#i_60752">12:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60752"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Only by 9 hours!</td>
+</tr>
+
+        
+<tr id="id_l51" class="new nick nick_ruben48">
+
+<td class="time" id="i_60753"><a href="/dataverse/2017-12-01#i_60753">12:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60753"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">only because I was working in that area :)</td>
+</tr>
+
+        
+<tr id="id_l52" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60754"><a href="/dataverse/2017-12-01#i_60754">12:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60754"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: I just invited you to <a href="https://github.com/orgs/IQSS/teams/dataverse-readonly/members" title="https://github.com/orgs/IQSS/teams/dataverse-readonly/members">https://github.com/orgs/IQSS/teams/dataverse-readonly/members</a> so I can assign <a href="https://github.com/IQSS/dataverse/issues/4333" title="https://github.com/IQSS/dataverse/issues/4333">https://github.com/IQSS/dataverse/issues/4333</a> to you, if you want to be assigned. :)</td>
+</tr>
+
+        
+<tr id="id_l53" class="new nick nick_ruben48">
+
+<td class="time" id="i_60755"><a href="/dataverse/2017-12-01#i_60755">12:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60755"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">nice</td>
+</tr>
+
+        
+<tr id="id_l54" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60756"><a href="/dataverse/2017-12-01#i_60756">12:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60756"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">just fixed and testet the issue.. I love oneliners :D</td>
+</tr>
+
+        
+<tr id="id_l55" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60757"><a href="/dataverse/2017-12-01#i_60757">12:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60757"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg "><a href="https://github.com/uit-no/dataverse/tree/4333-oauth-login-button-text" title="https://github.com/uit-no/dataverse/tree/4333-oauth-login-button-text">https://github.com/uit-no/dataverse/tree/4333-oauth-login-button-text</a></td>
+</tr>
+
+        
+<tr id="id_l56" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60758"><a href="/dataverse/2017-12-01#i_60758">12:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60758"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: great! Can you please create a pull request and use our crazy &quot;connects to #4333&quot; syntax? For an example, please see <a href="https://github.com/IQSS/dataverse/pull/4331" title="https://github.com/IQSS/dataverse/pull/4331">https://github.com/IQSS/dataverse/pull/4331</a></td>
+</tr>
+
+        
+<tr id="id_l57" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60759"><a href="/dataverse/2017-12-01#i_60759">12:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60759"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">The reason we do this is so that pull requests are associates with issues over at <a href="https://waffle.io/IQSS/dataverse" title="https://waffle.io/IQSS/dataverse">https://waffle.io/IQSS/dataverse</a></td>
+</tr>
+
+        
+<tr id="id_l58" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60760"><a href="/dataverse/2017-12-01#i_60760">12:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60760"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">associated*</td>
+</tr>
+
+        
+<tr id="id_l59" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60761"><a href="/dataverse/2017-12-01#i_60761">12:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60761"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">We mention the &quot;connects to&quot; syntax at <a href="http://guides.dataverse.org/en/4.8.3/developers/version-control.html#make-a-pull-request" title="http://guides.dataverse.org/en/4.8.3/developers/version-control.html#make-a-pull-request">http://guides.dataverse.org/en/4.8.3/developers/version-control.html#make-a-pull-request</a></td>
+</tr>
+
+        
+<tr id="id_l60" class="new nick nick_ruben48">
+
+<td class="time" id="i_60762"><a href="/dataverse/2017-12-01#i_60762">12:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60762"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">holy shit, I think I got it wrong</td>
+</tr>
+
+        
+<tr id="id_l61" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60763"><a href="/dataverse/2017-12-01#i_60763">13:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60763"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">So it should be like Fixed login buttin text [ref: #4333] ?</td>
+</tr>
+
+        
+<tr id="id_l62" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60764"><a href="/dataverse/2017-12-01#i_60764">13:08</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60764"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: sorry, I'm talking about the *description* of the pull request. I'm not talking about the commit message. It's confusing.</td>
+</tr>
+
+        
+<tr id="id_l63" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60765"><a href="/dataverse/2017-12-01#i_60765">13:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60765"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Right now, the description says, &quot;Replaced a hardcoded string with an already existing function to get the login button name.&quot; You would edit this text and add &quot;connects to #4333&quot; so that Waffle knows which issue to show the pull request under. It's a Waffle thing. I can dig up their article on this if you want.</td>
+</tr>
+
+        
+<tr id="id_l64" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60766"><a href="/dataverse/2017-12-01#i_60766">13:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60766"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Here, it was easy to find: <a href="https://help.waffle.io/faq/waffle-workflow/use-waffles-connect-keyword-to-connect-prs-to-issues" title="https://help.waffle.io/faq/waffle-workflow/use-waffles-connect-keyword-to-connect-prs-to-issues">https://help.waffle.io/faq/waffle-workflow/use-waffles-connect-keyword-to-connect-prs-to-issues</a></td>
+</tr>
+
+        
+<tr id="id_l65" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60767"><a href="/dataverse/2017-12-01#i_60767">13:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60767"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">&quot;Example: If your Pull Request description for PR#19 was &quot;This work connects to #34&quot;, this would result in PR#19 being visually connected underneath issue #34.&quot;</td>
+</tr>
+
+        
+<tr id="id_l66" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60768"><a href="/dataverse/2017-12-01#i_60768">13:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60768"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">&quot;visually connected&quot; is the important thing to us, so that when we stare at waffle at standup every morning we can see a single card moving across the board</td>
+</tr>
+
+        
+<tr id="id_l67" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60769"><a href="/dataverse/2017-12-01#i_60769">13:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60769"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I hope this makes sense.</td>
+</tr>
+
+        
+<tr id="id_l68" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60770"><a href="/dataverse/2017-12-01#i_60770">13:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60770"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: ah, you fixed it. Thanks. Next question... If you log in to <a href="https://waffle.io/IQSS/dataverse" title="https://waffle.io/IQSS/dataverse">https://waffle.io/IQSS/dataverse</a> are you able to drag your card into the &quot;Code Review&quot; column?</td>
+</tr>
+
+        
+<tr id="id_l69" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60771"><a href="/dataverse/2017-12-01#i_60771">13:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60771"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Do you have permission, I mean, since I added you to that &quot;read only&quot; team.</td>
+</tr>
+
+        
+<tr id="id_l70" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60772"><a href="/dataverse/2017-12-01#i_60772">13:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60772"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">If not, please let me know and I'll drag it over for you. I explain this at <a href="http://guides.dataverse.org/en/4.8.3/developers/version-control.html#make-sure-your-pull-request-has-been-advanced-to-code-review" title="http://guides.dataverse.org/en/4.8.3/developers/version-control.html#make-sure-your-pull-request-has-been-advanced-to-code-review">http://guides.dataverse.org/en/4.8.3/developers/version-control.html#make-sure-your-pull-request-has-been-advanced-to-code-review</a></td>
+</tr>
+
+        
+<tr id="id_l71" class="new nick nick_ruben48">
+
+<td class="time" id="i_60773"><a href="/dataverse/2017-12-01#i_60773">13:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60773"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">no, I get an error &quot; Only collaborators can update cards.&quot;</td>
+</tr>
+
+        
+<tr id="id_l72" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60774"><a href="/dataverse/2017-12-01#i_60774">13:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60774"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: ok, that's what I expected. Thanks for testing this for me. I dragged it over for you. Thanks for the pull request! We can take it from here. :)</td>
+</tr>
+
+        
+<tr id="id_l73" class="new nick nick_ruben48">
+
+<td class="time" id="i_60775"><a href="/dataverse/2017-12-01#i_60775">13:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60775"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">nice :)</td>
+</tr>
+
+        
+<tr id="id_l74" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60776"><a href="/dataverse/2017-12-01#i_60776">13:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60776"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">I have started to digg into what is possible for me about giving out testing information against Dataporten</td>
+</tr>
+
+        
+<tr id="id_l75" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60777"><a href="/dataverse/2017-12-01#i_60777">13:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60777"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">I will probably have the answer early next week</td>
+</tr>
+
+        
+<tr id="id_l76" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60778"><a href="/dataverse/2017-12-01#i_60778">13:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60778"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: awesome. Do you have time for a little code review here or do you want me to put it in as a formal code review?</td>
+</tr>
+
+        
+<tr id="id_l77" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60779"><a href="/dataverse/2017-12-01#i_60779">13:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60779"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">The first thing I'll say is thank you again. I believe this will fix the problem. As a code reviewer, I don't feel the need to actually execute your code. You said you tested it and I believe you. QA will test it before merging. But there are a few little things I'll mention.</td>
+</tr>
+
+        
+<tr id="id_l78" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60780"><a href="/dataverse/2017-12-01#i_60780">13:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60780"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Since this is a one-line change, ideally there would only be one commit with a single change to the line. Not a big deal. If you had created a branch from the tip of the `develop` branch, we wouldn't see so many merge commits in your pull request.</td>
+</tr>
+
+        
+<tr id="id_l79" class="new nick nick_ruben48">
+
+<td class="time" id="i_60781"><a href="/dataverse/2017-12-01#i_60781">13:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60781"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yeah, i noticed that</td>
+</tr>
+
+        
+<tr id="id_l80" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60782"><a href="/dataverse/2017-12-01#i_60782">13:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60782"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Also, I don't see your GitHub avatar (profile icon) on your commits. This means that whatever email address you have configured in your git client doesn't match the email address you use on GitHub. This means you won't appear as a contributor under <a href="https://github.com/IQSS/dataverse/graphs/contributors" title="https://github.com/IQSS/dataverse/graphs/contributors">https://github.com/IQSS/dataverse/graphs/contributors</a> if that matters to you.</td>
+</tr>
+
+        
+<tr id="id_l81" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60783"><a href="/dataverse/2017-12-01#i_60783">13:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60783"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I'd love to have you be #50. :)</td>
+</tr>
+
+        
+<tr id="id_l82" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60784"><a href="/dataverse/2017-12-01#i_60784">13:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60784"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I think that's it. I'll leave it up to you if you want to create a fresh pull request with those two things in mind. I'm sure this won't be QA's for another three hours or so.</td>
+</tr>
+
+        
+<tr id="id_l83" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60785"><a href="/dataverse/2017-12-01#i_60785">13:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60785"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">QA'ed*</td>
+</tr>
+
+        
+<tr id="id_l84" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60786"><a href="/dataverse/2017-12-01#i_60786">13:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60786"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">You can associate multiple email addresses with your GitHub account, by the way. I do this for work vs. personal projects.</td>
+</tr>
+
+        
+<tr id="id_l85" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60787"><a href="/dataverse/2017-12-01#i_60787">13:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60787"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">if you do `git log` you'll be able to see what email address was put in</td>
+</tr>
+
+        
+<tr id="id_l86" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60788"><a href="/dataverse/2017-12-01#i_60788">13:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60788"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">some people don't care about the &quot;credit&quot; GitHub gives you</td>
+</tr>
+
+        
+<tr id="id_l87" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60789"><a href="/dataverse/2017-12-01#i_60789">13:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60789"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I think it's kind of fun. GitHub's original tagline was &quot;social coding&quot;.</td>
+</tr>
+
+        
+<tr id="id_l88" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60790"><a href="/dataverse/2017-12-01#i_60790">13:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60790"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Either way, I'll try to make sure you get thanked in the release notes. :)</td>
+</tr>
+
+        
+<tr id="id_l89" class="new nick nick_ruben48">
+
+<td class="time" id="i_60791"><a href="/dataverse/2017-12-01#i_60791">13:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60791"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">I tried again :)</td>
+</tr>
+
+        
+<tr id="id_l90" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60792"><a href="/dataverse/2017-12-01#i_60792">13:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60792"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ruben48: much better! You tested it? It seems to be the same change.</td>
+</tr>
+
+        
+<tr id="id_l91" class="new nick nick_ruben48">
+
+<td class="time" id="i_60793"><a href="/dataverse/2017-12-01#i_60793">13:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60793"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">Also, I have got a GO on providing you all you need to test OAuth against Dataporten. Just need to know the Redirect <abbr title="Uniform Resource Identifier">URI</abbr> to your test environment, but we can take the details on Monday</td>
+</tr>
+
+        
+<tr id="id_l92" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60794"><a href="/dataverse/2017-12-01#i_60794">13:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60794"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ah, great news</td>
+</tr>
+
+        
+<tr id="id_l93" class="new nick nick_ruben48">
+
+<td class="time" id="i_60795"><a href="/dataverse/2017-12-01#i_60795">13:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60795"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">yes, I tested it. Same change, just with the changes you pointed out like the head of develop branch and my correct email</td>
+</tr>
+
+        
+<tr id="id_l94" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60796"><a href="/dataverse/2017-12-01#i_60796">13:54</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60796"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Thanks for testing. For the redirect url, can you please leave a comment in the issue you opened?</td>
+</tr>
+
+        
+<tr id="id_l95" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60797"><a href="/dataverse/2017-12-01#i_60797">13:56</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60797"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">And if you remove the &quot;connects to&quot; from your old pull request, the waffle card will be less confusing for QA. Closed pull requests are greyed out, but it's a little subtle. Better to disassociate it completely.</td>
+</tr>
+
+        
+<tr id="id_l96" class="new nick nick_ruben48">
+
+<td class="time" id="i_60798"><a href="/dataverse/2017-12-01#i_60798">13:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60798"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">Done</td>
+</tr>
+
+        
+<tr id="id_l97" class="cont nick nick_ruben48">
+
+<td class="time" id="i_60799"><a href="/dataverse/2017-12-01#i_60799">14:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60799"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">I'm going off work now. Talk to you next week :)</td>
+</tr>
+
+        
+<tr id="id_l98" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60800"><a href="/dataverse/2017-12-01#i_60800">14:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60800"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Thanks again! Have a great weekend!</td>
+</tr>
+
+        
+<tr id="id_l99" class="new nick nick_ruben48">
+
+<td class="time" id="i_60801"><a href="/dataverse/2017-12-01#i_60801">14:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60801"  /></td>
+<td class="nick nick2">ruben48</td>
+<td class="msg ">you too!</td>
+</tr>
+
+        
+<tr id="id_l100" class="new special dark">
+
+<td class="time" id="i_60802"><a href="/dataverse/2017-12-01#i_60802">15:20</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60802"  /></td>
+<td class="nick"></td>
+<td class="msg ">pameyer joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l101" class="cont special dark">
+
+<td class="time" id="i_60803"><a href="/dataverse/2017-12-01#i_60803">15:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60803"  /></td>
+<td class="nick"></td>
+<td class="msg ">soU joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l102" class="new nick nick_soU">
+
+<td class="time" id="i_60804"><a href="/dataverse/2017-12-01#i_60804">15:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60804"  /></td>
+<td class="nick nick4">soU</td>
+<td class="msg ">Hi pdurbin: as we discussed last time its just to inform you that our dataverse goes live at data.cimmyt.org.</td>
+</tr>
+
+        
+<tr id="id_l103" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60805"><a href="/dataverse/2017-12-01#i_60805">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60805"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">soU: congrats on a successful upgrade to Dataverse 4!</td>
+</tr>
+
+        
+<tr id="id_l104" class="new nick nick_soU">
+
+<td class="time" id="i_60806"><a href="/dataverse/2017-12-01#i_60806">15:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60806"  /></td>
+<td class="nick nick4">soU</td>
+<td class="msg ">Thanks, And thank you the whole community for the amazing support we got</td>
+</tr>
+
+        
+<tr id="id_l105" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60807"><a href="/dataverse/2017-12-01#i_60807">15:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60807"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">You're quite welcome. Are you running a fork? If so, is the code on GitHub? I track forks internally in a Google doc.</td>
+</tr>
+
+        
+<tr id="id_l106" class="new nick nick_soU">
+
+<td class="time" id="i_60808"><a href="/dataverse/2017-12-01#i_60808">15:50</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60808"  /></td>
+<td class="nick nick4">soU</td>
+<td class="msg "><a href="https://github.com/solhm/dataverse" title="https://github.com/solhm/dataverse">https://github.com/solhm/dataverse</a></td>
+</tr>
+
+        
+<tr id="id_l107" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60809"><a href="/dataverse/2017-12-01#i_60809">15:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60809"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Thanks, it looks like this one is the most recent: <a href="https://github.com/solhm/dataverse/tree/3.6to4.xmigration" title="https://github.com/solhm/dataverse/tree/3.6to4.xmigration">https://github.com/solhm/dataverse/tree/3.6to4.xmigration</a></td>
+</tr>
+
+        
+<tr id="id_l108" class="new special">
+
+<td class="time" id="i_60810"><a href="/dataverse/2017-12-01#i_60810">17:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60810"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l109" class="cont special">
+
+<td class="time" id="i_60811"><a href="/dataverse/2017-12-01#i_60811">17:07</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60811"  /></td>
+<td class="nick"></td>
+<td class="msg ">matthew46 joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l110" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60812"><a href="/dataverse/2017-12-01#i_60812">17:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60812"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">So! pameyer was able to push to ruben48 's <a href="https://github.com/IQSS/dataverse/pull/4336" title="https://github.com/IQSS/dataverse/pull/4336">https://github.com/IQSS/dataverse/pull/4336</a> thanks to the magic of a new GitHub feature: <a href="https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/" title="https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/">https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/</a></td>
+</tr>
+
+        
+<tr id="id_l111" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60813"><a href="/dataverse/2017-12-01#i_60813">17:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60813"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Thank you, ruben48 for allowing us to push to your fork. This is going to make it easier to make a few tweaks and git this pull request to QA.</td>
+</tr>
+
+        
+<tr id="id_l112" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60814"><a href="/dataverse/2017-12-01#i_60814">17:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60814"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Those instructions from GitHub are great, but I'm going to add ruben48 's fork as a &quot;remote&quot; and see if I don't need to re-clone.</td>
+</tr>
+
+        
+<tr id="id_l113" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60815"><a href="/dataverse/2017-12-01#i_60815">17:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60815"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">If you type `git remote` you can see all of your remotes. By default, you should only have one remote called &quot;origin&quot;.</td>
+</tr>
+
+        
+<tr id="id_l114" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60816"><a href="/dataverse/2017-12-01#i_60816">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60816"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">git remote add uit-no git<img src="/at.png" alt="@" />github.com:uit-no/dataverse.git</td>
+</tr>
+
+        
+<tr id="id_l115" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60817"><a href="/dataverse/2017-12-01#i_60817">17:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60817"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">git fetch uit-no</td>
+</tr>
+
+        
+<tr id="id_l116" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60818"><a href="/dataverse/2017-12-01#i_60818">17:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60818"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">git checkout 4333-login-button-text</td>
+</tr>
+
+        
+<tr id="id_l117" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60819"><a href="/dataverse/2017-12-01#i_60819">17:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60819"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Ok, now I'm on ruben48 's branch and I can see pameyer 's commit. Let's take a look.</td>
+</tr>
+
+        
+<tr id="id_l118" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60820"><a href="/dataverse/2017-12-01#i_60820">17:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60820"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: your commit makes more sense to me now. You don't like `login.button=Log In with {0}`, right?</td>
+</tr>
+
+        
+<tr id="id_l119" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60821"><a href="/dataverse/2017-12-01#i_60821">17:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60821"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Before making any changes, I'm re-reading what I wrote at <a href="http://guides.dataverse.org/en/4.8.3/developers/dev-environment.html#shibboleth-and-oauth" title="http://guides.dataverse.org/en/4.8.3/developers/dev-environment.html#shibboleth-and-oauth">http://guides.dataverse.org/en/4.8.3/developers/dev-environment.html#shibboleth-and-oauth</a> :)</td>
+</tr>
+
+        
+<tr id="id_l120" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60822"><a href="/dataverse/2017-12-01#i_60822">17:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60822"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Hmm, what I wrote there isn't very useful for this. What I really need is to add some auth providers, as discussed at <a href="http://guides.dataverse.org/en/4.8.3/installation/oauth2.html" title="http://guides.dataverse.org/en/4.8.3/installation/oauth2.html">http://guides.dataverse.org/en/4.8.3/installation/oauth2.html</a></td>
+</tr>
+
+        
+<tr id="id_l121" class="new special">
+
+<td class="time" id="i_60823"><a href="/dataverse/2017-12-01#i_60823">17:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60823"  /></td>
+<td class="nick"></td>
+<td class="msg ">mdunlap joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l122" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60824"><a href="/dataverse/2017-12-01#i_60824">17:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60824"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer: I'm warming up to your fix. :)</td>
+</tr>
+
+        
+<tr id="id_l123" class="new special">
+
+<td class="time" id="i_60825"><a href="/dataverse/2017-12-01#i_60825">17:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60825"  /></td>
+<td class="nick"></td>
+<td class="msg ">jri joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l124" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60826"><a href="/dataverse/2017-12-01#i_60826">17:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60826"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Yeah, I'm just going to add a comment for future developers.</td>
+</tr>
+
+        
+<tr id="id_l125" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60827"><a href="/dataverse/2017-12-01#i_60827">18:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60827"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Normal commit.. then...</td>
+</tr>
+
+        
+<tr id="id_l126" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60828"><a href="/dataverse/2017-12-01#i_60828">18:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60828"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">git push uit-no 4333-login-button-text</td>
+</tr>
+
+        
+<tr id="id_l127" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60829"><a href="/dataverse/2017-12-01#i_60829">18:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60829"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">pameyer mdunlap if you're interested, that's how you can push to a branch on a fork without having to re-clone the entire repo. Note the `git remote add` and `git fetch`` and `git checkout` above as well.</td>
+</tr>
+
+        
+<tr id="id_l128" class="new nick nick_pameyer">
+
+<td class="time" id="i_60830"><a href="/dataverse/2017-12-01#i_60830">18:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60830"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">a little bit of lag from my end - but yeah, the issue was changing &quot;log in with $x&quot; to &quot;connect $x&quot; in some cases</td>
+</tr>
+
+        
+<tr id="id_l129" class="cont nick nick_pameyer">
+
+<td class="time" id="i_60831"><a href="/dataverse/2017-12-01#i_60831">18:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60831"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">and I think that's what went wrong</td>
+</tr>
+
+        
+<tr id="id_l130" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60832"><a href="/dataverse/2017-12-01#i_60832">18:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60832"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Yep. Oh, that reminds me. Do we know when the bug was introduced?</td>
+</tr>
+
+        
+<tr id="id_l131" class="new nick nick_pameyer">
+
+<td class="time" id="i_60833"><a href="/dataverse/2017-12-01#i_60833">18:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60833"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">I haven't checked to confirm, but I'd guess when orcid 2.0 support was merged</td>
+</tr>
+
+        
+<tr id="id_l132" class="cont nick nick_pameyer">
+
+<td class="time" id="i_60834"><a href="/dataverse/2017-12-01#i_60834">18:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60834"  /></td>
+<td class="nick nick3">pameyer</td>
+<td class="msg ">because that's when it was originally changed</td>
+</tr>
+
+        
+<tr id="id_l133" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60835"><a href="/dataverse/2017-12-01#i_60835">18:15</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60835"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Let me go look at the commit. It'll show which tags/versions the regression is in.</td>
+</tr>
+
+        
+<tr id="id_l134" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60836"><a href="/dataverse/2017-12-01#i_60836">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60836"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Only 4.8.3 is affected. Otherwise, more tags/versions would be at the top of <a href="https://github.com/IQSS/dataverse/commit/11d4f0d" title="https://github.com/IQSS/dataverse/commit/11d4f0d">https://github.com/IQSS/dataverse/commit/11d4f0d</a></td>
+</tr>
+
+        
+<tr id="id_l135" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60837"><a href="/dataverse/2017-12-01#i_60837">21:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60837"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">Bah, there's a problem with Google login (unrelated to ruben48 and pameyer 's pull request, I'm sure). I just opened <a href="https://github.com/IQSS/dataverse/issues/4337" title="https://github.com/IQSS/dataverse/issues/4337">https://github.com/IQSS/dataverse/issues/4337</a></td>
+</tr>
+
+        
+<tr id="id_l136" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_60838"><a href="/dataverse/2017-12-01#i_60838">21:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60838"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I gotta run. Have a good weekend, everybody.</td>
+</tr>
+
+        
+<tr id="id_l137" class="new special">
+
+<td class="time" id="i_60839"><a href="/dataverse/2017-12-01#i_60839">21:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60839"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin left #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2017-11-30" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2017-12-02" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2017-12-01">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2017-12-01;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2017-12-01;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

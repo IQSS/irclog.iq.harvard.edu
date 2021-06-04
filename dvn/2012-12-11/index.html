@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dvn" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dvn/2012-12-11" />
+    <title>IRC log for #dvn, 2012-12-11</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dvn, 2012-12-11</h1>
+
+    <h1><p> We've moved! Please join <a href="http://webchat.freenode.net/?channels=dataverse">#dataverse</a> instead. The new logs are at <a href="http://irclog.iq.harvard.edu/dataverse/today">http://irclog.iq.harvard.edu/dataverse/today</a>
+</p></h1>
+
+        <p><a href="/dvn/2012-12-10" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dvn/">#dvn index</a> |
+<a href="/dvn/today">Today</a> |
+    
+<a href="/dvn/2012-12-12" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dvn">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Advn">Google Search</a>
+| <a href="/text.pl?channel=dvn;date=2012-12-11">Plain-Text</a>
+    | <a href="/text.pl?channel=dvn;date=2012-12-11;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dvn;date=2012-12-11;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_60"><a href="/dvn/2012-12-11#i_60">15:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_60"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">i'm thinking about our `install-dev` script that sets up postgres and glassfish in a dev environment (typically a mac, for us)</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_61"><a href="/dvn/2012-12-11#i_61">15:59</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_61"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">if you try to run it as non-root it says &quot;ERROR: You must be logged in as root to run the installer&quot; -- <a href="http://dvn.svn.sourceforge.net/viewvc/dvn/dvn-app/trunk/tools/installer/dvninstall/install-dev?revision=8410&amp;view=markup" title="http://dvn.svn.sourceforge.net/viewvc/dvn/dvn-app/trunk/tools/installer/dvninstall/install-dev?revision=8410&amp;view=markup">http://dvn.svn.sourceforge.net/viewvc/dvn/dvn-app/trunk/tools/installer/dvninstall/install-dev?revision=8410&amp;view=markup</a></td>
+</tr>
+
+        
+<tr id="id_l4" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_62"><a href="/dvn/2012-12-11#i_62">16:01</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_62"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">i'm wondering if i can make it run as non-root... with the the thought that i'd like to be able to easily re-create the dev environment within my user account</td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_63"><a href="/dvn/2012-12-11#i_63">16:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_63"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">i set up postgres in my user account with `brew install postgresql` ... so `psql`, for example, gets installed as ~/.homebrew/bin/psql</td>
+</tr>
+
+        
+<tr id="id_l6" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_64"><a href="/dvn/2012-12-11#i_64">16:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_64"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">here's the homebrew formula: <a href="https://github.com/mxcl/homebrew/blob/master/Library/Formula/postgresql.rb" title="https://github.com/mxcl/homebrew/blob/master/Library/Formula/postgresql.rb">https://github.com/mxcl/homebrew/blob/master/Library/Formula/postgresql.rb</a></td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_65"><a href="/dvn/2012-12-11#i_65">16:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_65"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">homebrew being a newer fink or macports, basically: <a href="http://mxcl.github.com/homebrew/" title="http://mxcl.github.com/homebrew/">http://mxcl.github.com/homebrew/</a></td>
+</tr>
+
+        
+<tr id="id_l8" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_66"><a href="/dvn/2012-12-11#i_66">16:04</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_66"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">i hear `brew install postgresql` works quite well: <a href="http://irclog.perlgeek.de/crimsonfu/2012-12-10#i_6229507" title="http://irclog.perlgeek.de/crimsonfu/2012-12-10#i_6229507">http://irclog.perlgeek.de/crimsonfu/2012-12-10#i_6229507</a></td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_67"><a href="/dvn/2012-12-11#i_67">20:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_67"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">thinking about solr... the openscholar guys use it... OpenScholar - Bug #2199: Solr Search Broken (excesive query size) - <a href="https://redmine.hmdc.harvard.edu/issues/2199" title="https://redmine.hmdc.harvard.edu/issues/2199">https://redmine.hmdc.harvard.edu/issues/2199</a></td>
+</tr>
+
+        
+<tr id="id_l10" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_68"><a href="/dvn/2012-12-11#i_68">20:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_68"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">right. here's where they implemented it: OpenScholar - Feature #2375: Openscholar Search - <a href="https://redmine.hmdc.harvard.edu/issues/2375" title="https://redmine.hmdc.harvard.edu/issues/2375">https://redmine.hmdc.harvard.edu/issues/2375</a></td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_69"><a href="/dvn/2012-12-11#i_69">21:03</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_69"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">made a ticket for solr: <a href="https://redmine.hmdc.harvard.edu/issues/2656" title="https://redmine.hmdc.harvard.edu/issues/2656">https://redmine.hmdc.harvard.edu/issues/2656</a></td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_70"><a href="/dvn/2012-12-11#i_70">21:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_70"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">it's being suggested to me that elasticsearch may be better: <a href="http://irclog.greptilian.com/sourcefu/2012-12-11#i_796" title="http://irclog.greptilian.com/sourcefu/2012-12-11#i_796">http://irclog.greptilian.com/sourcefu/2012-12-11#i_796</a></td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_71"><a href="/dvn/2012-12-11#i_71">21:05</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_71"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">wow, there's a site about this: <a href="http://solr-vs-elasticsearch.com" title="http://solr-vs-elasticsearch.com">http://solr-vs-elasticsearch.com</a></td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_72"><a href="/dvn/2012-12-11#i_72">21:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_72"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">hmm, &quot;No convenient wrapper for Java beans as the @Field annotation in SolrJ&quot; -- <a href="http://en.wikipedia.org/wiki/ElasticSearch" title="http://en.wikipedia.org/wiki/ElasticSearch">http://en.wikipedia.org/wiki/ElasticSearch</a></td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_73"><a href="/dvn/2012-12-11#i_73">21:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_73"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">another comparison: <a href="http://stackoverflow.com/questions/10213009/solr-vs-elasticsearch" title="http://stackoverflow.com/questions/10213009/solr-vs-elasticsearch">http://stackoverflow.com/questions/10213009/solr-vs-elasticsearch</a></td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dvn/2012-12-10" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dvn/">#dvn index</a> |
+<a href="/dvn/today">Today</a> |
+    
+<a href="/dvn/2012-12-12" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dvn">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Advn">Google Search</a>
+| <a href="/text.pl?channel=dvn;date=2012-12-11">Plain-Text</a>
+    | <a href="/text.pl?channel=dvn;date=2012-12-11;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dvn;date=2012-12-11;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <h1><p> We've moved! Please join <a href="http://webchat.freenode.net/?channels=dataverse">#dataverse</a> instead. The new logs are at <a href="http://irclog.iq.harvard.edu/dataverse/today">http://irclog.iq.harvard.edu/dataverse/today</a>
+</p></h1>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

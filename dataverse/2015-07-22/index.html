@@ -1,0 +1,687 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2015-07-22" />
+    <title>IRC log for #dataverse, 2015-07-22</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2015-07-22</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2015-07-21" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2015-07-23" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2015-07-22">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2015-07-22;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2015-07-22;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_21867"><a href="/dataverse/2015-07-22#i_21867">15:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21867"  /></td>
+<td class="nick"></td>
+<td class="msg ">axfelix joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_21868"><a href="/dataverse/2015-07-22#i_21868">16:57</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21868"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21869"><a href="/dataverse/2015-07-22#i_21869">18:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21869"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">Hello! just curious if anyone is around and interested in troubleshooting pegged <abbr title="Central Processing Unit">CPU</abbr>?</td>
+</tr>
+
+        
+<tr id="id_l5" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21870"><a href="/dataverse/2015-07-22#i_21870">18:16</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21870"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: well, I can try a bit. Is this for DVN 3.x?</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21871"><a href="/dataverse/2015-07-22#i_21871">18:17</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21871"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">correct - an Dataverse 4 upgrade is in our near future. and thank you for your help!</td>
+</tr>
+
+        
+<tr id="id_l7" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21872"><a href="/dataverse/2015-07-22#i_21872">18:19</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21872"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">i've been poring through the domain server, access and export logs but don't see a particular culprit. Akio and I went down a few rabbit holes earlier this afternoon</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21873"><a href="/dataverse/2015-07-22#i_21873">18:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21873"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: I'm going to guess you don't want to simply restart glassfish</td>
+</tr>
+
+        
+<tr id="id_l9" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21874"><a href="/dataverse/2015-07-22#i_21874">18:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21874"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">already done, happy to do it again</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21875"><a href="/dataverse/2015-07-22#i_21875">18:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21875"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">huh. and still pegged</td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21876"><a href="/dataverse/2015-07-22#i_21876">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21876"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">what's the load from `uptime`?</td>
+</tr>
+
+        
+<tr id="id_l12" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21877"><a href="/dataverse/2015-07-22#i_21877">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21877"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">we were getting a number of harvesting errors, but they had me disable the schedule for that</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21878"><a href="/dataverse/2015-07-22#i_21878">18:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21878"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">it's been hovering around 5 all day. i found one <abbr title="Internet Protocol">IP</abbr> in the access log that had sent an enormous number of requests earlier but that stopped around 1230 EDT</td>
+</tr>
+
+        
+<tr id="id_l14" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21879"><a href="/dataverse/2015-07-22#i_21879">18:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21879"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">5 isn't crazy high at least</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21880"><a href="/dataverse/2015-07-22#i_21880">18:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21880"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: I assume you have symptoms as well. site is slower than usual or whatever</td>
+</tr>
+
+        
+<tr id="id_l16" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21881"><a href="/dataverse/2015-07-22#i_21881">18:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21881"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">this particular <abbr title="Virtual Machine">VM</abbr> has a ton of resources thrown at it, so the machine (and Glassfish) are perfectly responsive. but the load is usually closer to 0</td>
+</tr>
+
+        
+<tr id="id_l17" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21882"><a href="/dataverse/2015-07-22#i_21882">18:30</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21882"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok. responsive is good :)</td>
+</tr>
+
+        
+<tr id="id_l18" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21883"><a href="/dataverse/2015-07-22#i_21883">18:31</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21883"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">we spent part of the morning trying to correlate export errors / nullpointer exception to bad data of any sort, but can't pin anything down</td>
+</tr>
+
+        
+<tr id="id_l19" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21884"><a href="/dataverse/2015-07-22#i_21884">18:36</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21884"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I wonder if that's related or not.</td>
+</tr>
+
+        
+<tr id="id_l20" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21885"><a href="/dataverse/2015-07-22#i_21885">18:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21885"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">on launch the glassfish log gets a string of javax.enterprise.system.container.e​jb.com.sun.ejb.containers|_ThreadID​=17;_ThreadName=Thread-2;|EJB5184:A system exception occurred  during an invocation on EJB StudyServiceBean, method: public void edu.harvard.iq.dvn.core.study.StudySe​rviceBean.exportStudy(java.lang.Long) errors, but once exporting finishes the <abbr title="Central Processing Unit">CPU</abbr> doesn't die down</td>
+</tr>
+
+        
+<tr id="id_l21" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21886"><a href="/dataverse/2015-07-22#i_21886">18:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21886"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: so if you restart glassfish and *don't* try to export everything is fine? it's only when you restart glassfish and try an export that the <abbr title="Central Processing Unit">CPU</abbr> gets pegged?</td>
+</tr>
+
+        
+<tr id="id_l22" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21887"><a href="/dataverse/2015-07-22#i_21887">18:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21887"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">it seems to be launching export on its own</td>
+</tr>
+
+        
+<tr id="id_l23" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21888"><a href="/dataverse/2015-07-22#i_21888">18:44</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21888"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">huh</td>
+</tr>
+
+        
+<tr id="id_l24" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21889"><a href="/dataverse/2015-07-22#i_21889">18:45</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21889"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">I assume you don't want that.</td>
+</tr>
+
+        
+<tr id="id_l25" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21890"><a href="/dataverse/2015-07-22#i_21890">18:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21890"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: this *might* help: <a href="http://wiki.greptilian.com/java/glassfish/howto/purge-jms-queue/" title="http://wiki.greptilian.com/java/glassfish/howto/purge-jms-queue/">http://wiki.greptilian.com/java/glassfish/howto/purge-jms-queue/</a></td>
+</tr>
+
+        
+<tr id="id_l26" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21891"><a href="/dataverse/2015-07-22#i_21891">18:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21891"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">if export is done via a JMS queue, which I'm not sure of</td>
+</tr>
+
+        
+<tr id="id_l27" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21892"><a href="/dataverse/2015-07-22#i_21892">18:55</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21892"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: I'd start by trying to list anything in any JMS queues</td>
+</tr>
+
+        
+<tr id="id_l28" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21893"><a href="/dataverse/2015-07-22#i_21893">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21893"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">DSBIngest     Queue  RUNNING  0      -         1      -         0      0       0      0.0</td>
+</tr>
+
+        
+<tr id="id_l29" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21894"><a href="/dataverse/2015-07-22#i_21894">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21894"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">IndexMessage  Queue  RUNNING  0      -         1      -         5      0       5      366.0</td>
+</tr>
+
+        
+<tr id="id_l30" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21895"><a href="/dataverse/2015-07-22#i_21895">18:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21895"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">mq.sys.dmq    Queue  RUNNING  0      -         0      -         0      0       0      0.0</td>
+</tr>
+
+        
+<tr id="id_l31" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21896"><a href="/dataverse/2015-07-22#i_21896">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21896"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">so a count of 5 in the IndexMessage queue?</td>
+</tr>
+
+        
+<tr id="id_l32" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21897"><a href="/dataverse/2015-07-22#i_21897">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21897"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">correct</td>
+</tr>
+
+        
+<tr id="id_l33" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21898"><a href="/dataverse/2015-07-22#i_21898">19:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21898"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">is that expected?</td>
+</tr>
+
+        
+<tr id="id_l34" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21899"><a href="/dataverse/2015-07-22#i_21899">19:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21899"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">Akio is checking documentation. if I try to view the jms/DSBIngest Connection Factory in the Glassfish console, I get SEVERE|glassfish3.1.2|org.glassfish.​admingui|_ThreadID=37;_ThreadName=Th​read-2;|RestResponse.getResponse() gives FAILURE.  endpoint = '<a href="https://localhost:4848/management/domain/resources/connector-connection-pool/jms%2FIndexMessage';" title="https://localhost:4848/management/domain/resources/connector-connection-pool/jms%2FIndexMessage';">https://localhost:4848/management/domain/resources/connector-connection-pool/jms%2FIndexMessage';</a> attrs = '{}'</td>
+</tr>
+
+        
+<tr id="id_l35" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21900"><a href="/dataverse/2015-07-22#i_21900">19:12</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21900"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">ok</td>
+</tr>
+
+        
+<tr id="id_l36" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21901"><a href="/dataverse/2015-07-22#i_21901">19:18</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21901"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: my only point is that when unexpected stuff starts happening when you start glassfish it may be because stuff is in the JMS queue.</td>
+</tr>
+
+        
+<tr id="id_l37" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21902"><a href="/dataverse/2015-07-22#i_21902">19:21</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21902"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">point absolutely well taken - just to be sure, the JMS queue is safe to purge?</td>
+</tr>
+
+        
+<tr id="id_l38" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21903"><a href="/dataverse/2015-07-22#i_21903">19:22</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21903"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">well, I would think you'd be able to restart indexing anyway</td>
+</tr>
+
+        
+<tr id="id_l39" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21904"><a href="/dataverse/2015-07-22#i_21904">19:23</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21904"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">10-4 -- please forgive me for being squeamish; i'm new =)</td>
+</tr>
+
+        
+<tr id="id_l40" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21905"><a href="/dataverse/2015-07-22#i_21905">19:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21905"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">probably good to be a bit squeamish</td>
+</tr>
+
+        
+<tr id="id_l41" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21906"><a href="/dataverse/2015-07-22#i_21906">19:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21906"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">:)</td>
+</tr>
+
+        
+<tr id="id_l42" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21907"><a href="/dataverse/2015-07-22#i_21907">19:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21907"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: please feel free to open a ticket for all this. I'm just trying to figure out why your <abbr title="Central Processing Unit">CPU</abbr> is pegged. support<img src="/at.png" alt="@" />dataverse.org</td>
+</tr>
+
+        
+<tr id="id_l43" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21908"><a href="/dataverse/2015-07-22#i_21908">19:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21908"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">#224689 from this morning</td>
+</tr>
+
+        
+<tr id="id_l44" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21909"><a href="/dataverse/2015-07-22#i_21909">19:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21909"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">the purge returned successful but i still have a consumer count of 1 in DSBIngest and 5 in IndexMessage - should I purge IndexMessage specifically?</td>
+</tr>
+
+        
+<tr id="id_l45" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21910"><a href="/dataverse/2015-07-22#i_21910">19:27</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21910"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">huh. sounds like it didn't do anything</td>
+</tr>
+
+        
+<tr id="id_l46" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21911"><a href="/dataverse/2015-07-22#i_21911">19:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21911"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">Lucene seems to be the <abbr title="Central Processing Unit">CPU</abbr> hog</td>
+</tr>
+
+        
+<tr id="id_l47" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21912"><a href="/dataverse/2015-07-22#i_21912">19:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21912"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: yeah? how can you tell?</td>
+</tr>
+
+        
+<tr id="id_l48" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21913"><a href="/dataverse/2015-07-22#i_21913">19:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21913"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">turned on threading in &quot;top&quot; (which I should've done in the first place but I'm learning)</td>
+</tr>
+
+        
+<tr id="id_l49" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21914"><a href="/dataverse/2015-07-22#i_21914">19:38</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21914"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">then stracing those processes shows Lucene contending over write-locks</td>
+</tr>
+
+        
+<tr id="id_l50" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21915"><a href="/dataverse/2015-07-22#i_21915">19:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21915"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">stat(&quot;/usr/DVN/lucene/index-dir/write.lock&quot;, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0</td>
+</tr>
+
+        
+<tr id="id_l51" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21916"><a href="/dataverse/2015-07-22#i_21916">19:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21916"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">how do you turn on threading in top?</td>
+</tr>
+
+        
+<tr id="id_l52" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21917"><a href="/dataverse/2015-07-22#i_21917">19:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21917"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">on Linux, with a capital H</td>
+</tr>
+
+        
+<tr id="id_l53" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21918"><a href="/dataverse/2015-07-22#i_21918">19:39</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21918"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">i meant to look that up earlier and got sidetracked messing with jstat etc</td>
+</tr>
+
+        
+<tr id="id_l54" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21919"><a href="/dataverse/2015-07-22#i_21919">19:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21919"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">i had also seen Lucene complaining about write locks timing out earlier, but thought that was a symptom (timeout) rather than a cause</td>
+</tr>
+
+        
+<tr id="id_l55" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21920"><a href="/dataverse/2015-07-22#i_21920">19:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21920"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">in the ticket you opened I see this: org.apache.lucene.store.LockObtainFailedException: Lock obtain timed out: NativeFSLock@/usr/DVN/lucene/index-dir/write.lock</td>
+</tr>
+
+        
+<tr id="id_l56" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21921"><a href="/dataverse/2015-07-22#i_21921">19:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21921"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">(actually, it may still be a symptom)</td>
+</tr>
+
+        
+<tr id="id_l57" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21922"><a href="/dataverse/2015-07-22#i_21922">19:41</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21922"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">will stopping Glassfish and manually removing the lock cause things to go any wonkier than present?</td>
+</tr>
+
+        
+<tr id="id_l58" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21923"><a href="/dataverse/2015-07-22#i_21923">19:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21923"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">not sure</td>
+</tr>
+
+        
+<tr id="id_l59" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_21924"><a href="/dataverse/2015-07-22#i_21924">19:43</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21924"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">sorry, I've spent more time on Dataverse 4 by now</td>
+</tr>
+
+        
+<tr id="id_l60" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21925"><a href="/dataverse/2015-07-22#i_21925">19:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21925"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">it was Lucene's write lock. right in front of my (blushing) face</td>
+</tr>
+
+        
+<tr id="id_l61" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_21926"><a href="/dataverse/2015-07-22#i_21926">19:47</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21926"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">and we, too, hope to be on Dataverse 4 soon</td>
+</tr>
+
+        
+<tr id="id_l62" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21927"><a href="/dataverse/2015-07-22#i_21927">19:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21927"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">donsizemore: you removed the lock and you're all set now?</td>
+</tr>
+
+        
+<tr id="id_l63" class="new nick nick_donsizemore">
+
+<td class="time" id="i_21928"><a href="/dataverse/2015-07-22#i_21928">19:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21928"  /></td>
+<td class="nick nick1">donsizemore</td>
+<td class="msg ">things look wonderfully normal. i apologize for my many dumb questions but i'm learning new-to-me technologies, the Dataverse among them</td>
+</tr>
+
+        
+<tr id="id_l64" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_21929"><a href="/dataverse/2015-07-22#i_21929">19:51</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21929"  /></td>
+<td class="nick nick2">pdurbin</td>
+<td class="msg ">no no, it's all good. good reminder of how useful strace is :)</td>
+</tr>
+
+        
+<tr id="id_l65" class="new nick nick_pdurbin">
+
+<td class="time" id="i_21930"><a href="/dataverse/2015-07-22#i_21930">20:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21930"  /></td>
+<td class="nick nick2">* pdurbin</td>
+<td class="msg act ">replies on <a href="https://help.hmdc.harvard.edu/Ticket/Display.html?id=224689" title="https://help.hmdc.harvard.edu/Ticket/Display.html?id=224689">https://help.hmdc.harvard.edu/Ticket/Display.html?id=224689</a></td>
+</tr>
+
+        
+<tr id="id_l66" class="new special dark">
+
+<td class="time" id="i_21931"><a href="/dataverse/2015-07-22#i_21931">22:00</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_21931"  /></td>
+<td class="nick"></td>
+<td class="msg ">garnett joined #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2015-07-21" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2015-07-23" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2015-07-22">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2015-07-22;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2015-07-22;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

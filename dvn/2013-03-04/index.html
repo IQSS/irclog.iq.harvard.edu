@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dvn" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dvn/2013-03-04" />
+    <title>IRC log for #dvn, 2013-03-04</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dvn, 2013-03-04</h1>
+
+    <h1><p> We've moved! Please join <a href="http://webchat.freenode.net/?channels=dataverse">#dataverse</a> instead. The new logs are at <a href="http://irclog.iq.harvard.edu/dataverse/today">http://irclog.iq.harvard.edu/dataverse/today</a>
+</p></h1>
+
+        <p><a href="/dvn/2013-03-03" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dvn/">#dvn index</a> |
+<a href="/dvn/today">Today</a> |
+    
+<a href="/dvn/2013-03-05" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dvn">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Advn">Google Search</a>
+| <a href="/text.pl?channel=dvn;date=2013-03-04">Plain-Text</a>
+    | <a href="/text.pl?channel=dvn;date=2013-03-04;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dvn;date=2013-03-04;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_1299"><a href="/dvn/2013-03-04#i_1299">13:26</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1299"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">oh, one note about why I'm looking at Lucene 3.5.0 instead of the latest (3.6.2 or 4.1)... I'm trying to change as little code as possible and we currently use this: &quot;LUCENE-3679: The expert IndexReader.getFieldNames(FieldOption) <abbr title="Application Programming Interface">API</abbr> has been removed and replaced with the experimental getFieldInfos API. All IndexReader subclasses must implement getFieldInfos.&quot; -- <a href="http://lucene.apache.org/core/3_6_0/changes/Changes.html" title="http://lucene.apache.org/core/3_6_0/changes/Changes.html">http://lucene.apache.org/core/3_6_0/changes/Changes.html</a></td>
+</tr>
+
+        
+<tr id="id_l3" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_1300"><a href="/dvn/2013-03-04#i_1300">13:28</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1300"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">ok I just read <a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#concurrent_indexing_search" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#concurrent_indexing_search">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#concurrent_indexing_search</a> and I'm going to try to fix the various lock problems I mentioned yesterday: <a href="http://irclog.iq.harvard.edu/dvn/2013-03-03#i_1286" title="http://irclog.iq.harvard.edu/dvn/2013-03-03#i_1286">http://irclog.iq.harvard.edu/dvn/2013-03-03#i_1286</a></td>
+</tr>
+
+        
+<tr id="id_l4" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_1301"><a href="/dvn/2013-03-04#i_1301">13:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1301"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I should probably try to get that org.apache.lucene.facet.example.simple example working too: <a href="https://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/" title="https://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/">https://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_3_5_0/lucene/contrib/facet/src/examples/org/apache/lucene/facet/example/simple/</a></td>
+</tr>
+
+        
+<tr id="id_l5" class="cont nick nick_pdurbin dark">
+
+<td class="time" id="i_1302"><a href="/dvn/2013-03-04#i_1302">15:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1302"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">I wonder why I'm getting &quot;javax.ejb.EJBException ... Caused by: java.lang.NoSuchMethodError: org.apache.lucene.util.ArrayUtil.oversize(II)I&quot; when trying to follow <a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_indexing" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_indexing">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_indexing</a> the method seems to exist: <a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/all/org/apache/lucene/util/ArrayUtil.html#oversize%28int" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/all/org/apache/lucene/util/ArrayUtil.html#oversize%28int">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/all/org/apache/lucene/util/ArrayUtil.html#oversize%28int</a>,%20int%29</td>
+</tr>
+
+        
+<tr id="id_l6" class="new nick nick_pdurbin">
+
+<td class="time" id="i_1303"><a href="/dvn/2013-03-04#i_1303">15:46</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1303"  /></td>
+<td class="nick nick1">* pdurbin</td>
+<td class="msg act ">looks at <a href="http://stackoverflow.com/questions/2715973/can-a-raw-lucene-index-be-loaded-by-solr/2719799#2719799" title="http://stackoverflow.com/questions/2715973/can-a-raw-lucene-index-be-loaded-by-solr/2719799#2719799">http://stackoverflow.com/questions/2715973/can-a-raw-lucene-index-be-loaded-by-solr/2719799#2719799</a></td>
+</tr>
+
+        
+<tr id="id_l7" class="new special dark">
+
+<td class="time" id="i_1304"><a href="/dvn/2013-03-04#i_1304">16:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1304"  /></td>
+<td class="nick"></td>
+<td class="msg ">bnsnwork joined #dvn</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_pdurbin">
+
+<td class="time" id="i_1305"><a href="/dvn/2013-03-04#i_1305">18:34</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1305"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">hmm, cool. facets are being written now... can tell by `strings domains/domain1/config/taxo-dir/_1.fdt` ... not what changed. maybe because i still had the lucene 3.0.0 jar lying around? anyway, not to try to read those facets</td>
+</tr>
+
+        
+<tr id="id_l9" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1306"><a href="/dvn/2013-03-04#i_1306">18:35</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1306"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">this basically: <a href="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_accumulation" title="http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_accumulation">http://lucene.apache.org/core/old_versioned_docs/versions/3_5_0/api/contrib-facet/userguide.html#facet_accumulation</a></td>
+</tr>
+
+        
+<tr id="id_l10" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1307"><a href="/dvn/2013-03-04#i_1307">19:29</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1307"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">sbmarks: <a href="http://irclog.perlgeek.de/shibboleth/2013-03-04#i_6549087" title="http://irclog.perlgeek.de/shibboleth/2013-03-04#i_6549087">http://irclog.perlgeek.de/shibboleth/2013-03-04#i_6549087</a></td>
+</tr>
+
+        
+<tr id="id_l11" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1308"><a href="/dvn/2013-03-04#i_1308">20:32</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1308"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">some nice lucene faceting examples: <a href="http://www.hascode.com/2012/08/lucene-snippets-faceting-search/" title="http://www.hascode.com/2012/08/lucene-snippets-faceting-search/">http://www.hascode.com/2012/08/lucene-snippets-faceting-search/</a></td>
+</tr>
+
+        
+<tr id="id_l12" class="cont nick nick_pdurbin">
+
+<td class="time" id="i_1309"><a href="/dvn/2013-03-04#i_1309">20:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_1309"  /></td>
+<td class="nick nick1">pdurbin</td>
+<td class="msg ">this looks good too: <a href="http://shaierera.blogspot.com/2012/11/lucene-facets-part-2.html" title="http://shaierera.blogspot.com/2012/11/lucene-facets-part-2.html">http://shaierera.blogspot.com/2012/11/lucene-facets-part-2.html</a></td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dvn/2013-03-03" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dvn/">#dvn index</a> |
+<a href="/dvn/today">Today</a> |
+    
+<a href="/dvn/2013-03-05" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dvn">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Advn">Google Search</a>
+| <a href="/text.pl?channel=dvn;date=2013-03-04">Plain-Text</a>
+    | <a href="/text.pl?channel=dvn;date=2013-03-04;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dvn;date=2013-03-04;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <h1><p> We've moved! Please join <a href="http://webchat.freenode.net/?channels=dataverse">#dataverse</a> instead. The new logs are at <a href="http://irclog.iq.harvard.edu/dataverse/today">http://irclog.iq.harvard.edu/dataverse/today</a>
+</p></h1>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->

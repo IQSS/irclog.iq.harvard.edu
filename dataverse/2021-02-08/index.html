@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="description" content="IRC LOG for channel #dataverse" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" title="Irclog Stylesheet" />
+    <link rel="shortcut icon" href="/moose1.ico" type="image/x-icon" />
+    <link rel="canonical" 
+        href="/dataverse/2021-02-08" />
+    <title>IRC log for #dataverse, 2021-02-08</title>
+
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+</head>
+<body>
+    <p><a href="http://iq.harvard.edu"><img style="float:right; border:none" src="/iqss-logo.png" width="200" height="88"
+    alt="IQSS logo"/></a></p>
+    
+    <h1>IRC log for #dataverse, 2021-02-08</h1>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+        <p><a href="/dataverse/2021-02-07" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2021-02-09" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2021-02-08">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2021-02-08;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2021-02-08;summary=1">summary</a>
+    
+    
+
+</p>
+
+
+    <p>All times shown according to <abbr title="Coordinated Universal Time">UTC</abbr>.</p>
+    
+    <div id="summary_container" />
+    
+
+    <form action="#" name="summary_form" id="summary_form">
+
+
+<p style="display: none;" id="filter_toggle"></p>
+
+    <table id="log" style="clear:both">
+        <tr class="head">
+
+            <th width="19%">Time</th>
+            <th class="summary">S</th>
+            <th width="24%">Nick</th>
+            <th>Message</th>
+        </tr>
+        
+<tr id="id_l2" class="new special dark">
+
+<td class="time" id="i_134510"><a href="/dataverse/2021-02-08#i_134510">07:37</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134510"  /></td>
+<td class="nick"></td>
+<td class="msg ">Virgile joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l3" class="cont special dark">
+
+<td class="time" id="i_134511"><a href="/dataverse/2021-02-08#i_134511">11:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134511"  /></td>
+<td class="nick"></td>
+<td class="msg ">juancorr joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l4" class="cont special dark">
+
+<td class="time" id="i_134512"><a href="/dataverse/2021-02-08#i_134512">12:40</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134512"  /></td>
+<td class="nick"></td>
+<td class="msg ">donsizemore joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l5" class="new nick nick_Virgile">
+
+<td class="time" id="i_134513"><a href="/dataverse/2021-02-08#i_134513">12:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134513"  /></td>
+<td class="nick nick1">Virgile</td>
+<td class="msg ">hello there</td>
+</tr>
+
+        
+<tr id="id_l6" class="cont nick nick_Virgile">
+
+<td class="time" id="i_134514"><a href="/dataverse/2021-02-08#i_134514">12:53</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134514"  /></td>
+<td class="nick nick1">Virgile</td>
+<td class="msg ">Our DPO is asking for the lifecycle of local accounts in dv. Is it possible to delete unused accounts without launching commands directly in the db?</td>
+</tr>
+
+        
+<tr id="id_l7" class="new nick nick_donsizemore dark">
+
+<td class="time" id="i_134515"><a href="/dataverse/2021-02-08#i_134515">13:24</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134515"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@Virgile Hello =) One may delete a user <a href="https://guides.dataverse.org/en/latest/api/native-api.html#delete-a-user" title="https://guides.dataverse.org/en/latest/api/native-api.html#delete-a-user">https://guides.dataverse.org/en/latest/api/native-api.html#delete-a-user</a> provided that the user doesn't own anything in the dvobject table</td>
+</tr>
+
+        
+<tr id="id_l8" class="new nick nick_Virgile">
+
+<td class="time" id="i_134516"><a href="/dataverse/2021-02-08#i_134516">13:25</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134516"  /></td>
+<td class="nick nick1">Virgile</td>
+<td class="msg ">but if the account has an entry in the object table then it's not possible to delete it?</td>
+</tr>
+
+        
+<tr id="id_l9" class="new special dark">
+
+<td class="time" id="i_134517"><a href="/dataverse/2021-02-08#i_134517">13:42</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134517"  /></td>
+<td class="nick"></td>
+<td class="msg ">dmel joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l10" class="new nick nick_dmel">
+
+<td class="time" id="i_134518"><a href="/dataverse/2021-02-08#i_134518">13:52</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134518"  /></td>
+<td class="nick nick3">dmel</td>
+<td class="msg ">hello everybody. i have an issue with a persissdentid using datacite. we moved a dataset to another dataverse which created a new DOI. thats an issue because the related paper was already published with the DOI given before the move. we would like to change the DOI to the one in the paper. i see no other way than manually changing the entry in the database. does anybody know which fields in the i would need to modify?</td>
+</tr>
+
+        
+<tr id="id_l11" class="new special dark">
+
+<td class="time" id="i_134519"><a href="/dataverse/2021-02-08#i_134519">13:58</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134519"  /></td>
+<td class="nick"></td>
+<td class="msg ">adam_berlin joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l12" class="new nick nick_donsizemore">
+
+<td class="time" id="i_134520"><a href="/dataverse/2021-02-08#i_134520">14:10</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134520"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@Virgile correct - if a user has &quot;done&quot; anything (created a dataverse/dataset, uploaded a file) database constraints won't allow the deletion</td>
+</tr>
+
+        
+<tr id="id_l13" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_134521"><a href="/dataverse/2021-02-08#i_134521">14:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134521"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@dmel off the top of my head I'd recommend you contact support<img src="/at.png" alt="@" />dataverse.org - it's the &quot;published&quot; part you're up against</td>
+</tr>
+
+        
+<tr id="id_l14" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_134522"><a href="/dataverse/2021-02-08#i_134522">14:11</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134522"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@dmel but someone here may have smarter suggestions</td>
+</tr>
+
+        
+<tr id="id_l15" class="cont nick nick_donsizemore">
+
+<td class="time" id="i_134523"><a href="/dataverse/2021-02-08#i_134523">14:13</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134523"  /></td>
+<td class="nick nick2">donsizemore</td>
+<td class="msg ">@Virgile you may be able to reassign those dvobjects to another owner_id / creator_id then delete the user, but I'll let @pdurbin steer you better</td>
+</tr>
+
+        
+<tr id="id_l16" class="new nick nick_Virgile dark">
+
+<td class="time" id="i_134524"><a href="/dataverse/2021-02-08#i_134524">14:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134524"  /></td>
+<td class="nick nick1">Virgile</td>
+<td class="msg ">i see, thanks you Don!</td>
+</tr>
+
+        
+<tr id="id_l17" class="cont nick nick_Virgile dark">
+
+<td class="time" id="i_134525"><a href="/dataverse/2021-02-08#i_134525">14:14</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134525"  /></td>
+<td class="nick nick1">Virgile</td>
+<td class="msg ">-s</td>
+</tr>
+
+        
+<tr id="id_l18" class="new special">
+
+<td class="time" id="i_134526"><a href="/dataverse/2021-02-08#i_134526">16:09</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134526"  /></td>
+<td class="nick"></td>
+<td class="msg ">dataverse-user joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l19" class="cont special">
+
+<td class="time" id="i_134527"><a href="/dataverse/2021-02-08#i_134527">16:33</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134527"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin joined #dataverse</td>
+</tr>
+
+        
+<tr id="id_l20" class="new nick nick_pdurbin dark">
+
+<td class="time" id="i_134528"><a href="/dataverse/2021-02-08#i_134528">20:48</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134528"  /></td>
+<td class="nick nick4">pdurbin</td>
+<td class="msg ">&quot;Like a guarding grandpa it will take care of children and grandchildren pods, will read fairy tales to your cluster and books to your deployment.&quot; -- <a href="https://github.com/gdcc/dvopa" title="https://github.com/gdcc/dvopa">https://github.com/gdcc/dvopa</a></td>
+</tr>
+
+        
+<tr id="id_l21" class="new special">
+
+<td class="time" id="i_134529"><a href="/dataverse/2021-02-08#i_134529">22:02</a></td>
+    <td class="summary"><input type="checkbox" class="summary_checkbox" name="in_summary_134529"  /></td>
+<td class="nick"></td>
+<td class="msg ">pdurbin left #dataverse</td>
+</tr>
+
+        
+
+    </table>
+
+</form>
+
+        <p><a href="/dataverse/2021-02-07" rel="prev">&larr; Previous
+    day</a> | 
+    <a href="/">Channels</a> |
+<a href="/dataverse/">#dataverse index</a> |
+<a href="/dataverse/today">Today</a> |
+    
+<a href="/dataverse/2021-02-09" rel="next">Next day &rarr;</a> |
+
+    <a href="/search.pl?channel=dataverse">Search</a> |
+    <a href="http://www.google.com/search?q=site%3Airclog.perlgeek.de+inurl%3Adataverse">Google Search</a>
+| <a href="/text.pl?channel=dataverse;date=2021-02-08">Plain-Text</a>
+    | <a href="/text.pl?channel=dataverse;date=2021-02-08;reverse=1">plain, newest first</a > |
+    
+    <a href="/out.pl?channel=dataverse;date=2021-02-08;summary=1">summary</a>
+    
+    
+
+</p>
+
+    <p> Connect via <a href="http://chat.dataverse.org">chat.dataverse.org</a> to discuss Dataverse (<a href="http://dataverse.org">dataverse.org</a>, an open source web application for sharing, citing, analyzing, and preserving research data) with users and developers.
+</p>
+
+
+    <div id="footer">
+    <p>Powered by <a href="https://github.com/moritz/ilbot">ilbot</a>, hosted by <a href="http://dvn-vm1.hmdc.harvard.edu/data/mysql/?C=M;O=D">HMDC</a> at <a href="http://iq.harvard.edu">The Institute for Quantitative Social Science (IQSS)</a> at Harvard University.</p>
+</div>
+
+
+<script type="text/javascript" src="/nickfilter.js"></script>
+<script type="text/javascript" src="/summary.js"></script>
+</body>
+</html>
+<!--  -->
